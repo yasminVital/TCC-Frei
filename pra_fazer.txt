@@ -1,0 +1,5 @@
+Mateus - Produtos, Login e cadastrar, Meu Perfil
+
+Bruno - Inicial, Sobre-nos, Status da Compra
+
+João - carrinho  Completo, Meu Perfil
