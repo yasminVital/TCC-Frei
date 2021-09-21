@@ -78,7 +78,22 @@ margin: 5em 0em 0em 60em;
 }
 
 .box-preco > div {
-    margin-left: 5px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 7em 0px 10em;
+}
+
+.botoes > button {
+    border: 5px solid #1AABF3;
+    background-color: #1AABF3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 `

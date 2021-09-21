@@ -44,18 +44,18 @@ export default function Carrinho() {
                 <div className="sb">Subtotal dos Pedidos: </div>
                 <div className="pc"> 40,00</div>
             </div>
-            <div className="box-preco"> 
+            <div className="box-preco" style={{marginLeft: '5px'}}> 
                 <div className="sb">Cupom de Desconto:</div>
                 <div className="pc"> 20,00</div>
             </div>
-            <div className="box-preco"> 
-                <div className="sb"> Pagamento Total</div>
+            <div className="box-preco" style={{marginLeft: '33px'}}> 
+                <div className="sb"> Pagamento Total: </div>
                 <div className="pc"> 20,00</div>
             </div>
         </div>
         <div className="botoes"> 
-            <div className="continuar"> Continuar Comprando</div>
-            <div className="fazer"> Realizar pedido </div>
+            <button> Continuar Comprando </button>
+            <button> Realizar pedido </button>
         </div>
     </ ContainerCarrinho>
     )
