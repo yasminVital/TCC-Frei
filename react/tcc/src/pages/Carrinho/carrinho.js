@@ -23,14 +23,35 @@ export default function Carrinho() {
                       <td>R$ 3,50</td>
                       <td> 
                            <div className="est-box">
-                                <div className="menos"> </div>  <div className="Est-valor"> 1 </div>  <div className="mais"> </div>
+                                <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
                            </div> 
-                           <div className="lixeira"> lixo</div>       
+                           <div className="lixeira"> lixo</div>
                       </td>  
                       <td>R$ 3,50</td>
                      
                   </tr>
             
+                    
+
+              </tbody>
+
+              <tbody>
+                  <tr>
+                      <td>dasa</td>
+                      <td>baguete de Queijo</td>
+                      <td>R$ 3,50</td>
+                      <td> 
+                           <div className="est-box">
+                                <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
+                           </div> 
+                           <div className="lixeira"> lixo</div>
+                      </td>  
+                      <td>R$ 3,50</td>
+                     
+                  </tr>
+            
+                    
+
               </tbody>
 
 

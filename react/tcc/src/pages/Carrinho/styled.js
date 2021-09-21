@@ -60,6 +60,24 @@ outline: none;
 
 }
 
+.est-box {
+    position: relative;
+    left: 5em;
+    top: .45em;
+    display: flex;
+    flex-direction: row;
+}
+
+.est-box > input {
+    margin: 0px 8px;
+    text-align: center;
+}
+
+.lixeira {
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
 input {
     outline: none;
     border: 1px solid black;
