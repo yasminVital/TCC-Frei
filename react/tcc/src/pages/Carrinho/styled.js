@@ -2,15 +2,10 @@ import styled from 'styled-components'
 
 
 const ContainerCarrinho = styled.div`
-.tiras {
-    display: flex;
-    flex-direction: row;
 
-    
-}
 
 .box-tabela {
-  margin: 2em 0em 0em 10em;
+  margin: 2em 2em 0em 2em;
 }
 
 thead {
@@ -22,8 +17,8 @@ thead {
 
 th {
     height: 61.93px;
-    text-align: left;
-    padding: .1em 5.2em;
+    text-align: center;
+    padding: .1em 4.2em;
     color: #ffff;
     font-weight: 800;
 } 
@@ -39,10 +34,11 @@ td {
     margin-top: 2em ;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border: 3px solid #201E1E;
     padding: .50em;
-    width: 78%;
-    margin-left: 10em;
+    width: 94%;
+    margin-left: 2em;
     box-shadow: 1px 3px 5px grey;  
 
 }
@@ -52,11 +48,12 @@ td {
 
 }
 
-.cupom > button:hover {
+button:hover {
 color: white;
 cursor: pointer;
 text-decoration: none;
 outline: none;
+
 
 }
 
@@ -73,10 +70,11 @@ outline: none;
     text-align: center;
 }
 
-.lixeira {
+.lixeira img {
     position: relative;
     top: 20px;
     left: 60px;
+    height: 1.4em;
 }
 input {
     outline: none;
@@ -87,7 +85,9 @@ input {
 .precos {
 display: flex;
 flex-direction: column;
-margin: 5em 0em 0em 60em;
+align-items: flex-end;
+margin-right: 1.5em;
+margin-top: 20px;
 }
 
 .precos > div {
@@ -96,20 +96,20 @@ margin: 5em 0em 0em 60em;
 }
 
 .box-preco > div {
-    margin-left: 45px;
     margin-top: 10px;
+    margin-right: 8px;
 }
 
 .botoes {
     display: flex;
     justify-content: space-between;
-    padding: 2em 7em 0px 10em;
+    padding: 2em 2em 0px 2em;
 }
 
 .botoes > button {
-    border: 5px solid #1AABF3;
+    border: 7px solid #1AABF3;
     background-color: #1AABF3;
-    padding: 5px 10px;
+    padding: 5px 17px;
     border-radius: 5px;
     cursor: pointer;
 }

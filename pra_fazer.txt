@@ -5,3 +5,6 @@ Bruno - Inicial, Sobre-nos, Status da Compra
 João - carrinho  Completo, Meu Perfil
 
 Raul - Baixar Imagens, Fontes, fazer cabecalho e Rodapé
+
+
+** Cada um Mapear a rota das suas Paginas **

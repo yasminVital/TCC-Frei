@@ -18,14 +18,14 @@ export default function Carrinho() {
               </thead>
               <tbody>
                   <tr>
-                      <td>dasa</td>
+                      <td style={{width: '3%'}}><img src="./assets/imagens/bolinho.png" alt="" width="90%"/></td>
                       <td>baguete de Queijo</td>
                       <td>R$ 3,50</td>
                       <td> 
                            <div className="est-box">
                                 <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
                            </div> 
-                           <div className="lixeira"> lixo</div>
+                           <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                       </td>  
                       <td>R$ 3,50</td>
                      
@@ -37,14 +37,14 @@ export default function Carrinho() {
 
               <tbody>
                   <tr>
-                      <td>dasa</td>
+                      <td><img src="./assets/imagens/agua.png" alt="" width="90%"/></td>
                       <td>baguete de Queijo</td>
                       <td>R$ 3,50</td>
                       <td> 
                            <div className="est-box">
                                 <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
                            </div> 
-                           <div className="lixeira"> lixo</div>
+                           <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                       </td>  
                       <td>R$ 3,50</td>
                      
@@ -66,11 +66,11 @@ export default function Carrinho() {
                 <div className="sb">Subtotal dos Pedidos: </div>
                 <div className="pc"> 40,00</div>
             </div>
-            <div className="box-preco" style={{marginLeft: '5px'}}> 
+            <div className="box-preco"> 
                 <div className="sb">Cupom de Desconto:</div>
                 <div className="pc"> 20,00</div>
             </div>
-            <div className="box-preco" style={{marginLeft: '33px'}}> 
+            <div className="box-preco"> 
                 <div className="sb"> Pagamento Total: </div>
                 <div className="pc"> 20,00</div>
             </div>
