@@ -49,9 +49,7 @@ export default function Carrinho() {
                       <td>R$ 3,50</td>
                      
                   </tr>
-            
-                    
-
+        
               </tbody>
 
 
