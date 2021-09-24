@@ -8,23 +8,47 @@ const ConteinerProduto = styled.div`
 
 
 
-.Produtos{ 
+.Conteinerimg {
+    height: 100vh;
+    width: 140vh; 
+    
+    background-image: url("./assets/imagens/capa.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+.Produtos { 
  display: flex;
  flex-direction: row ;
- padding-top: 20em;
+ padding-top: 15em;
  padding-left: 10em;
+ height: 50vh;
 
- background-color: white;
- background-image: url("./assets/imagens/capa.png");
- background-size: cover;
- 
 }
 
 
 
 .ListaProdutos{
-    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px; 
+    padding-left: 50px;
     background-color: white;
+   
+   
+    
+}
+
+.caixa1 {
+  
+
+}
+
+
+.imagem img{
+    width: 90px;
+    height: 50px;
 }
 
 .avaliacao img {
@@ -32,8 +56,8 @@ const ConteinerProduto = styled.div`
     right: 10px ;
     left: 10px;
     height: 10px;
-
 }
+
 `
 export {ConteinerProduto}
 
