@@ -6,42 +6,20 @@ display: flex;
 flex-direction: column;
 margin: 0px;
 
-header {
-display: flex;
-justify-content: flex-end;
-background-color: #000000;
-;
-}
-
-.barra {
-    border: 1px solid  #444444;
-background-color:  #444444;
-width: 1px;
-height: 30px;
-border-radius: 70px;
-}
-.sub-cabe {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3em;
-}
-
-.sub-cabe > div {
-    margin-left: 7em;
-}
 
 .but-esco {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 50em 0px 5em;
-}
+    justify-content: center;
+    padding: 0px 10em 0px 10em;
+}   
 
 .but-esco button {
 align-items: center;
 border: 1px solid rgb(26, 171, 243, 0.9);
 background-color: rgb(26, 171, 243, 0.9);
-width: 55em;
-padding: 0px 0px 0px 15px;
+width: 20em;
+text-align: center;
+padding: 0px 0px 0px 35px;
 border-radius: 70px;
 
 }
@@ -119,6 +97,33 @@ margin-top: 20px;
     margin-top: 10px;
     margin-right: 8px;
 }
+
+.pix:hover {
+    padding: 0px 20px 0px 0px ;
+
+}
+
+
+.din:hover {
+padding: 0px 40px 0px 0px ;
+}
+
+
+.car:hover {
+padding: 0px 0px 0px 0px ;
+width: 2px;
+}
+
+.meto-paga > div:hover {
+    cursor: pointer;
+    border: 2px solid #1AABF3;
+    opacity: 80%;
+    background-color: #1AABF3;
+    color: white;
+}
+
+
+
 
 .but {
     display: flex;
