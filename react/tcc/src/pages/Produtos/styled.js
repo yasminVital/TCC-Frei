@@ -9,8 +9,9 @@ const ConteinerProduto = styled.div`
 
 
 .Conteinerimg {
-    height: 100vh;
-    width: 140vh; 
+   
+    height: 140vh;
+    width: auto; 
     
     background-image: url("./assets/imagens/capa.png");
     background-size: cover; 
@@ -21,35 +22,56 @@ const ConteinerProduto = styled.div`
 .Produtos { 
  display: flex;
  flex-direction: row ;
- padding-top: 15em;
+ 
+ padding-top: 10em;
  padding-left: 10em;
- height: 50vh;
 
 }
+
+
+
 
 
 
 .ListaProdutos{
     display: flex;
-    flex-direction: row;
-    padding-top: 10px; 
-    padding-left: 50px;
-    background-color: white;
-   
-   
     
+    flex-wrap: wrap;
+    margin-right: 10em;
+
+    align-items: center;
+    
+    padding: 2em 3em 2em 2em;
+   
+    background-color: white;
+      
 }
+
+
 
 .caixa1 {
-  
+
+
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+
+    padding: 10px 1em 10px 1em; 
+    background-color: grey;  
+}
+
+.Produto{
+    text-align: center;
 
 }
+
 
 
 .imagem img{
-    width: 90px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
+
 
 .avaliacao img {
     width: 10px ;
