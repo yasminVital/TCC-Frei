@@ -14,11 +14,13 @@ background-color: #4D5B76;
   padding-left: 10px;
   padding-right: 15px; 
 
-  color : white; 
+  color : white;
+  
 }
 
 .conteudo div {
     margin-top: 50px;
+    cursor: pointer ;
 }
 
 
