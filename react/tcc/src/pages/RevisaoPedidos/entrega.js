@@ -1,8 +1,8 @@
 import { ContainerRevisao } from './styled'
 
 import Tiras from '../../components/listras/index'
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
 
 
 export default function Carrinho() {
@@ -12,17 +12,25 @@ export default function Carrinho() {
             <h1 style={{marginLeft: '70px'}}>  Finalização da Compra </h1>
             <Tiras/>
             <div className="but-esco"> 
-            <Link to="/entrega">  <button className="entrega"> <div><img src="./assets/imagens/entregador-montando-a-ilustracao-de-scooter-vermelho_9845-14-removebg-preview 8.png" alt="" /></div> <div> Entrega</div>  <div>10-60 Min</div> </button> </Link>
-                <button className="entrega" style={{backgroundColor: '#006BA1E5', border: '#006BA1E5', color: 'white', marginLeft: '40px'}}>  <div><img src="./assets/imagens/pointer.png" alt="" /></div>   <div> Retirada </div>  <div style={{color: '#FF0088'}}> 2-20 Min</div> </button> 
+                <button className="entrega" style={{backgroundColor: '#006BA1E5', border: '#006BA1E5',color: 'white', marginRight: '40px'}}> <div><img src="./assets/imagens/entregador-montando-a-ilustracao-de-scooter-vermelho_9845-14-removebg-preview 8.png" alt="" /></div> <div> Entrega</div>  <div style={{color: '#FF0088'}}>10-60 Min</div> </button>
+                <Link to="/revisao">  <button className="entrega" >  <div><img src="./assets/imagens/pointer.png" alt="" /></div>   <div> Retirada </div>  <div> 2-20 Min</div> </button> </Link>
             </div>
-            <div className="end-info"> 
-                <div className="endereco"> 
-                    <h2> Endereço de Retirada </h2>
-                    <div style={{textAlign: 'left'}}> 463 Av. Coronel Octaviano de Freitas Costa,   Veleiros <br></br>Socorro, São Paulo - SP, 04773-000 </div>
-                </div>
-                <div className="horario" style={{textAlign: 'center'}}> 
-                    <h2> Horário de Retirada </h2>
-                    <div> De Segunda à Sexta-Feira <br></br> 08:00 às 16:30</div>
+            <div className="info"> 
+            <div className="en-cabe">   
+                <h2> Endereço de Entrega </h2>
+                <button> <img src="./assets/imagens/plus_icon-icons.com_70890.svg" alt="" /> <h3>Novo Endereço</h3></button> 
+            </div>
+               <div className="en-entrega">
+               <form>
+                    <div className="en-input">
+                        <input type="radio" id="age1" name="age" value="30" />
+                        <label>João Pedro Silva dos Santos   (+55) 1199999-9999 - R Rio do Vae, 700, Vila Mariana, São Paulo, São Paulo, 04018002</label> 
+                    </div>
+                    <div className="en-input">
+                        <input type="radio" id="age1" name="age" value="30" fill="red"/>
+                        <label>João Pedro Silva dos Santos   (+55) 1199999-9999 - R Rio do Vae, 700, Vila Mariana, São Paulo, São Paulo, 04018002</label> 
+                    </div>
+                </form>
                 </div>
             </div>
             <div className="tabela"> 
@@ -57,6 +65,10 @@ export default function Carrinho() {
                 </div>
                 <div className="box-preco"> 
                      <div className="sb">Cupom de Desconto:</div>
+                     <div className="pc"> 20,00</div>
+                </div>
+                <div className="box-preco"> 
+                     <div className="sb"> Total do Envio: </div>
                      <div className="pc"> 20,00</div>
                 </div>
                 <div className="box-preco"> 
