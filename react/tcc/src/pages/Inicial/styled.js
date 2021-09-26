@@ -41,10 +41,7 @@ body {
    
 }
 
-.barra {
-    padding-left: 15px;
-    
-}
+
 .Lup-img {
     margin-left: 10px;
     padding-top: 8px;

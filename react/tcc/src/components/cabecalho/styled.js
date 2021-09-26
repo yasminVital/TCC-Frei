@@ -15,6 +15,10 @@ const ConteinerCabecalho = styled.div`
 
    
     background-color: black;
+  
+   
+
+   
 }
 
 
@@ -29,7 +33,7 @@ const ConteinerCabecalho = styled.div`
 .inicial {
     
     margin-right: 15em;
-    margin-left: 20em;
+    margin-left: 15em;
 }
 
 
@@ -50,16 +54,16 @@ const ConteinerCabecalho = styled.div`
     display: flex;
     flex-direction: row;
 
-    padding-right: 1em;
+    padding-right: 20px;
 }
 
 
 .barra {
 
-    width: 1px;
-
-    margin-right: 10px ;
-    margin-left: 10px;
+   width: 2px;
+    
+    margin-right: 15px ;
+    margin-left: 15px;
 
     background-color: grey;
 }
