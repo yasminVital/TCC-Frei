@@ -21,8 +21,8 @@ export default function Login() {
                 <div className  = "logar"> Login </div>
 
                  
-                 <div className  = "email"> <input type = "email" > </input> </div>
-                 <div className  = "senha"> <input > </input> </div>
+                 <div className  = "email"> <input type = "email"  value = "Digite seu email"/>  </div>
+                 <div className  = "senha"> <input type = "password" value = "Digite sua senha"/></div>
 
                 
 
