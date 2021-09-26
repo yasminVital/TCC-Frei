@@ -31,7 +31,7 @@ export default function Login() {
 
              <div className = "func-para-cadastro">
                  <div className = "Esqueceu"> Esqueceu a senha? <span> clique aqui </span></div>
-                 <div className = "cria"> <a> <Link  to = "/Cadastra">  Criar conta um conta  </Link> </a>  </div> 
+                 <div className = "cria"> <Link  to = "/Cadastra"> Criar conta um conta  </Link> </div> 
 
                 </div>
        

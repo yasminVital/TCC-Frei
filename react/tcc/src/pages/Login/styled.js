@@ -92,30 +92,24 @@ button {
     text-align: center;
     padding-top: 20px;
 }
-.cria  {
 
-   
+
+.cria  {
+    color: white;
     padding-top: 5px;
 }
 
-a {
-    color: white; 
-}
-
-a:link{  
- 
-    text-decoration: none;
+.cria :hover {
+    color: white;
  
 }
 
-a :hover{
-    color: #568EAE;
 
+
+.cria :link{
+    color: white;
+    text-decoration: none; 
 }
-
-
-
-
 
 
 

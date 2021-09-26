@@ -19,8 +19,8 @@ export default function Cabecalho() {
                     <div className = "barra"> </div>
                     <div className = "imagem-login"> <Link to= "/Login"> <img src= "./assets/imagens/login.svg" alt ="" /> </Link> </div>
                     <div className = "barra"> </div>
-                    <div className = "imagem-carrinho"> <Link to = "/Carrinho"> <img src= "./assets/imagens/carrinho.svg" alt ="" /> </Link> </div>
-                    <div className = "imagem-carrinho"> <img src= "./assets/imagens/mbricartadd_99553.svg" alt ="" /> </div>
+                    <div className = "imagem-carrinho"> <Link to = "/Carrinho"> <img src= "./assets/imagens/mbricartadd_99553.svg" alt ="" /> </Link> </div>
+
                  </div>
 
 
