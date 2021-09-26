@@ -12,7 +12,6 @@ const ConteinerProduto = styled.div`
 
 .Conteinerimg {
    
-    height: 100vh;
     width: auto; 
 
   
