@@ -31,7 +31,7 @@ const ConteinerProduto = styled.div`
  flex-direction: row ;
 
 
- margin-left: 20em;
+ margin-left: 2em;
 
  padding-top: 6em;
  padding-left: 10em;
@@ -51,7 +51,7 @@ const ConteinerProduto = styled.div`
     display: flex;
     flex-wrap: wrap;
 
-    margin-right: 20em;
+    margin-right: 15em;
 
     align-items: center;
     
