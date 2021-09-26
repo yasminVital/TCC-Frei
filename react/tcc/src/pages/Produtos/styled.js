@@ -15,6 +15,8 @@ const ConteinerProduto = styled.div`
     height: 100vh;
     width: auto; 
 
+  
+
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -31,10 +33,13 @@ const ConteinerProduto = styled.div`
 
  margin-left: 4em;
 
- padding-top: 8em;
+ padding-top: 6em;
  padding-left: 10em;
 
 
+
+
+ 
 }
 
 
@@ -44,15 +49,18 @@ const ConteinerProduto = styled.div`
 
 .ListaProdutos{
     display: flex;
-    
     flex-wrap: wrap;
-   
+
     margin-right: 20em;
 
     align-items: center;
     
     padding: 2em 2em 5em 2em;
+
+    border-radius: 5px;
    
+
+    
     background-color: white;
       
 }

@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 
 const ConteinerCategoria = styled.div`
+
+border-radius: 10px;
 background-color: #4D5B76;
 
 .ConteCategorias{
