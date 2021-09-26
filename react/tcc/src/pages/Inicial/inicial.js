@@ -22,7 +22,7 @@ export default function Inicial () {
             <svg width="4" height="50" viewBox="0 0 8 84" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="84" fill="#444444"/></svg>
             </div>
             <div className= 'Lup-img'>
-            <img src="./assets/imagens/lupa.png" height="25" alt="" />
+            <img src="./assets/imagens/lupa1.svg" height="25" alt="" />
             </div>
 
             <div className= 'barra'>
@@ -69,13 +69,13 @@ export default function Inicial () {
 
                 <div className='imgsub'>
                 <div className = 'imgpaes'>
-                    <img src="./assets/imagens/croissant-de-Queijo 1.png" width="330" alt=""/>
+                    <img src="./assets/imagens/croissant-de-Queijo 1 (1).png" width="330" alt=""/>
                 </div>  
                 <div className = 'imgdoces'>
-                    <img src="./assets/imagens/Bolo-de-Chocolate 1.png" width="330" alt= ""/>
+                    <img src="./assets/imagens/Bolo-de-Chocolate 1 (1).png" width="330" alt= ""/>
                 </div>
                 <div className = 'imgbebidas'>
-                    <img src="./assets/imagens/Laranja 1.png" width="330" alt=""/>
+                    <img src="./assets/imagens/Laranja 1 (1).png" width="330" alt=""/>
                 </div>
                 </div>
                 </div>
@@ -112,7 +112,7 @@ export default function Inicial () {
 
                 <div className= ' part-roda3'>
                     <div className= 'img'>
-                       <img src="./assets/imagens/logo 13.png" alt= ""/>
+                       <img src="./assets/imagens/logo 13 (1).png" alt= ""/>
                     </div>
                     </div>
                     </div>
