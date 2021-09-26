@@ -27,9 +27,11 @@ const ConteinerCabecalho = styled.div`
 }
 
 .inicial {
+    
     margin-right: 15em;
     margin-left: 20em;
 }
+
 
 .sobre  {
     margin-right: 10em;
@@ -41,7 +43,6 @@ const ConteinerCabecalho = styled.div`
     margin-left: 10em;
 
 }
-
 
 
 

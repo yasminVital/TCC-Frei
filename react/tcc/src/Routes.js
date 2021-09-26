@@ -13,9 +13,9 @@ export default function Routes () {
         <BrowserRouter>
           <Switch>
               <Route path = '/' exact = {true} component = {Home} />
-              <Route path = '/Login' exact = {true} component = {Login} />
-              <Route path = '/Carrinho' exact = {true} component = {Carrinho} />
-              <Route path = '/Produto' exact = {true} component = {Produtos} />
+              <Route path = '/Login'  component = {Login} />
+              <Route path = '/Carrinho'  component = {Carrinho} />
+              <Route path = '/Produto'  component = {Produtos} />
           </Switch>
         </BrowserRouter>
     )
