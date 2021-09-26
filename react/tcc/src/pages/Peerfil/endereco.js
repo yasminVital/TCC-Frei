@@ -1,6 +1,7 @@
 import {ConteinerPerfils} from './styled'
 
 import Tiras from '../../components/listras/index'
+import { Link } from 'react-router-dom'
 
 export default function Perfil() {
     return(
@@ -12,9 +13,9 @@ export default function Perfil() {
             <div className="per-box1"> 
                 <div className="per-contas"> 
                     <div className="mi"> <img src="./assets/imagens/logo de user.png" alt="" width="12%" height="5%"/> <h3>  Minha Conta </h3> </div>
-                    <div> Perfil</div>
-                    <div  style={{color: '#006BA1E5'}}> Endereços</div>
-                    <div> Trocar Senha</div>
+                    <Link to="/perfil">  <div> Perfil</div> </Link>
+                    <Link to="/endereco"> <div  style={{color: '#006BA1E5'}}> Endereços</div> </Link>
+                    <Link to="/senha"> <div> Trocar Senha</div> </Link>
                 </div>
                 <div className="tabela">
                     <div className="en-endereco">

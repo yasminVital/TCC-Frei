@@ -5,6 +5,14 @@ const ConteinerPerfils = styled.div`
  background-color: #D2F6FF;
  height: 100vh;
 
+ a {
+     text-decoration: none;
+
+ }
+
+a > div {
+    margin-bottom: 12px;
+}
  input, button  {
     outline: none;
  }
@@ -24,21 +32,31 @@ h5 {
 .per-box {
     display: flex;
     justify-content: space-between;
-    padding: 0px 25em 0px 5em;
+    padding: 0px 17em 0px 5em;
    
 }
 
-
+.tab {
+    border: 0px solid rgba(255, 255, 255, 0.4);
+background-color: rgba(255, 255, 255, 0.4);
+padding: 2em;   
+width: 40em;
+}
 .per-form {
-    padding-top: 4.5em;
+    padding-top: .5em;
 }
 
 .per-contas > div {
     margin-bottom: 12px;
     cursor: pointer;
+    text-decoration: none;
+
+
 }
-.per-contas > div:hover {
+.per-contas > a:hover {
 color: #006BA1E5;
+text-decoration: none;
+
 }
 
 .mi {

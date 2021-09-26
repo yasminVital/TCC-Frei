@@ -12,7 +12,10 @@ const ConteinerProduto = styled.div`
 
 .Conteinerimg {
    
+<<<<<<< HEAD
+=======
     height:100vh;
+>>>>>>> b059c91ea1505ac80157da0de1c0cfbb35f65782
     width: auto; 
 
   
