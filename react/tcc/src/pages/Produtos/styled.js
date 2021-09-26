@@ -12,10 +12,7 @@ const ConteinerProduto = styled.div`
 
 .Conteinerimg {
    
-<<<<<<< HEAD
-=======
     height:100vh;
->>>>>>> b059c91ea1505ac80157da0de1c0cfbb35f65782
     width: auto; 
 
   
@@ -34,7 +31,7 @@ const ConteinerProduto = styled.div`
  flex-direction: row ;
 
 
- margin-left: 2em;
+ margin-left: 20em;
 
  padding-top: 6em;
  padding-left: 10em;

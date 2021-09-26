@@ -1,5 +1,6 @@
 import {ConteinerProduto} from './styled'
 import Categorias  from '../../components/Categorias/categoria'
+import Cabecalho from '../../components/cabecalho/cabecalho'
 
 
 
@@ -8,6 +9,7 @@ export default function Produtos() {
     return(
 
         <ConteinerProduto>
+            <Cabecalho/>
             <div className = "Conteinerimg">
             <div className = "Produtos">
              <Categorias/>
