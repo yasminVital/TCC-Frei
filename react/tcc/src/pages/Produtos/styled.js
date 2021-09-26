@@ -8,48 +8,122 @@ const ConteinerProduto = styled.div`
 
 
 
+/// Incio de tudo
+
 .Conteinerimg {
+   
     height: 100vh;
-    width: 140vh; 
-    
-    background-image: url("./assets/imagens/capa.png");
+    width: auto; 
+
+  
+
+    background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
     background-repeat: no-repeat; 
 }
 
 
+
+
+
 .Produtos { 
  display: flex;
  flex-direction: row ;
- padding-top: 15em;
- padding-left: 10em;
- height: 50vh;
 
+
+ margin-left: 4em;
+
+ padding-top: 6em;
+ padding-left: 10em;
+
+
+
+
+ 
 }
+
+
+
 
 
 
 .ListaProdutos{
     display: flex;
-    flex-direction: row;
-    padding-top: 10px; 
-    padding-left: 50px;
+    flex-wrap: wrap;
+
+    margin-right: 20em;
+
+    align-items: center;
+    
+    padding: 2em 2em 5em 2em;
+
+    border-radius: 5px;
+   
+
+    
     background-color: white;
-   
-   
+      
+}
+
+
+
+/// caxinhas de cada produto
+
+.caixa1 {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 0.2em;
+
+
+    
+
+    padding: 10px 1em 10px 1em; 
+
+
+    color: #706E6E;
+
+    background-color: #D0CCCC;
+    box-shadow: 5px 5px 10px grey;  
+
+}
+
+
+
+.Produto{
+    text-align: center;
+    
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.botão-compra{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+/// Imagem Produto
+
+.imagem {
+    text-align: center;
+
+}
+
+.imagem img{
+    
+    width: 100px;
+    height: 90px;
+
     
 }
 
-.caixa1 {
   
 
-}
-
-
-.imagem img{
-    width: 90px;
-    height: 50px;
-}
+/// Estrelas
 
 .avaliacao img {
     width: 10px ;
@@ -58,7 +132,36 @@ const ConteinerProduto = styled.div`
     height: 10px;
 }
 
+
+
+
+//// Estilização de outras coisa
+
+
+
+
+
+.botão-compra button {
+
+    padding: 10px ;
+
+
+    border-radius: 3em;
+    border: none;
+
+    cursor: pointer; 
+
+    color: white;
+    background-color: #4D5B76;
+
+}
+
+
 `
+
+
+
+
 export {ConteinerProduto}
 
 
