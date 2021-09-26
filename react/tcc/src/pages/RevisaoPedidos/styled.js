@@ -5,32 +5,107 @@ const ContainerRevisao = styled.div`
 display: flex;
 flex-direction: column;
 margin: 0px;
+box-sizing: border-box;
+
+a:link {
+    text-decoration: none;
+}
 
 
 .but-esco {
     display: flex;
-    justify-content: center;
-    padding: 0px 10em 0px 10em;
+    justify-content: flex-start;
+    padding: 30px 10em 20px 4.5em;
 }   
 
 .but-esco button {
 align-items: center;
-border: 1px solid rgb(26, 171, 243, 0.9);
-background-color: rgb(26, 171, 243, 0.9);
+border: 1px solid #1AABF3;
+background-color: #1AABF3;
 width: 20em;
+height: 4em;
 text-align: center;
 padding: 0px 0px 0px 35px;
 border-radius: 70px;
+text-decoration: none;
+outline: none;
+
+}
+.en-entrega {
+padding: 30px 10em 20px 4.5em;
+display: flex;
+flex-direction:column;
 
 }
 
-.entrega {
+.en-cabe {
+    display: flex;
+justify-content: space-between;
+padding: 0px 12em 0px 4.5em;
+}
+
+
+.en-cabe button {
     display: flex;
     flex-direction: row;
+    outline: none;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 0px 40px;
+
+
 }
+
+
+.en-cabe button:hover {
+    border-radius: 50px;
+    background-color: #FAFAFA;
+    color: black;
+    border: #FAFAFA;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+
+.entrega, .en-input {
+    display: flex;
+    flex-direction: row;
+    outline: none;
+
+}
+
+.en-input {
+    margin-bottom: 25px;
+}
+
+.en-input > input {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+ input[type=radio] {
+    background-color: red;
+    color: red;
+    border: 2px solid red;
+  border-radius: 4px;
+
+}
+
 
 .entrega > div {
     margin-left: 10px;
+}
+.entrega:hover {
+color: white;
+background-color: #006BA1E5;
+border: 0px solid #006BA1E5;
+cursor: pointer;
+outline: none;
 }
 
 .end-info {
@@ -72,7 +147,6 @@ td {
 display: flex;
 align-items: center;
 text-align: center;
-width: 7em;
 }
 
 .meto-paga {
@@ -98,20 +172,22 @@ margin-top: 20px;
     margin-right: 8px;
 }
 
-.pix:hover {
-    padding: 0px 20px 0px 0px ;
+.pix:hover img{
+background-color: white;
+}
 
+.pix:hover   {
+    padding: 0px 20px 0px 20px ;
+}
+
+.din:host {
+padding: 0px 40px 0px 20px ;
 }
 
 
-.din:hover {
-padding: 0px 40px 0px 0px ;
-}
 
-
-.car:hover {
-padding: 0px 0px 0px 0px ;
-width: 2px;
+.car: {
+padding: 0px 20px 0px 0px ;
 }
 
 .meto-paga > div:hover {
@@ -120,6 +196,7 @@ width: 2px;
     opacity: 80%;
     background-color: #1AABF3;
     color: white;
+    border-radius: 5px;
 }
 
 
@@ -139,6 +216,17 @@ width: 2px;
     padding: 10px 0px 10px 0px;
     margin: 20px 0px 20px 0px;
     border-radius: 5px;
+    outline: none;
+
+}
+
+
+button:hover {
+    background-color:#006BA1E5;
+    border: 2px solid #006BA1E5;
+    color: white;
+    cursor: pointer;
+
 }
 `
 export { ContainerRevisao }
