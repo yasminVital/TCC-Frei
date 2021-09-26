@@ -105,8 +105,7 @@ margin-top: 20px;
     justify-content: space-between;
     padding: 2em 2em 0px 2em;
 }
-
-.botoes > button {
+button {
     border: 7px solid #1AABF3;
     background-color: #1AABF3;
     padding: 5px 17px;

@@ -1,5 +1,4 @@
 import {ConteinerProduto} from './styled'
-import Cabecalho from '../../components/cabecalho/cabecalho'
 import Categorias  from '../../components/Categorias/categoria'
 
 
@@ -10,7 +9,6 @@ export default function Produtos() {
 
         <ConteinerProduto>
             <div className = "Conteinerimg">
-          <Cabecalho/>
             <div className = "Produtos">
              <Categorias/>
              <div className = "ListaProdutos">

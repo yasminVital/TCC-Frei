@@ -1,11 +1,15 @@
 import { ConteinerInicial } from './styled'
 
+
+
+
 export default function Inicial () {
 
     return (
 
         <ConteinerInicial> 
-        <div className= 'cabecalho'>
+
+<div className= 'cabecalho'>
             <div className="filho">
                 <div className= 'cabe'>
                 HOME
@@ -22,7 +26,7 @@ export default function Inicial () {
             <svg width="4" height="50" viewBox="0 0 8 84" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="84" fill="#444444"/></svg>
             </div>
             <div className= 'Lup-img'>
-            <img src="./assets/imagens/lupa1.svg" height="25" alt="" />
+            <img src="./assets/imagens/lupa.png" height="25" alt="" />
             </div>
 
             <div className= 'barra'>
@@ -44,9 +48,10 @@ export default function Inicial () {
             </div>
         </div>
 
+
         <div className= 'faixa2'>
 
-    <div className = "ikkdfsksk">
+            <div className = "ikkdfsksk">
             <div className= 'favoritos'>
                 <div className= 'titulo01'>
                     Favoritos da casa
@@ -122,6 +127,6 @@ export default function Inicial () {
                 </div>
                 </div>
                 </div>
-                </ConteinerInicial>
+            </ConteinerInicial>
     )
 }

@@ -1,6 +1,7 @@
 import { ContainerCarrinho } from './styled'
 import Tiras from '../../components/listras/index'
 
+import { Link } from 'react-router-dom'
 
 export default function Carrinho() {
 
@@ -74,8 +75,8 @@ export default function Carrinho() {
             </div>
         </div>
         <div className="botoes"> 
-            <button> Continuar Comprando </button>
-            <button> Realizar pedido </button>
+            <Link to="./produto"> <button> Continuar Comprando </button> </Link> 
+            <Link to="./revisao"> <button>  Realizar pedido   </button> </Link> 
         </div>
     </ ContainerCarrinho>
     )
