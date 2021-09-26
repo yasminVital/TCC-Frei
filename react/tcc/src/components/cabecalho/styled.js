@@ -1,61 +1,60 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 
 
-const Containercabe = styled.div`
-display: flex;
-flex-direction:column;
-margin: 0px;
-background-color: black;
-color: white;
-opacity:80%;
-
-}
-
-
-header {
-    display:flex;
-    justify-content: flex-end;
-    margin: 10px;
-    font-family: 'Roboto';
-    
-}
-
-.Filho { 
-    margin-left:auto;
-}
 
 
 
-header > div {
+
+
+
+
+const ConteinerCabecalho = styled.div`
+.ConteinerCabecalho{
     display: flex;
     flex-direction: row;
-    margin-top: initial;
+    padding-top: 10px;
+    justify-content: space-between;
+   
+    background-color: black;
+  
+   
+   
 }
-
-.Filho > div {
-    margin-left: 6px;
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    color: white;
 }
-
-.Filho {
-
-    margin-left: 13em;
-    align-content: flex-start;
+.inicial {
     
+    margin-right: 15em;
+    margin-left: 20em;
+    margin-left: 15em;
 }
-.Containercabe{
-    margin-top: initial;
-    color: black;
-    opacity:80% ;
+.sobre  {
+    margin-right: 10em;
+    margin-left: 10em;
 }
-
-.sub-cabecalho> div {
-    margin-left: 13em;
-
+.menu {
+    margin-right: 10em;
+    margin-left: 10em;
 }
-.Filho2 {
-    margin-left: 13em;
+.entrada{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1em;
+    padding-right: 20px;
 }
-
-```
-export { Containercabe }
+.barra {
+    width: 1px;
+    margin-right: 10px ;
+    margin-left: 10px;
+   width: 2px;
+    
+    margin-right: 15px ;
+    margin-left: 15px;
+    background-color: grey;
+}
+`
+export {ConteinerCabecalho}
