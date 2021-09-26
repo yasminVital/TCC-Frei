@@ -1,76 +1,61 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 
 
-const ConteinerCabecalho = styled.div`
+const Containercabe = styled.div`
+display: flex;
+flex-direction:column;
+margin: 0px;
+background-color: black;
+color: white;
+opacity:80%;
 
-.ConteinerCabecalho{
-    display: flex;
-    flex-direction: row;
-
-    padding-top: 10px;
-
-
-    justify-content: space-between;
-
-   
-    background-color: black;
-  
-   
-
-   
 }
 
 
-.conteudo {
-    display: flex;
-    flex-direction: row;
-
-
-    color: white;
-}
-
-.inicial {
+header {
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-family: 'Roboto';
     
-    margin-right: 15em;
-    margin-left: 15em;
 }
 
-
-.sobre  {
-    margin-right: 10em;
-    margin-left: 10em;
-}
-
-.menu {
-    margin-right: 10em;
-    margin-left: 10em;
-
+.Filho { 
+    margin-left:auto;
 }
 
 
 
-.entrada{
+header > div {
     display: flex;
     flex-direction: row;
-
-    padding-right: 20px;
+    margin-top: initial;
 }
 
+.Filho > div {
+    margin-left: 6px;
+}
 
-.barra {
+.Filho {
 
-   width: 2px;
+    margin-left: 13em;
+    align-content: flex-start;
     
-    margin-right: 15px ;
-    margin-left: 15px;
-
-    background-color: grey;
+}
+.Containercabe{
+    margin-top: initial;
+    color: black;
+    opacity:80% ;
 }
 
+.sub-cabecalho> div {
+    margin-left: 13em;
 
+}
+.Filho2 {
+    margin-left: 13em;
+}
 
-
-
-`
-export {ConteinerCabecalho}
+```
+export { Containercabe }
