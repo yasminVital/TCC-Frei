@@ -13,7 +13,7 @@ const ConteinerProduto = styled.div`
 .Conteinerimg {
    
     height: 100vh;
-    width: 100vw; 
+    width: auto; 
 
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
@@ -94,10 +94,7 @@ const ConteinerProduto = styled.div`
 }
 
 
-.Preco{
-    text-align: center; 
-   
-}
+
 
 
 
