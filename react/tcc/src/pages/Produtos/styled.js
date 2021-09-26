@@ -95,7 +95,8 @@ const ConteinerProduto = styled.div`
 
 
 .Preco{
-    padding-top: 8px;
+    text-align: center; 
+   
 }
 
 
@@ -130,6 +131,9 @@ const ConteinerProduto = styled.div`
 
 
 //// Estilização de outras coisa
+
+
+
 
 
 .botão-compra button {
