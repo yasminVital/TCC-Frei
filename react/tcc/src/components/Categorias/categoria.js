@@ -9,7 +9,7 @@ export default function Categoria() {
                 <div className = "ConteCategorias">
                 <div className = "titulo"> CATEGORIA</div>
 
-                 <hr/> 
+                 <hr width= "150"/> 
                  <div className = "conteudo">
                  <div>Favoritos da casa</div>
                  <div>Salgados</div>

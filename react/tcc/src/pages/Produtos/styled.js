@@ -31,7 +31,7 @@ const ConteinerProduto = styled.div`
  flex-direction: row ;
 
 
- margin-left: 4em;
+ margin-left: 2em;
 
  padding-top: 6em;
  padding-left: 10em;

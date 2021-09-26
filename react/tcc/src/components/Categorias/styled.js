@@ -13,12 +13,13 @@ background-color: #4D5B76;
   text-align: center; 
 
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 15px; 
+  padding-left: 8px;
+  padding-right: 8px; 
 
   color : white;
   
 }
+
 
 .conteudo div {
     margin-top: 50px;
