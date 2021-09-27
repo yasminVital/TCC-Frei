@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const ConteinerPerfils = styled.div`
  background-color: #D2F6FF;
- height: 100vh;
 
  a {
      text-decoration: none;
@@ -167,7 +166,7 @@ margin-bottom: 20px;
 .per-box2 {
     display: flex;
     justify-content: space-between;
-    padding: 0px 20em 0px 5em;
+    padding: 0px 20em 5em 5em;
    
 }
 
@@ -207,7 +206,7 @@ padding: 1px 10px;
     right: 9.2em;
 
     width: 70%;
-    height: 2.2em;
+    height: 2.3em;
     border-radius: 5px;
     background-color: white;
     border: 1px solid black;

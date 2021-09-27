@@ -2,12 +2,15 @@ import {ConteinerPerfils} from './styled'
 
 import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
+
+import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
 
 export default function Perfil() {
     return(
 
         <ConteinerPerfils>
+            <Cabecalho />
             <h1> Definir Senha </h1>
             <Tiras />
             <h5>Para a segurança da sua conta, não compartilhe sua senha com mais ninguém </h5>

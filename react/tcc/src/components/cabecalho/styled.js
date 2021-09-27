@@ -17,9 +17,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-  
-   
-   
 }
 .conteudo {
     display: flex;
