@@ -119,6 +119,8 @@ export default function Produtos() {
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
+                
+
                  
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/baguete_folhada.jpg" alt=""  /> </div>
