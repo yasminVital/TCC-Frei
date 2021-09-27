@@ -2,6 +2,7 @@ import {ConteinerPerfils} from './styled'
 
 import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
+import Rodape from '../../components/rodape/rodape'
 
 export default function Perfil() {
     return(
@@ -25,7 +26,7 @@ export default function Perfil() {
                 </div>
                 
             </div>
-            
+            <Rodape />
         </ConteinerPerfils>
     )
     

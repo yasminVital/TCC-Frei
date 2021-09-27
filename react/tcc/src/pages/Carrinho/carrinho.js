@@ -1,5 +1,7 @@
 import { ContainerCarrinho } from './styled'
 import Tiras from '../../components/listras/index'
+import Cabecalho from '../../components/cabecalho/cabecalho'
+import Rodape  from '../../components/rodape/rodape'
 
 import { Link } from 'react-router-dom'
 
@@ -7,6 +9,7 @@ export default function Carrinho() {
 
     return (
     <ContainerCarrinho>
+        <Cabecalho />
         <div className="titulo" style={{fontSize: '64px', marginLeft: '65px'}}> Meu Carrinho</div>
         <Tiras/>
         <div className="box-tabela"> 
@@ -78,6 +81,7 @@ export default function Carrinho() {
             <Link to="./produto"> <button> Continuar Comprando </button> </Link> 
             <Link to="./revisao"> <button>  Realizar pedido   </button> </Link> 
         </div>
+        <Rodape />
     </ ContainerCarrinho>
     )
 }

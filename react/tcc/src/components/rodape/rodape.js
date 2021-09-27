@@ -27,14 +27,14 @@ export default function Rodape() {
                             Horário De  Funcionamento
                         </div>
                         <div className='info-06'>
-                            De Segunda à Sexta-Feira
-                            08:00 às 16:30
+                            De Segunda à Sexta-Feira <br/> <br/>
+                              08:00 às 16:30 
                         </div>
                     </div>
 
                     <div className=' part-roda3'>
                         <div className='img'>
-                            <img src="./assets/imagens/logo 13 (1).png" alt="" />
+                            <img src="./assets/imagens/logo 13 (1).png" alt="" width="80%"/>
                         </div>
                     </div>
                 </div>

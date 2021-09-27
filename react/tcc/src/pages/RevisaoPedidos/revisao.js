@@ -2,13 +2,15 @@ import { ContainerRevisao } from './styled'
 
 import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
-
+import Cabecalho from '../../components/cabecalho/cabecalho'
+import Rodape from '../../components/rodape/rodape'
 
 
 export default function Carrinho() {
 
     return ( 
         <ContainerRevisao>
+            <Cabecalho />
             <h1 style={{marginLeft: '70px'}}>  Finalização da Compra </h1>
             <Tiras/>
             <div className="but-esco"> 
@@ -67,6 +69,7 @@ export default function Carrinho() {
             <div className="but">
             <button > Fazer Pedidos</button>
             </div>
+        <Rodape />
         </ContainerRevisao>
         )
 }
