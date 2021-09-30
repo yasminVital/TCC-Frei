@@ -1,8 +1,8 @@
-import {ConteinerProduto} from './styled'
-import Categorias  from '../../components/Categorias/categoria'
-import Cabecalho from '../../components/cabecalho/cabecalho'
+import {ConteinerProduto} from '../styled'
+import Categorias  from '../../../components/Categorias/categoria'
+import Cabecalho from '../../../components/cabecalho/cabecalho'
 
-import Rodape from '../../components/rodape/rodape'
+import Rodape from '../../../components/rodape/rodape'
 
 
 

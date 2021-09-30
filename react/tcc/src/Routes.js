@@ -8,7 +8,7 @@ import Login from './pages/Login/login'
 import Nos from './pages/SobreNos/sobre'
 import Cadastra from './pages/Login/cadastrar/cadastrar'
 import Carrinho from './pages/Carrinho/carrinho'
-import Produtos from './pages/Produtos/produto'
+import Produtos from './pages/Produtos/favorito/produto'
 
 import Revisao from './pages/RevisaoPedidos/revisao'
 import Entrega from './pages/RevisaoPedidos/entrega'
