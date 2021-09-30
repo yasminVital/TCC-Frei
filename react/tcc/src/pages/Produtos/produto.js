@@ -1,6 +1,8 @@
 import {ConteinerProduto} from './styled'
 import Categorias  from '../../components/Categorias/categoria'
+import Cabecalho from '../../components/cabecalho/cabecalho'
 
+import Rodape from '../../components/rodape/rodape'
 
 
 
@@ -8,6 +10,7 @@ export default function Produtos() {
     return(
 
         <ConteinerProduto>
+            <Cabecalho/>
             <div className = "Conteinerimg">
             <div className = "Produtos">
              <Categorias/>
@@ -116,6 +119,8 @@ export default function Produtos() {
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
+                
+
                  
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/baguete_folhada.jpg" alt=""  /> </div>
@@ -190,7 +195,7 @@ export default function Produtos() {
               
               </div>
               </div>
-         
+              <Rodape />
         </ConteinerProduto>
     )
     

@@ -1,76 +1,47 @@
 import styled from "styled-components";
 
 
-
 const ConteinerCabecalho = styled.div`
 
-.ConteinerCabecalho{
-    display: flex;
-    flex-direction: row;
-
-    padding-top: 10px;
-
-
-    justify-content: space-between;
-
-   
-    background-color: black;
-  
-   
-
-   
-}
-
-
-.conteudo {
-    display: flex;
-    flex-direction: row;
-
-
+a {
+    text-decoration: none;
     color: white;
 }
 
-.inicial {
-    
-    margin-right: 15em;
-    margin-left: 15em;
+a:hover {
+    color: #2872FF;
 }
 
+.ConteinerCabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 20em;
 
-.sobre  {
+}
+
+.conteudo > div {
     margin-right: 10em;
-    margin-left: 10em;
 }
-
-.menu {
-    margin-right: 10em;
-    margin-left: 10em;
-
-}
-
-
-
 .entrada{
     display: flex;
     flex-direction: row;
-
+    padding-right: 1em;
     padding-right: 20px;
+    align-items: center;
 }
-
+.barra img {
+width: 70%;
+}
 
 .barra {
-
-   width: 2px;
-    
-    margin-right: 15px ;
-    margin-left: 15px;
-
-    background-color: grey;
+    margin-right: 20px;
 }
-
-
-
-
-
 `
 export {ConteinerCabecalho}

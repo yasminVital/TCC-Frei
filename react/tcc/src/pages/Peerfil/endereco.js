@@ -2,11 +2,15 @@ import {ConteinerPerfils} from './styled'
 
 import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
+import Cabecalho from '../../components/cabecalho/cabecalho'
+
+import Rodape from '../../components/rodape/rodape'
 
 export default function Perfil() {
     return(
 
         <ConteinerPerfils>
+            <Cabecalho />
             <h1> Meus Endereços </h1>
             <Tiras />
             <h5>Gerenciar e Proteger sua Conta </h5>
@@ -56,6 +60,7 @@ export default function Perfil() {
                 
             </div>
             <div className="but"> Confirmar</div>
+            <Rodape />
         </ConteinerPerfils>
     )
     

@@ -9,7 +9,7 @@ const ContainerCarrinho = styled.div`
 }
 
 thead {
-    background-color: #6CC3DF;
+    background-color: #DFDFDF;
 
     width: 100vw;
 

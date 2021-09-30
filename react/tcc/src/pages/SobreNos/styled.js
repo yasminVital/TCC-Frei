@@ -6,7 +6,7 @@ const COnteinersobrenos = styled.div`
 
 background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
-  height: 200vh;
+  height: 150vh;
   padding-top: 5%;
 
 
@@ -94,10 +94,12 @@ margin-right: 2%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 .montagem-padaria {
     background-color: white;
+    padding-bottom: 20px;
 }
 
 .titulo {
