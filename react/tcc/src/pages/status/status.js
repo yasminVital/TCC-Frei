@@ -1,4 +1,5 @@
 import {Conteinerstatus} from './styled'
+import Rodape from '../../components/rodape/rodape'
 
 export default function status () {
 
@@ -137,7 +138,7 @@ export default function status () {
                                 R$ 3,00
                                 </div> 
                             </div>
-                            <div className="final">
+                            <div className="finall">
                                 <div className="sub">
                                     Subtotal dos produtos  
                                 </div>
@@ -146,7 +147,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="final">
+                            <div className="finall">
                                 <div className="sub">
                                    Envio 
                                 </div>
@@ -155,7 +156,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="final">
+                            <div className="finall">
                                 <div className="sub">
                                     Total do pedido  
                                 </div>
@@ -164,7 +165,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="final">
+                            <div className="finall">
                                 <div className="sub">
                                    Método do pedido
                                 </div>
@@ -174,11 +175,8 @@ export default function status () {
                             </div> 
                             
                         </div>
-
-                    
-                    
-
                 </div>
+                <Rodape />
         </Conteinerstatus>
     )
 }

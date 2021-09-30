@@ -4,6 +4,8 @@ const Conteinerstatus = styled.div`
 
 .Faixastatus {
     background: #D2F6FF;
+    height: 200vh;
+    padding-bottom: 2em
 }
 .cabecalhO {
     background-color: black;
@@ -85,10 +87,12 @@ input {
 .tet1 {
 
     margin: 0% 0% 2% 8%;
+    font-size: 36px;
 }
 
 .tet2 {
     margin: 0% 0% 1% 8%;
+    font-size: 30px;
 }
 
 .previsaó {
@@ -103,8 +107,8 @@ input {
 
 .ok {
 
-    margin: 0% 0% 1% 8%;
-
+    margin: 1% 0% 3% 8%;
+    font-size: 30px;
 }
 
 .enderco{
@@ -120,17 +124,20 @@ input {
 .en {
     margin-left: 5%;
     margin-bottom: 1%;
-    margin-top:1%
+    margin-top:1%;
+    font-size: 36px;
 }
 
 .rua {
 
     margin-left: 5%;
+    font-size: 22px;
 }
 
 .bairro {
     margin-left: 5%;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    font-size: 22px;
 }
 
 .borda {
@@ -141,12 +148,22 @@ input {
     border-radius: 20px;
     margin-left: 8%;
     margin-right: 10%;
+    padding: 5px 3em 4em 3em;
     margin-top: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 2em;
+    padding-bottom:20px;
+    
     
     
 }
 
+.pedido {
+    font-size: 36px;
+}
+
+.numero {
+    font-size: 30px;
+}
 .part1-C3 {
     display: flex;
     flex-direction: row;
@@ -187,12 +204,12 @@ input {
     color: red;
 }
 
-.final {
+.finall {
     display: flex;
     flex-direction: row;
 }
 
-.final {
+.finall {
     display: flex;
     align-content: flex-end;
     justify-content: flex-end;
@@ -207,6 +224,8 @@ input {
     margin-left: 5%;
     color: red;
 }
+
+
 
 
 
