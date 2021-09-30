@@ -16,6 +16,8 @@ import Perfil from './pages/Peerfil/Perfil'
 import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
+import status from './pages/status/status';
+
 
 export default function Routes () {
     return(
@@ -26,6 +28,7 @@ export default function Routes () {
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produto'  component = {Produtos} />
               <Route path="/revisao" component={Revisao} />
+              <Route path="/status" component={status} />
 
 
               <Route path="/entrega" component={Entrega} />
