@@ -186,7 +186,7 @@ padding: 0px 40px 0px 20px ;
 
 
 
-.car: {
+.car {
 padding: 0px 20px 0px 0px ;
 }
 

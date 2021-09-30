@@ -11,8 +11,8 @@ const ConteinerProduto = styled.div`
 /// Incio de tudo
 
 .Conteinerimg {
-   
-    height:100vh;
+
+    height:120vh;
     width: auto; 
 
   
@@ -31,10 +31,13 @@ const ConteinerProduto = styled.div`
  flex-direction: row ;
 
 
- margin-left: 1em;
+ margin-left: 2em;
+
 
  padding-top: 6em;
- padding-left: 5em;
+ padding-left: 6em;
+
+ 
 
 
 
@@ -50,10 +53,10 @@ const ConteinerProduto = styled.div`
     display: flex;
     flex-wrap: wrap;
 
-    margin-right: 4em;
+    margin-right: 8em;
 
     align-items: center;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 3em;
     border-radius: 5px;
    
@@ -70,7 +73,7 @@ const ConteinerProduto = styled.div`
 .caixa1 {
     margin-left: 1em;
     margin-top: 1em;
-    margin-right: 0.2em;
+    margin-right: 0.3em;
 
 
     
@@ -81,7 +84,7 @@ const ConteinerProduto = styled.div`
     color: #706E6E;
 
     background-color: #D0CCCC;
-    box-shadow: 5px 5px 10px grey;  
+    box-shadow: 3px 3px 10px grey;  
 
 }
 
