@@ -2,11 +2,14 @@ import styled from 'styled-components'
 
 const COnteinersobrenos = styled.div` 
 
+display: flex;
+flex-direction: column;
+
 .Faixa-sobrenos {
 
 background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
   padding-top: 5%;
 
 
@@ -15,7 +18,7 @@ background: url("./assets/imagens/capa.png") no-repeat center center;
 .fundo-fsn{
     text-align: center;
     align-content: center;
-    background: #EAE1E199;
+    background-color: #EAE1E199;
     border-style: solid;
     border-width: medium;
     border-color: #EAE1E199;

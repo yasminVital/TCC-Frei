@@ -38,7 +38,7 @@ export default function Carrinho() {
               </thead>
               <tbody>
                   <tr>
-                      <td style={{width: '3%'}}> <img src="./assets/imagens/bolinho.png" alt="" width="90%" /> </td>
+                      <td style={{width: '15%'}}> <img src="./assets/imagens/bolinho.png" alt="" width="90%" /> </td>
                       <td>baguete de Queijo</td>
                       <td>R$ 3,50</td>
                       <td>3</td>  
