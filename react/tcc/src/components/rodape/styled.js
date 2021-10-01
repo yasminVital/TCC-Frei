@@ -12,7 +12,7 @@ const Containersroda = styled.div`
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      padding: 4em 0px 0px 0px;
+      padding: 3em 0px 0px 0px;
 }
       .part-roda1 {
       text-align: center;
@@ -22,7 +22,7 @@ const Containersroda = styled.div`
       .part-roda2 {
       text-align: center;
       margin-right: 80px;
-      padding-bottom: 5em;
+      padding-bottom: 4em;
       }
 
 
@@ -53,8 +53,8 @@ const Containersroda = styled.div`
       }
       .final {
       background: #4D5B76;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
 }
       .exp {
       text-align: center;

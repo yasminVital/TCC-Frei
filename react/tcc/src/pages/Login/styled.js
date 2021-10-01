@@ -5,7 +5,7 @@ import styled from "styled-components";
 const ConteinerLogin = styled.div `
 
 .conteinerimg{
-    height: 100vh;
+    height: 150vh;
     width: auto; 
 
     background-image: url("./assets/imagens/Background.svg");
@@ -15,14 +15,15 @@ const ConteinerLogin = styled.div `
 
 .ConteinerLogin{
     
-    margin-top: 2em;
-    margin-left: 30em;
-    margin-right: 30em;
+    margin-top: 5em;
+    margin-left: 25em;
+    margin-right: 25em;
 
     padding-bottom: 10em;
    
     color: white;
     background-color: black;
+    opacity: 96%;
 }
 
 
@@ -32,7 +33,7 @@ const ConteinerLogin = styled.div `
 }
 
 .logo {
-    padding-left: 32em ;
+    padding-left: 25em ;
 }
 
 .titulo{
@@ -94,22 +95,20 @@ button {
 }
 
 
-.cria  {
-    color: white;
+
+.cria {
     padding-top: 5px;
+
 }
 
-.cria :hover {
-    color: white;
- 
-}
-
-
-
-.cria :link{
+.cria a {
     color: white;
     text-decoration: none; 
 }
+
+
+
+
 
 
 

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 const ContainerCarrinho = styled.div`
 
 
@@ -10,7 +9,7 @@ const ContainerCarrinho = styled.div`
 
 thead {
     background-color: #DFDFDF;
-
+    font-family: Belleza; 
     width: 100vw;
 
 }
@@ -22,10 +21,13 @@ th {
     color: #ffff;
     font-weight: 800;
 } 
+
+
 td {
     text-align: center;
     height:  61.93px;
-    padding: 1em;
+    font-family: 'Noto Sans SC', sans-serif;
+        padding: 1em;
     color: #6D6868;
     font-weight: 600;
 }
