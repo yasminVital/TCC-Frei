@@ -39,28 +39,19 @@ a:hover {
 .barra {
     
   background-color: gray;
-  position: absolute;
-  top: 0;
-  left:  93.4%;
-  right: 0;
   height: 35px;
   width: 0.2%;  
-  
+  margin-right: 15px;
+
 }
 
 .barra1 {
   background-color: gray;
-  position: absolute;
-  top: 0;
-  left:  96%;
-  right: 0;
   height: 35px;
   width: 0.1%;  
+  margin-right: 20px;
 }
 
-.barra {
-    margin-right: 20px;
-}
 
 
 .imagem-lupa{
@@ -68,13 +59,10 @@ a:hover {
 }
 
 
-.imagen-login{
-    margin-left: 5px;
+.imagem-login{
+    margin-right: 10px;
 }
 
-.Imagen-login{
-    margin-left: 5px
-}
 
 `
 export {ConteinerCabecalho}
