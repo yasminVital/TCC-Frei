@@ -12,8 +12,6 @@ background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
   padding-top: 5%;
-
-
 }
 
 .fundo-fsn{
@@ -110,73 +108,7 @@ margin-right: 2%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;
-
-
 }
-
-
-
- 
-    
-}
-
-.cabe {
-    margin-left: 100px;
-    padding-right: 30px;
-    color: white;
-    padding-top: 0px;
-    display: flex;
-    
-
-}
-
-.filho {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-   
-}
-
-.barra {
-    padding-left: 15px;
-    
-}
-.Lup-img {
-    margin-left: 10px;
-    padding-top: 8px;
-}
-.cadastro {
-    margin-left: 8px;
-    padding-top: 8px;
-
-}
-
-.Cabecho {
-    margin-left: 10px;
-    margin-top: 8px;
-}
-
-.cabecalho {
-    background-color: black;
-    opacity: 80%;
-}
-
-.Cabecho {
-    color: white;
-}
-
-.carrinho{ 
-    padding-top: 8px;
-    margin-left: -15px;
-    
-}
-.filho1 {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 8px;
-    
-}
-
 `
 
 export {COnteinersobrenos}
