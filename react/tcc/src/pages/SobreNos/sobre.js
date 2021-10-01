@@ -78,8 +78,9 @@ export default function sobrenos () {
                 </div>
 
             </div>
+            <Rodape />
+
          </div>
-         <Rodape />
         </COnteinersobrenos>
     )
 }

@@ -4,6 +4,7 @@ const COnteinersobrenos = styled.div`
 
 display: flex;
 flex-direction: column;
+height: 100vh;
 
 .Faixa-sobrenos {
 
@@ -109,81 +110,11 @@ margin-right: 2%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;
-}
-.rodape{
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
+
 
 }
 
-.part-roda1 {
-    text-align: center;
-    margin-left: 24px;
-    margin-right: 80px;
-}
 
-.part-roda2 {
-    text-align: center;
-    margin-right: 80px;
-}
-
-.info-01 {
-    margin-bottom: 35px;
-    font-size: 35px;
-}
-
-.info-02 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-03 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-04 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-05 {
-    margin-bottom: 35px;
-    font-size: 35px;
-}
-
-.info-06 {
-    margin-bottom: 35px;
-    font-size: 22px;
-}
-
-.final {
-    background: #4D5B76;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.exp {
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 25px;
-}
-
-.cabecalho {
- display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
 
  
     

@@ -50,12 +50,12 @@ a:hover {
 
 .barra1 {
   background-color: gray;
-  position: absolute;
+  position:stick;
   top: 0;
   left:  96%;
   right: 0;
   height: 35px;
-  width: 0.1%;  
+  width: 0.2%;  
 }
 
 .barra {
@@ -64,16 +64,16 @@ a:hover {
 
 
 .imagem-lupa{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
 .imagen-login{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
-.Imagen-login{
-    margin-left: 5px
+.Imagen-login> div{
+    margin-left: 10px
 }
 
 `

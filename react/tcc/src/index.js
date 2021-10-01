@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import app from './components/cabecalho/cabecalho';
+import app from './components/rodape/rodape';
  
 import Routes from './Routes';
 
