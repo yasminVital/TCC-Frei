@@ -23,6 +23,7 @@ import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
 import status from './pages/status/status';
+import MinhasCompras from './pages/status/MinhasCompras/compras';
 
 
 export default function Routes () {
@@ -38,6 +39,8 @@ export default function Routes () {
               <Route path = '/Salgado' Component = {Salgado}/>
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
+              <Route path="/status" component={status} />
+              <Route path="/MinhasCompras" component={MinhasCompras} />
 
 
               <Route path="/entrega" component={Entrega} />
