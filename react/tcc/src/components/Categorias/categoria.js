@@ -13,7 +13,7 @@ export default function Categoria() {
                  <hr width= "150"/> 
                  <div className = "conteudo">
                  <div>Favoritos da casa</div>
-                 <div><Link to = "Salgado">Salgados </Link></div>
+                 <div><Link to = "/Salgados">Salgados </Link></div>
                  <div>Doces</div>
                  <div>Bebidas</div>
                  </div>

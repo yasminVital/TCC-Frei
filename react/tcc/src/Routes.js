@@ -10,7 +10,7 @@ import Cadastra from './pages/Login/cadastrar/cadastrar'
 import Carrinho from './pages/Carrinho/carrinho'
 
 
-import Salgado from './pages/Produtos/salgado'
+import Salgados from './pages/Produtos/Salgados/salgado'
 import Favorito from './pages/Produtos/produto'
 
 
@@ -34,8 +34,10 @@ export default function Routes () {
               <Route path = '/sobre' component = {Nos} />
               <Route path = '/Cadastra' component = {Cadastra}/>
               <Route path = '/Carrinho'  component = {Carrinho} />
+
               <Route path = '/Favorito'  component = {Favorito} />
-              <Route path = '/Salgado' Component = {Salgado}/>
+              <Route path = "/Salgados" Component = {Salgados}/>
+
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
 
