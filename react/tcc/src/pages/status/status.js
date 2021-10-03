@@ -1,13 +1,83 @@
 import {Conteinerstatus} from './styled'
 
-import Cabecalho from "../../components/cabecalho/cabecalho"
-import Rodape from "../../components/rodape/rodape"
-
 export default function status () {
 
     return (
         <Conteinerstatus>
-                <Cabecalho />
+           <div className= "Faixastatus">
+               <div className= "cabecalhO">
+                   <div className= "LOGO">
+                   <img src="./assets/imagens/logo 13 (1).png" height="125" alt= ""/>
+                   </div>
+                   <div className = "naveg">
+                   <div className= "navega">
+                       <label for=""></label>
+                       <input type="url" id="hhh" name="hhh"></input>
+                    </div>
+                    <div className= "LUPA00">
+                        <img src="./assets/imagens/lupa1.svg" height="25" alt=""/>
+                    </div>
+                    <div className = "login-50">
+                        <img src = "./assets/imagens/logo de user.png" height="25" alt=""/>
+                    </div>
+                    <div className = "cariinho-50">
+                        <img src= "./assets/imagens/mbricartadd_99553.svg" height="25" alt=""/>
+                    </div>
+                    </div>
+               </div>
+               
+               <div className= "cabelhO2">
+                   <div className = "C2">
+                       HOME
+                    </div>
+                    <div className = "C2">
+                        SOBRE NÓS
+                    </div>
+                    <div className = "C2">
+                        MENU
+                    </div>
+               </div>
+               <div className = "pooooo">
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                <div className = "tirinnhas">
+                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
+                </div>
+                </div>
                 <div className = "volta">
                     <img src= "./assets/imagens/icon-voltar-removebg-preview 2.png" alt= ""/>
                 </div>
@@ -67,7 +137,7 @@ export default function status () {
                                 R$ 3,00
                                 </div> 
                             </div>
-                            <div className="finall">
+                            <div className="final">
                                 <div className="sub">
                                     Subtotal dos produtos  
                                 </div>
@@ -76,7 +146,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="finall">
+                            <div className="final">
                                 <div className="sub">
                                    Envio 
                                 </div>
@@ -85,7 +155,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="finall">
+                            <div className="final">
                                 <div className="sub">
                                     Total do pedido  
                                 </div>
@@ -94,7 +164,7 @@ export default function status () {
                                 </div>
                             </div> 
 
-                            <div className="finall">
+                            <div className="final">
                                 <div className="sub">
                                    Método do pedido
                                 </div>
@@ -104,7 +174,11 @@ export default function status () {
                             </div> 
                             
                         </div>
-        <Rodape />
+
+                    
+                    
+
+                </div>
         </Conteinerstatus>
     )
 }

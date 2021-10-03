@@ -8,7 +8,11 @@ import Login from './pages/Login/login'
 import Nos from './pages/SobreNos/sobre'
 import Cadastra from './pages/Login/cadastrar/cadastrar'
 import Carrinho from './pages/Carrinho/carrinho'
-import Produtos from './pages/Produtos/produto'
+
+
+import Salgados from './pages/Produtos/Salgados/salgado'
+import Favorito from './pages/Produtos/produto'
+
 
 import Revisao from './pages/RevisaoPedidos/revisao'
 import Entrega from './pages/RevisaoPedidos/entrega'
@@ -19,6 +23,7 @@ import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
 import status from './pages/status/status';
+import MinhasCompras from './pages/status/MinhasCompras/compras';
 
 
 export default function Routes () {
@@ -30,9 +35,14 @@ export default function Routes () {
               <Route path = '/sobre' component = {Nos} />
               <Route path = '/Cadastra' component = {Cadastra}/>
               <Route path = '/Carrinho'  component = {Carrinho} />
-              <Route path = '/Produto'  component = {Produtos} />
+
+              <Route path = '/Favorito'  component = {Favorito} />
+              <Route path = "/Salgados" Component = {Salgados}/>
+
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
+              <Route path="/status" component={status} />
+              <Route path="/MinhasCompras" component={MinhasCompras} />
 
 
               <Route path="/entrega" component={Entrega} />

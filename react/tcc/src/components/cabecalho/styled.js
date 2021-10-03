@@ -36,12 +36,46 @@ a:hover {
     padding-right: 20px;
     align-items: center;
 }
-.barra img {
-width: 70%;
+.barra {
+    
+  background-color: gray;
+  height: 35px;
+  width: 0.2%;  
+  margin-right: 15px;
+
 }
 
-.barra {
-    margin-right: 20px;
+.barra1 {
+  background-color: gray;
+  position:stick;
+  top: 0;
+  left:  96%;
+  right: 0;
+  height: 35px;
+  width: 0.2%;  
+  height: 35px;
+  width: 0.1%;  
+  margin-right: 20px;
 }
+
+
+
+.imagem-lupa{
+    margin-left: 10px;
+}
+
+
+.imagen-login{
+    margin-left: 10px;
+}
+
+.Imagen-login> div{
+    margin-left: 10px
+}
+.imagem-login{
+    margin-right: 10px;
+}
+
+
 `
 export {ConteinerCabecalho}
