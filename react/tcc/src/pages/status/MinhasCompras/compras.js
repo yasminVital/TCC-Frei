@@ -1,6 +1,7 @@
 import { Conteinercompras } from './styled'
 
 
+
 export default function MinhasCompras (){
    
     return (
@@ -151,13 +152,15 @@ export default function MinhasCompras (){
                             <img src = './assets/imagens/Ellipse 45.svg' alt=""/>
                         </div>
                         <div className= "Statussim">
-                            Aguardadndo a Confirmação !
+                        Aguardando a Confirmação !
                         </div>
+                        <div className="ccc">
                         <div className="total">
-                            Total de Pagamento
+                            Total de Pagamento:
                         </div>
                         <div className= "vaLor">
                             R$ 3,50
+                        </div>
                         </div>
                     </div>
 
@@ -168,9 +171,9 @@ export default function MinhasCompras (){
                         <div className= "numeropedido">
                             2527
                         </div>
+                        </div>
                         <div className="butons">
                             <button> Comprar Novamente</button>
-                        </div>
                     </div>
                 </div>
 
@@ -222,12 +225,14 @@ export default function MinhasCompras (){
                             <img src = './assets/imagens/Ellipse 45.svg' alt=""/>
                         </div>
                         <div className= "Statussim">
-                            Aguardadndo a Confirmação !
+                            Aguardando a Confirmação !
                         </div>
+                        <div className="ccc">
                         <div className="total">
                             Total de Pagamento
                         </div>
-                        <div className= "vaLor">
+                        </div>
+                        <div className= "p">
                             R$ 3,50
                         </div>
                     </div>
@@ -239,11 +244,19 @@ export default function MinhasCompras (){
                         <div className= "numeropedido">
                             2527
                         </div>
-                        <div className="butons">
-                            <button> Comprar Novamente</button>
                         </div>
+                        <div className="butons">
+                            <div className="hvhds">
+                            <button> Comprar Novamente</button>
+                            </div>
+                            <div className= "buto1">
+                            <button> Pagar </button>
+                            </div>
+                        
+                        </div>
+                        
                     </div>
-                </div>
+                   
               </div>
         </Conteinercompras>
     )

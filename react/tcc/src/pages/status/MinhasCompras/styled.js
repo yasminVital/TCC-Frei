@@ -172,9 +172,89 @@ input {
 }
 
 .SuBT {
-        
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
 }
 
+.Pre {
+    color: #006BA1;
+    font-size: 22px;
+
+}
+
+.itenms {
+    color: #006BA1;
+    font-size: 22px;
+
+}
+
+.ccc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    font-size: 22px;
+}
+
+                    
+.total {
+    color: #878282;
+    font-size: 20px;
+}
+
+.vaLor{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.imgstatus {
+    margin-right: 1%;
+
+}
+
+.Statussim{
+    font-size: 20px;
+}
+
+.pronto0sium{
+    padding: 1%;
+}
+.nprod {
+    font-size: 20px;
+    margin-right: 1%;
+    color: #000000;
+}
+
+.numeropedido {
+    font-size: 20px;
+}
+
+.butons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+button{
+    background: #1AABF3E5;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.buto1 {
+    margin-left: 2%;
+}
+.p {
+    color: red;
+    margin-left: 10px;
+    font-size: 20px;
+}
 `
 
 export {Conteinercompras}
