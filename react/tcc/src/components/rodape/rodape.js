@@ -43,11 +43,6 @@ export default function Rodape() {
                         Todos os direitos reservados | STI ©
                     </div>
                 </div>
-
-
-
-
-
             </footer>
 
         </Containersroda>)

@@ -7,6 +7,7 @@ flex-direction: column;
 margin: 0px;
 box-sizing: border-box;
 
+
 a:link {
     text-decoration: none;
 }
@@ -87,14 +88,6 @@ h3 {
     margin-top: 5px;
 }
 
-
- input[type=radio] {
-    background-color: red;
-    color: red;
-    border: 2px solid red;
-  border-radius: 4px;
-
-}
 
 
 .entrega > div {
@@ -186,7 +179,7 @@ padding: 0px 40px 0px 20px ;
 
 
 
-.car: {
+.car {
 padding: 0px 20px 0px 0px ;
 }
 
@@ -208,7 +201,7 @@ padding: 0px 20px 0px 0px ;
     padding-right: 7.5em;
 }
 
-.but > button {
+.ff {
    
     border: 2px solid #1AABF3;
     background-color: #1AABF3;
@@ -223,7 +216,7 @@ padding: 0px 20px 0px 0px ;
 
 button:hover {
     background-color:#006BA1E5;
-    border: 2px solid #006BA1E5;
+    border: 1px solid #006BA1E5;
     color: white;
     cursor: pointer;
 
