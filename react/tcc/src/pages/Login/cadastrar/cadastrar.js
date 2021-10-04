@@ -11,8 +11,7 @@ export default function Cadastra() {
         <Cabecalho/>
         <div className = "conteinercadastro">
             
-            <div className = "Titulo">Cadastra-se 
-            </div>
+            <div className = "Titulo">Cadastra-se </div>
 
 
 
