@@ -9,21 +9,19 @@ export default function Cadastra() {
 
     <ConteinerCadastra>
         <Cabecalho/>
-        
-        <div className = "ConteinerCadastro">
+        <div className = "conteinercadastro">
+            
+            <div className = "Titulo">Cadastra-se 
+            </div>
 
 
 
 
 
 
+            </div>
 
 
-
-
-
-
-        </div>
 
 
 
