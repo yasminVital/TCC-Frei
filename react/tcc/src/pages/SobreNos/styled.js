@@ -4,6 +4,7 @@ const COnteinersobrenos = styled.div`
 
 display: flex;
 flex-direction: column;
+height: 100vh;
 
 .Faixa-sobrenos {
 
@@ -11,8 +12,6 @@ background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
   padding-top: 5%;
-
-
 }
 
 .fundo-fsn{
@@ -110,142 +109,6 @@ margin-right: 2%;
     padding-top: 1%;
     padding-bottom: 2%;
 }
-.rodape{
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
-
-}
-
-.part-roda1 {
-    text-align: center;
-    margin-left: 24px;
-    margin-right: 80px;
-}
-
-.part-roda2 {
-    text-align: center;
-    margin-right: 80px;
-}
-
-.info-01 {
-    margin-bottom: 35px;
-    font-size: 35px;
-}
-
-.info-02 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-03 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-04 {
-    margin-bottom: 35px;
-    font-size: 18px;
-}
-
-.info-05 {
-    margin-bottom: 35px;
-    font-size: 35px;
-}
-
-.info-06 {
-    margin-bottom: 35px;
-    font-size: 22px;
-}
-
-.final {
-    background: #4D5B76;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.exp {
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 25px;
-}
-
-.cabecalho {
- display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
-
- 
-    
-}
-
-.cabe {
-    margin-left: 100px;
-    padding-right: 30px;
-    color: white;
-    padding-top: 0px;
-    display: flex;
-    
-
-}
-
-.filho {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-   
-}
-
-.barra {
-    padding-left: 15px;
-    
-}
-.Lup-img {
-    margin-left: 10px;
-    padding-top: 8px;
-}
-.cadastro {
-    margin-left: 8px;
-    padding-top: 8px;
-
-}
-
-.Cabecho {
-    margin-left: 10px;
-    margin-top: 8px;
-}
-
-.cabecalho {
-    background-color: black;
-    opacity: 80%;
-}
-
-.Cabecho {
-    color: white;
-}
-
-.carrinho{ 
-    padding-top: 8px;
-    margin-left: -15px;
-    
-}
-.filho1 {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 8px;
-    
-}
-
 `
 
 export {COnteinersobrenos}
