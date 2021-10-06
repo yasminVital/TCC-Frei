@@ -51,6 +51,7 @@ const ConteinerProduto = styled.div`
 
 .ListaProdutos{
     display: flex;
+    flex-direction: row; 
     flex-wrap: wrap;
 
     margin-right: 8em;
@@ -58,6 +59,7 @@ const ConteinerProduto = styled.div`
     align-items: center;
     padding-top: 1em;
     padding-bottom: 3em;
+    padding-left: 2em ; 
     border-radius: 5px;
    
 
