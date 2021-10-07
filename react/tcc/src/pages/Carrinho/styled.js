@@ -75,7 +75,7 @@ outline: none;
 .lixeira img {
     position: relative;
     top: 20px;
-    left: 60px;
+    left: 6.4em;
     height: 1.4em;
 }
 input {

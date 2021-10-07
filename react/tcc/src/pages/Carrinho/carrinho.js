@@ -2,6 +2,7 @@ import { ContainerCarrinho } from './styled'
 import Tiras from '../../components/listras/index'
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape  from '../../components/rodape/rodape'
+import Contador from './contador/styled'
 
 import { Link } from 'react-router-dom'
 
@@ -27,7 +28,7 @@ export default function Carrinho() {
                       <td>R$ 3,50</td>
                       <td> 
                            <div className="est-box">
-                                <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
+                                <Contador />
                            </div> 
                            <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                       </td>  
@@ -46,7 +47,7 @@ export default function Carrinho() {
                       <td>R$ 3,50</td>
                       <td> 
                            <div className="est-box">
-                                <div className="menos"> - </div>   <input style={{ padding: '2px 5px', width: '20%'}}></input>   <div className="mais"> + </div>       
+                                <Contador />
                            </div> 
                            <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                       </td>  

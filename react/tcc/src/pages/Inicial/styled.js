@@ -11,7 +11,6 @@ body {
   background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
-  background-attachment: fixed;
 
 
 }

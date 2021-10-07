@@ -4,9 +4,23 @@ import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
-
+import Pagamento from '../../components/pagamento'
+import { useState } from 'react'
 
 export default function Carrinho() {
+
+    const [produtos, setProdutos] = useState([]);
+
+
+    function listar() {
+        const r = [
+            {
+
+            },
+        ]
+        setProdutos(r);
+    }
+
 
     return ( 
         <ContainerRevisao>
@@ -50,8 +64,15 @@ export default function Carrinho() {
             <div className="meto-paga">
                 <div className="pix" style={{marginLeft: '1em', alignItems: 'center'}}> <img src="./assets/imagens/logo-pix-icone-512 10.png" alt="" width="30%"/> <div style={{marginLeft: '.8em'}}> PIX </div> </div>
                 <div className="din" style={{marginLeft: '3em', alignItems: 'center'}}> <img src="./assets/imagens/dinheiro.png" alt="" width="58%"/> <div> Dinheiro </div> </div>
-                <div className="car" style={{marginLeft: '3em'}}> <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
+                <div className="car" style={{marginLeft: '3em'}} onClick={listar}> <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
             </div> 
+            <div className="bandeiras">
+                     
+                {produtos.map(item => 
+                         <Pagamento info={item} />
+                    )}
+
+            </div>
             <div className="precos"> 
                 <div className="box-preco"> 
                      <div className="sb">Subtotal dos Pedidos: </div>
