@@ -14,7 +14,7 @@ export default function Carrinho() {
 
     function listar() {
         setProdutos(true)  
-        onclick="select"      
+        onclick="select"
     }
 
     function remover(){
