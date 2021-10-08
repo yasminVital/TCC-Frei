@@ -7,8 +7,7 @@ export default function Carrinho() {
         <div> 
                     <Cabecalho/>
 
-            <img style={{height: '100vh', width: '9
-            0vw', backgroundAttachment: 'fixed'}}
+            <img style={{height: '100vh', width: '90vw', backgroundAttachment: 'fixed'}}
                         src={"https://cdn.dribbble.com/users/1175431/screenshots/6188233/404-error-dribbble-800x600.gif"} alt="Não Encontrado"/>
         <Rodape />
 
