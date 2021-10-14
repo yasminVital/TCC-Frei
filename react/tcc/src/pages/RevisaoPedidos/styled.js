@@ -167,9 +167,10 @@ margin-top: 20px;
 
 .pix:hover img{
 background-color: white;
+
 }
 
-.pix:hover   {
+.pix   {
     padding: 0px 20px 0px 20px ;
 }
 
@@ -212,6 +213,8 @@ padding: 0px 20px 0px 0px ;
     outline: none;
 
 }
+
+
 
 
 button:hover {

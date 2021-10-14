@@ -37,7 +37,8 @@ export default function Routes () {
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
               <Route path="MinhasCompras" component={MinhasCompras}/>
-
+                    
+              <Route path="/Salgados" component={Sal} />
 
               <Route path="/entrega" component={Entrega} />
               <Route path="/revisao" component={Entrega} />
