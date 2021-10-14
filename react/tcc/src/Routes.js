@@ -9,6 +9,7 @@ import Nos from './pages/SobreNos/sobre'
 import Cadastra from './pages/Login/cadastrar/cadastrar'
 import Carrinho from './pages/Carrinho/carrinho'
 import Produtos from './pages/Produtos/favorito/produto'
+import MinhasCompras from './pages/status/MinhasCompras/compras'
 
 import Revisao from './pages/RevisaoPedidos/revisao'
 import Entrega from './pages/RevisaoPedidos/entrega'
@@ -33,6 +34,7 @@ export default function Routes () {
               <Route path = '/Produto'  component = {Produtos} />
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
+              <Route path="MinhasCompras" component={MinhasCompras}/>
 
 
               <Route path="/entrega" component={Entrega} />
