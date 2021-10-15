@@ -12,6 +12,8 @@ import Produtos from './pages/Produtos/favorito/produto'
 import Salgados from './pages/Produtos/salgado/salgados'
 
 
+
+
 import MinhasCompras from './pages/status/MinhasCompras/compras'
 
 import Revisao from './pages/RevisaoPedidos/revisao'
@@ -35,6 +37,8 @@ export default function Routes () {
               <Route path = '/Cadastra' component = {Cadastra}/>
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
+              <Route path = '/Doces' component = {Doces} />
+
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
               <Route path="MinhasCompras" component={MinhasCompras}/>
