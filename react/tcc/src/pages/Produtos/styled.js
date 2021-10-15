@@ -19,6 +19,7 @@ const ConteinerProduto = styled.div`
 
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
+    background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 
@@ -31,11 +32,11 @@ const ConteinerProduto = styled.div`
  flex-direction: row ;
 
 
- margin-left: 2em;
+ margin-left: 0.5em;
 
 
- padding-top: 6em;
- padding-left: 6em;
+ padding-top: 13em;
+ padding-left: 5em;
 
  
 
@@ -54,12 +55,12 @@ const ConteinerProduto = styled.div`
     flex-direction: row; 
     flex-wrap: wrap;
 
-    margin-right: 8em;
+    margin-right: 3em;
 
     align-items: center;
     padding-top: 1em;
     padding-bottom: 3em;
-    padding-left: 2em ; 
+    padding-left: 1em ; 
     border-radius: 5px;
    
 

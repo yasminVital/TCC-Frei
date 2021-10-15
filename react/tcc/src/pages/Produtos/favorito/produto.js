@@ -3,11 +3,15 @@ import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
 
+
+
 import Rodape from '../../../components/rodape/rodape'
 
 
 
-export default function Produtos() {
+export default function Produtos(props) {
+  
+
     return(
 
         <ConteinerProduto>
@@ -127,6 +131,7 @@ export default function Produtos() {
               
               </div>
               </div>
+
               <Rodape />
         </ConteinerProduto>
     )
