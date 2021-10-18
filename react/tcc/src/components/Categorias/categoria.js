@@ -14,7 +14,7 @@ export default function Categoria() {
                  <div className = "conteudo">
                  <div>Favoritos da casa</div>
                  <div> <Link to = "/Salgados"> Salgados </Link></div>
-                 <div>Doces</div>
+                 <div><Link to = "/Doces">Doces </Link></div>
                  <div>Bebidas</div>
                  </div>
                  </div>

@@ -75,9 +75,7 @@ export default function Produtos(props) {
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/baguete.png" alt=""  /> </div>
                  <div className = "Produto"> Baguete </div>
-
                  <Avalicao/>
-
                  <div className = "Preco">Valor: 4,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
@@ -87,9 +85,7 @@ export default function Produtos(props) {
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/baguete_folhada.jpg" alt=""  /> </div>
                  <div className = "Produto"> Baguete Folhada</div>
-
                  <Avalicao/>
-
                  <div className = "Preco">Valor: 4,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
@@ -98,9 +94,7 @@ export default function Produtos(props) {
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/pao-de-queijo-mineiro 1.png" alt=""  /> </div>
                  <div className = "Produto"> Pão de queijo </div>
-
                  <Avalicao/>
-
                  <div className = "Preco">Valor: 3,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
@@ -109,9 +103,7 @@ export default function Produtos(props) {
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Suco de Limão 1.png" alt=""  /> </div>
                  <div className = "Produto"> Suco de Limão </div>
-
                  <Avalicao/>
-
                  <div className = "Preco">Valor: 2,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
@@ -120,9 +112,7 @@ export default function Produtos(props) {
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
                  <div className = "Produto"> Café </div>
-
                  <Avalicao/>
-
                  <div className = "Preco">Valor: 1,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
