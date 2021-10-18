@@ -2,6 +2,7 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
+import { Link } from "react-router-dom"
 
 
 
@@ -27,7 +28,7 @@ export default function Produtos(props) {
                  <div className = "Produto"> Bolinho </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <Link to = '/Detalhe'> <button> Compra </button> </Link> </div>
                 </div>
 
 
@@ -116,6 +117,118 @@ export default function Produtos(props) {
                  <div className = "Preco">Valor: 1,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
+
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+                
+
                 </div>
 
               

@@ -11,6 +11,7 @@ import Carrinho from './pages/Carrinho/carrinho'
 import Produtos from './pages/Produtos/favorito/produto'
 import Salgados from './pages/Produtos/salgado/salgados'
 import Doces from './pages/Produtos/doce/doces'
+import Detalhes from './pages/Produtos/detalhepro/index'
 
 
 
@@ -39,6 +40,7 @@ export default function Routes () {
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
               <Route path = '/Doces'  component = {Doces} />
+              <Route path = '/Detalhe' component = {Detalhes}/>
 
             
 

@@ -35,14 +35,11 @@ const ConteinerProduto = styled.div`
  margin-left: 0.5em;
 
 
- padding-top: 13em;
+
+ padding-top: 12em;
  padding-left: 5em;
 
- 
 
-
-
- 
 }
 
 
@@ -56,18 +53,28 @@ const ConteinerProduto = styled.div`
     flex-wrap: wrap;
 
     margin-right: 3em;
+   
+    overflow: hidden;
+    overflow-y: scroll;
 
     align-items: center;
     padding-top: 1em;
     padding-bottom: 3em;
     padding-left: 1em ; 
     border-radius: 5px;
+
    
 
     
     background-color: white;
+
+
+
       
 }
+
+
+
 
 
 
