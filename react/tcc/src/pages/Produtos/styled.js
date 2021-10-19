@@ -76,14 +76,13 @@ const ConteinerProduto = styled.div`
 
 
 
-
-
 /// caxinhas de cada produto
 
 .caixa1 {
     margin-left: 1em;
     margin-top: 1em;
     margin-right: 0.3em;
+    width: 8em;
 
 
     
