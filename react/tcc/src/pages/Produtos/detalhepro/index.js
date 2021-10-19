@@ -20,8 +20,24 @@ export default function DetalhesProdutos() {
 
             <div className = "Detalhes">
               <Categorias/>
+              
 
                <div className = "DetalhesProdutos">
+               <div className = "NomeProduto"> Bolinho </div>
+
+                  
+
+
+                   <div className = "informações produto">
+                       <div className = "valor Produto"> Preço: 3,50 </div>
+                       <button>Adicionar ao Carrinho</button> 
+                       
+
+
+
+                    </div>
+
+
 
 
 

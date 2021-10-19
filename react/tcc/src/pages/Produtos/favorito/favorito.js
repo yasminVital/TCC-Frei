@@ -10,7 +10,7 @@ import Rodape from '../../../components/rodape/rodape'
 
 
 
-export default function Produtos(props) {
+export default function Produtos() {
   
 
     return(
@@ -28,7 +28,7 @@ export default function Produtos(props) {
                  <div className = "Produto"> Bolinho </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <Link to = '/Detalhe'> <button> Compra </button> </Link> </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
 
@@ -119,57 +119,6 @@ export default function Produtos(props) {
                 </div>
 
 
-
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
                  <div className = "Produto"> Café </div>
@@ -202,35 +151,9 @@ export default function Produtos(props) {
                  <div className = "Preco">Valor: 1,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
-
-
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-                
-
-                </div>
-
+            
               
               </div>
               </div>
