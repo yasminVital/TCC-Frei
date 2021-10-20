@@ -23,13 +23,13 @@ export default function DetalhesProdutos() {
               
 
                <div className = "DetalhesProdutos">
-               <div className = "NomeProduto"> Bolinho </div>
+               <div className = "NomeProduto"> Rocambole de chocolate </div>
 
                   
 
 
                    <div className = "informações produto">
-                       <div className = "valor Produto"> Preço: 3,50 </div>
+                       <div className = "valor Produto"> Preço: 5,00 </div>
                        <button>Adicionar ao Carrinho</button> 
                        
 
