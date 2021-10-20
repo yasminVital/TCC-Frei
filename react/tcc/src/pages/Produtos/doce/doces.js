@@ -20,7 +20,7 @@ export default function doces (){
   
                  <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Pao-doce-coco-creme-Baixa-5 3.png" alt=""  /> </div>
-                 <div className = "Produto"> Pão doce c/ coco </div>
+                 <div className = "Produto"> Pão doce de creme c/ coco </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
@@ -28,7 +28,7 @@ export default function doces (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/sonho.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/sonho de creme.png" alt=""  /> </div>
                  <div className = "Produto"> Sonho de creme </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
@@ -37,8 +37,8 @@ export default function doces (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Bolo de Fubá.png" alt=""  /> </div>
-                 <div className = "Produto"> Bolo de fubá </div>
+                 <div className = "imagem"> <img src="./assets/imagens/sonho de doce de leite.png" alt=""  /> </div>
+                 <div className = "Produto"> Sonho de doce de leite </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
@@ -46,22 +46,66 @@ export default function doces (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/image 1.png" alt=""  /> </div>
-                 <div className = "Produto"> Bolo de pote chocolate </div>
+                 <div className = "imagem"> <img src="./assets/imagens/sonho de chocolate.png" alt=""  /> </div>
+                 <div className = "Produto"> Sonho de chocolate </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Bolo de Fubá.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolo de fubá (pedaço) </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,00 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote brigadeiro.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolo de pote brigadeiro </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 6,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
         
                  
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote de frutas.png" alt=""  /> </div>
                  <div className = "Produto"> Bolo de pote c/frutas </div>
                  <Avalicao/>
-                 <div className = "Preco">Valor: 4,00 R$ </div>
+                 <div className = "Preco">Valor: 6,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote de doce de leite.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolo de pote doce de leite </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 6,00 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote de maracuja.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolo de pote maracujá </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 6,00 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/bolo de pote de prestigio.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolo de pote prestigio </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 6,00 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
                 
                  
                 <div className = "caixa1">
@@ -75,36 +119,36 @@ export default function doces (){
                  
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/bolo com cobertura.png" alt=""  /> </div>
-                 <div className = "Produto"> Bolo c/cobertura </div>
+                 <div className = "Produto"> Bolo c/cobertura (pedaço) </div>
                  <Avalicao/>
-                 <div className = "Preco">Valor: 3,00 R$ </div>
+                 <div className = "Preco">Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
                  
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/image 2.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/carolina.png" alt=""  /> </div>
                  <div className = "Produto"> Carolina de doce de leite </div>
                  <Avalicao/>
-                 <div className = "Preco">Valor: 2,50 R$ </div>
+                 <div className = "Preco">Valor: 2,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
 
                  <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/bomba de chocolate.png" alt=""  /> </div>
                  <div className = "Produto"> Bomba de chocolate </div>
                  <Avalicao/>
-                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "Preco"> Valor: 4,00 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Beijinho </div>
+                 <div className = "imagem"> <img src="./assets/imagens/Croassant de chocolate.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de chocolate </div>
                  <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "Preco">Valor: 4,50 R$ </div>
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
                 </div>

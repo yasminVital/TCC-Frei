@@ -144,6 +144,16 @@ export default function Produtos() {
                  <div className = "botão-compra"> <button> Compra </button> </div>
                 </div>
 
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Compra </button> </div>
+                </div>
+
+
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
                  <div className = "Produto"> Café </div>
