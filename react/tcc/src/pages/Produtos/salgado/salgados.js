@@ -2,6 +2,7 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
+import BotaoCompra from '../../../components/buttoncompra/index'
 
 
 
@@ -23,7 +24,7 @@ export default function Salgados (){
                  <div className = "Produto"> Bolinho </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <BotaoCompra/>
                 </div>
 
 

@@ -56,7 +56,7 @@ const ConteinerProduto = styled.div`
     overflow-y: auto;
     height: 33em;
     
-    margin-right: 3em;
+    margin-right: 5em;
   
 
     padding-top: 1em;
@@ -74,7 +74,7 @@ const ConteinerProduto = styled.div`
     {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
-        background-color: #3E006F;
+        background-color: #4D5B76;
     }
     .ListaProdutos::-webkit-scrollbar
     {
@@ -146,16 +146,6 @@ const ConteinerProduto = styled.div`
 }
 
   
-
-/// Estrelas
-
-.avaliacao img {
-    width: 10px ;
-    right: 10px ;
-    left: 10px;
-    height: 10px;
-}
-
 
 
 
