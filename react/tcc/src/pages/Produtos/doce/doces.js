@@ -7,7 +7,7 @@ import Avalicao from '../../../components/avaliação/avaliacao'
 import Rodape from '../../../components/rodape/rodape'
 
 
-export default function doces (){
+export default function Doces (){
     return (
         <ConteinerProduto>
             <Cabecalho/>
@@ -87,7 +87,7 @@ export default function doces (){
                  <div className = "Preco"> Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
-ca
+
 
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/sonho de chocolate.png" alt=""  /> </div>

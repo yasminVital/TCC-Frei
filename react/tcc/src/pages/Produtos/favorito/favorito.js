@@ -10,7 +10,7 @@ import Rodape from '../../../components/rodape/rodape'
 
 
 
-export default function Produtos() {
+export default function Produtos() { 
   
 
     return(
@@ -84,8 +84,8 @@ export default function Produtos() {
                 
                  
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/baguete_folhada.jpg" alt=""  /> </div>
-                 <div className = "Produto"> Baguete Folhada</div>
+                 <div className = "imagem"> <img src="./assets/imagens/baguete presunto e queijo.jpg" alt=""  /> </div>
+                 <div className = "Produto"> Baguete de presunto e queijo </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 4,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -93,7 +93,7 @@ export default function Produtos() {
 
                  
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/pao-de-queijo-mineiro 1.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/pao de queijo.png" alt=""  /> </div>
                  <div className = "Produto"> Pão de queijo </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 3,00 R$ </div>
