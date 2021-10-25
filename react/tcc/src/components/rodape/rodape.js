@@ -24,7 +24,7 @@ export default function Rodape() {
 
                     <div className='part-roda2'>
                         <div className='info-05'>
-                            Horário De  Funcionamento
+                            Horário de  Funcionamento
                         </div>
                         <div className='info-06'>
                             De Segunda à Sexta-Feira <br/> <br/>
