@@ -10,6 +10,7 @@ body {
 
   background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 
 

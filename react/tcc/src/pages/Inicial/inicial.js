@@ -2,6 +2,7 @@ import { ConteinerInicial } from './styled'
 
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape  from '../../components/rodape/rodape'
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,7 +18,7 @@ export default function Inicial () {
             <div className = "ikkdfsksk">
             <div className= 'favoritos'>
                 <div className= 'titulo01'>
-                    Favoritos da casa
+                    Favoritos da Casa
                 </div>
                 <div className= 'descricao01'>
                     Categoria mais pedidas e vendidas
@@ -37,10 +38,14 @@ export default function Inicial () {
 
                 <div className='imgsub'>
                 <div className = 'imgpaes'>
+                    <Link to = "/Salgados">
                     <img src="./assets/imagens/croissant-de-Queijo 1 (1).png" width="330" alt=""/>
+                    </Link>
                 </div>  
                 <div className = 'imgdoces'>
+                    <Link to = "/Doces">
                     <img src="./assets/imagens/Bolo-de-Chocolate 1 (1).png" width="330" alt= ""/>
+                    </Link>
                 </div>
                 <div className = 'imgbebidas'>
                     <img src="./assets/imagens/Laranja 1 (1).png" width="330" alt=""/>
