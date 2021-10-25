@@ -26,8 +26,8 @@ const ConteinerProdutos = styled.div`
 
 
 .Detalhes{ 
- display: flex;
- flex-direction: row ;
+display: flex; 
+flex-direction: row;
 
 
  margin-left: 0.5em;
@@ -41,20 +41,59 @@ const ConteinerProdutos = styled.div`
 
 .DetalhesProdutos{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
+    height: 33em ;
+    width: 70em;
+
+
     
-    margin-right: 3em;
+    margin-right: 5em;
 
     align-items: center;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     padding-left: 1em ; 
     border-radius: 5px;
    
 
     
-    background-color: white;
+    background-color: #E8E1DD;
       
+}
+
+.informações-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.Produto {
+    display:flex; 
+    flex-direction: row;
+   
+
+    padding-top: 1em;
+  
+
+
+
+}
+
+
+.informaçõesproduto {
+    padding-left: 19em;
+
+}
+
+.informações {
+    display: flex;
+    flex-direction: row; 
+    padding-top: 5em;
+}
+
+.valor-Produto{
+    
+    padding-right: 2em;
+
 }
 
 

@@ -2,6 +2,7 @@
 import { ConteinerProdutos } from './styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,19 +24,24 @@ export default function DetalhesProdutos() {
               
 
                <div className = "DetalhesProdutos">
-               <div className = "NomeProduto"> Rocambole de chocolate </div>
+              <h2>  Rocambole de chocolate </h2>
 
-                  
+                <div className = "Produto" >
+                <div className = "Imagem-produto"><img src="./assets/imagens/rocambole de chocolate.png" alt=""  /> </div>
 
-
-                   <div className = "informações produto">
-                       <div className = "valor Produto"> Preço: 5,00 </div>
-                       <button>Adicionar ao Carrinho</button> 
+                  <div className = "informaçõesproduto">
+                        <div className = "informações">
+                         <div className = "valor-Produto"> Preço: 5,00   </div>
+                         <button className = "contador"> </button>
+                         <button className = "adicionarCarrinho"><Link to = "/Carrinho">Adicionar ao Carrinho </Link></button>
+                       </div>
                        
+                       
+                   </div>
 
 
-
-                    </div>
+                   </div>
+                   
 
 
 

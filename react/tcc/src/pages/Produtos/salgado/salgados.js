@@ -20,7 +20,7 @@ export default function Salgados (){
                
   
                  <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/bolinho.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/rocambole de chocolate.png" alt=""  /> </div>
                  <div className = "Produto"> Bolinho </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>

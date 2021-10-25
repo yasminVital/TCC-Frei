@@ -49,6 +49,8 @@ const ConteinerProduto = styled.div`
 
 
 
+
+
 .ListaProdutos{
     
     display: flex;
@@ -123,6 +125,7 @@ const ConteinerProduto = styled.div`
 .botão-compra{
     padding-top: 15px;
     text-align: center;
+    margin-top:auto; 
 }
 
 
