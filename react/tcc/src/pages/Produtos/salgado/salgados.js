@@ -90,7 +90,7 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/pao com mussarela.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/queijo quente-380x380 3.png" alt=""  /> </div>
                  <div className = "Produto"> Pão com mussarela </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
@@ -99,7 +99,7 @@ export default function Salgados (){
 
                 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/pao com presunto.png" alt=""  /> </div>
+                 <div className = "imagem"> <img src="./assets/imagens/receitas-de-misto-quente 3.png" alt=""  /> </div>
                  <div className = "Produto"> Pão com presunto </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 3,50 R$ </div>
@@ -153,8 +153,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/croissant de presunto e queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de presunto e queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -162,8 +162,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/croissant de queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -171,8 +171,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/croissant de calabresa com requeijao.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de calabresa com requeijao </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -180,8 +180,8 @@ export default function Salgados (){
                 
 
                  <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/croissant de calabresa com queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de calabresa com queijo </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 4,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -189,8 +189,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/croissant de frango.png" alt=""  /> </div>
+                 <div className = "Produto"> Croissant de frango </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 4,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -243,8 +243,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/bolinha de queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Bolinha de queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 32,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -252,8 +252,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/risole de queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Risoles de queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 32,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -261,8 +261,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/risole de carne.png" alt=""  /> </div>
+                 <div className = "Produto"> Risoles de carne </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 32,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -270,8 +270,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/risole de calabresa com queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Risoles de calabresa com queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 32,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -279,8 +279,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/risole de presunto e queijo.png" alt=""  /> </div>
+                 <div className = "Produto"> Risoles de presunto e queijo </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 32,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -333,8 +333,8 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/mini frango com catupiry.png" alt=""  /> </div>
+                 <div className = "Produto"> Mini pizza de frango c/catupiry </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,00 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
@@ -342,8 +342,80 @@ export default function Salgados (){
 
 
                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/.png" alt=""  /> </div>
-                 <div className = "Produto">  </div>
+                 <div className = "imagem"> <img src="./assets/imagens/mini mussarela.png" alt=""  /> </div>
+                 <div className = "Produto"> Mini pizza de mussarela </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mini calabresa.png" alt=""  /> </div>
+                 <div className = "Produto"> Mini pizza de calabresa </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mini portuguesa.png" alt=""  /> </div>
+                 <div className = "Produto"> Mini pizza de portuguesa </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mini presunto.png" alt=""  /> </div>
+                 <div className = "Produto"> Mini pizza de presunto </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza frango com catupiry.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de frango c/catupiry </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza mussarela.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de mussarela </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza calabresa.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de calabresa </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza portuguesa.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de portuguesa </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza presunto.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de presunto </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
