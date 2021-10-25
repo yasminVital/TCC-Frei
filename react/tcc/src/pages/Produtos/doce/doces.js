@@ -348,6 +348,78 @@ export default function Doces (){
                  <div className = "Preco"> Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza de chocolate 1.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de chocolate </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza de morango.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza chocolate c/morango </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/pizza de confete.png" alt=""  /> </div>
+                 <div className = "Produto"> Pizza de confete </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mousse de chocolate.png" alt=""  /> </div>
+                 <div className = "Produto"> Mousse de chocolate </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mousse de limao.png" alt=""  /> </div>
+                 <div className = "Produto"> Mousse de limão </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mousse de maracuja.png" alt=""  /> </div>
+                 <div className = "Produto"> Mousse de maracujá </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mousse de morango.png" alt=""  /> </div>
+                 <div className = "Produto"> Mousse de morango </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/mousse de abacaxi.png" alt=""  /> </div>
+                 <div className = "Produto"> Mousse de abacaxi </div>
+                 <Avalicao/>
+                 <div className = "Preco"> Valor: 3,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
                 </div>
 
               
