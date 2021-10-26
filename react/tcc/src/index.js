@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
  
-import Routes from './components/cabecalho/cabecalho';
+import Routes from './Routes';
 
 
 ReactDOM.render(
