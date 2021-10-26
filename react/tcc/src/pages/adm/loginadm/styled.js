@@ -14,8 +14,8 @@ const Conteineradml = styled.div`
     width:100px;
     height:100px;
     position:absolute;
-    top:25%;
-    left:15%;
+    top:20%;
+    left:5%;
 
 }
 
@@ -107,7 +107,7 @@ button {
     color: #fff;
     width: 350px;
     height: 50px;
-    font-size: 20px;
+    font-size: 20px;}
 
 `
 
