@@ -22,6 +22,8 @@ import Perfil from './pages/Peerfil/Perfil'
 import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
+import Loginadm from './pages/adm/loginadm'
+
 import status from './pages/status/status';
 
 
@@ -36,6 +38,8 @@ export default function Routes () {
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
               <Route path = '/Doces' component = {Doces} />
+              <Route path = '/loginadm' component = {Loginadm} />
+              
 
               <Route path="/revisao" component={Revisao} />
               <Route path="/status" component={status} />
