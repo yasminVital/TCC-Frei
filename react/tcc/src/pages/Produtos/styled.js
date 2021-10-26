@@ -49,8 +49,6 @@ const ConteinerProduto = styled.div`
 
 
 
-
-
 .ListaProdutos{
     
     display: flex;
@@ -58,7 +56,7 @@ const ConteinerProduto = styled.div`
     overflow-y: auto;
     height: 33em;
     
-    margin-right: 5em;
+    margin-right: 3em;
   
 
     padding-top: 1em;
@@ -76,14 +74,16 @@ const ConteinerProduto = styled.div`
     {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
-        background-color: #4D5B76;
+        background-color: #3E006F;
     }
+    
     .ListaProdutos::-webkit-scrollbar
     {
         width: 15px;
         background-color: #3E006F;
         border-radius: 10px;
     }
+
     .ListaProdutos::-webkit-scrollbar-thumb
     {
         border-radius: 10px;
@@ -92,6 +92,8 @@ const ConteinerProduto = styled.div`
     }
 
 
+
+ 
 /// caxinhas de cada produto
 
 .caixa1 {
@@ -100,7 +102,6 @@ const ConteinerProduto = styled.div`
     margin-left: 1em;
     margin-top: 1em;
     margin-right: 0.3em;
-    width: 8em;
 
     padding: 10px 1em 10px 1em; 
 
@@ -125,7 +126,6 @@ const ConteinerProduto = styled.div`
 .botão-compra{
     padding-top: 15px;
     text-align: center;
-    margin-top:auto; 
 }
 
 
@@ -149,6 +149,16 @@ const ConteinerProduto = styled.div`
 }
 
   
+
+/// Estrelas
+
+.avaliacao img {
+    width: 10px ;
+    right: 10px ;
+    left: 10px;
+    height: 10px;
+}
+
 
 
 
