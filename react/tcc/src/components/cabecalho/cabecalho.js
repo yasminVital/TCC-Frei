@@ -9,7 +9,7 @@ export default function Cabecalho() {
     const [Pes, setPes] = useState(false);
 
 
-async function fudeu() {
+async function a() {
     if(Pes === true) {
         setPes(false)
     }

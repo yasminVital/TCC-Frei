@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
  
-import Routes from './Routes';
+import Routes from './components/cabecalho/cabecalho';
 
 
 ReactDOM.render(
@@ -12,4 +12,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-oi
