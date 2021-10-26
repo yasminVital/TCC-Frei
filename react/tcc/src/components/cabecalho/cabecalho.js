@@ -20,7 +20,7 @@ async function fudeu() {
             <div className = "ConteinerCabecalho">
                 <div className = "conteudo">
                     <div className = "inicial"> <Link to = "/"> HOME </Link> </div>
-
+                    
                     <div className = "menu"><Link to = "/Produtos"> MENU </Link> </div>
 
                 </div>
