@@ -27,7 +27,7 @@ import Perfil from './pages/Peerfil/Perfil'
 import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
-import Loginadm from './pages/adm/loginadm/Admlo'
+import Loginadm from './pages/ADM/LOGINaDM/Admlo'
 
 import status from './pages/status/status';
 

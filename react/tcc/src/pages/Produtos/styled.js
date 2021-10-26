@@ -37,9 +37,8 @@ const ConteinerProduto = styled.div`
 
 
 
- padding-top: 12em;
+ padding-top: 8em;
  padding-left: 5em;
-
 
 }
 
@@ -55,7 +54,7 @@ const ConteinerProduto = styled.div`
     overflow-y: auto;
     height: 33em;
     
-    margin-right: 3em;
+    margin-right: 8em;
   
 
     padding-top: 1em;
@@ -98,7 +97,7 @@ const ConteinerProduto = styled.div`
 .caixa1 {
     display: flex;
     flex-direction: column;
-    width: 10em;
+    width: 8em;
     margin-left: 1em;
     margin-top: 1em;
     margin-right: 0.3em;
@@ -123,8 +122,10 @@ const ConteinerProduto = styled.div`
     padding-bottom: 10px;
 }
 
+
 .botão-compra{
     padding-top: 15px;
+    margin: auto; 
     text-align: center;
 }
 
@@ -148,18 +149,7 @@ const ConteinerProduto = styled.div`
     
 }
 
-  
-
-/// Estrelas
-
-.avaliacao img {
-    width: 10px ;
-    right: 10px ;
-    left: 10px;
-    height: 10px;
-}
-
-
+ 
 
 
 //// Estilização de outras coisa
@@ -169,8 +159,8 @@ const ConteinerProduto = styled.div`
 
 
 .botão-compra button {
-
     padding: 10px ;
+
 
 
     border-radius: 3em;
@@ -180,7 +170,6 @@ const ConteinerProduto = styled.div`
 
     color: white;
     background-color: #4D5B76;
-
 }
 
 

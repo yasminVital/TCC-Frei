@@ -2,7 +2,7 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
-
+import BotaoCompra from '../../../components/buttoncompra/index'
 
 import Rodape from '../../../components/rodape/rodape'
 
@@ -22,7 +22,7 @@ export default function doces (){
                  <div className = "Produto"> Pão doce de creme c/ coco </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                 <BotaoCompra/>
                 </div>
 
 

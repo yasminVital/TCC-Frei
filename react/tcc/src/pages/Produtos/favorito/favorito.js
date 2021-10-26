@@ -2,12 +2,7 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 61daba99404dbed4010c0f5829f0e29ab6ac9acb
+import BotaoCompra from '../../../components/buttoncompra/index'
 
 
 import Rodape from '../../../components/rodape/rodape'
@@ -32,7 +27,7 @@ export default function Produtos() {
                  <div className = "Produto"> Rocambole de chocolate </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 5,00 R$ </div>
-                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                 <BotaoCompra/>
                 </div>
 
 
