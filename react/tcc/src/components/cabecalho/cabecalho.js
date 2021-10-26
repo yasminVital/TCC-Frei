@@ -21,11 +21,7 @@ async function fudeu() {
                 <div className = "conteudo">
                     <div className = "inicial"> <Link to = "/"> HOME </Link> </div>
                     <div className = "sobre"> <Link to = "/sobre"> SOBRE NÓS </Link> </div>
-<<<<<<< HEAD
                     <div className = "menu"><Link to = "/Produto"> MENU </Link> </div>
-=======
-                    <div className = "menu"><Link to = "/Produtos"> MENU </Link> </div>
->>>>>>> bef3602dbf4a6eec060f46187864d4a864e4f2ac
                 </div>
                  
                  <div className = "entrada">

@@ -12,6 +12,7 @@ export default function Carrinho() {
     const [produtos, setProdutos] = useState(false);
 
 
+
     function listar() {
         setProdutos(true)  
         onclick="select"
@@ -37,7 +38,7 @@ export default function Carrinho() {
                     <div style={{textAlign: 'left'}}> 463 Av. Coronel Octaviano de Freitas Costa,   Veleiros <br></br>Socorro, São Paulo - SP, 04773-000 </div>
                 </div>
                 <div className="horario" style={{textAlign: 'center'}}> 
-                    <h2> Horário de Retirada </h2>
+                    <h2>  Horário de Retirada </h2>
                     <div> De Segunda à Sexta-Feira <br></br> 08:00 às 16:30</div>
                 </div>
             </div>
