@@ -2,10 +2,6 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
-<<<<<<< HEAD
-=======
-
->>>>>>> c1e251a867a7c806ce4b4affaa0bd87d9814ee78
 
 
 
