@@ -14,8 +14,8 @@ const Conteineradml = styled.div`
     width:100px;
     height:100px;
     position:absolute;
-    top:20%;
-    left:5%;
+    top:25%;
+    left:15%;
 
 }
 
@@ -31,7 +31,7 @@ const Conteineradml = styled.div`
 }
 
 .titulo {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 40px;
 }
 
