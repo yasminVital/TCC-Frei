@@ -11,8 +11,8 @@ import Carrinho from './pages/Carrinho/carrinho'
 import Produtos from './pages/Produtos/favorito/favorito'
 import Salgados from './pages/Produtos/salgado/salgados'
 import Doces from './pages/Produtos/doce/doces'
+import Bebidas from './pages/Produtos/bebida/bebidas'
 import Detalhes from './pages/Produtos/detalhepro/index'
-import LOGINadm from './pages/ADM/LOGINaDM/Admlo'
 
 
 
@@ -27,6 +27,8 @@ import Perfil from './pages/Peerfil/Perfil'
 import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
+import Loginadm from './pages/adm/loginadm/Admlo'
+
 import status from './pages/status/status';
 
 
@@ -40,9 +42,13 @@ export default function Routes () {
               <Route path = '/Cadastra' component = {Cadastra}/>
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
+              <Route path = '/Doces' component = {Doces} />
+              <Route path = '/Loginadm' component = {Loginadm} />
+              
+              <Route path="/Salgados" component={Salgados} />
               <Route path = '/Doces'  component = {Doces} />
+              <Route path = '/Bebidas' component = {Bebidas}/>
               <Route path = '/Detalhe' component = {Detalhes}/>
-              <Route path = '/LOGINadm' component = {LOGINadm}/>
 
             
 
@@ -50,7 +56,7 @@ export default function Routes () {
               <Route path="/status" component={status} />
               <Route path="MinhasCompras" component={MinhasCompras}/>
                     
-              <Route path="/Salgados" component={Salgados} />
+             
 
               <Route path="/entrega" component={Entrega} />
               <Route path="/revisao" component={Entrega} />

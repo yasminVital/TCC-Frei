@@ -80,7 +80,7 @@ h3 {
 }
 
 .en-input {
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .en-input > input {
@@ -218,10 +218,12 @@ padding: 0px 20px 0px 0px ;
 
 
 button:hover {
+    border: solid #1f628d 2px;
     background-color:#006BA1E5;
     border: 1px solid #006BA1E5;
     color: white;
     cursor: pointer;
+    
 
 }
 `
