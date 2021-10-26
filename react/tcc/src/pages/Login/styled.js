@@ -3,15 +3,15 @@ import styled from "styled-components";
 
 
 const ConteinerLogin = styled.div `
-
-.conteinerimg{
-    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     width: auto; 
 
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
     background-repeat: no-repeat; 
-}
+
 
 .ConteinerLogin{
     
@@ -23,7 +23,7 @@ const ConteinerLogin = styled.div `
    
     color: white;
     background-color: black;
-    opacity: 96%;
+    opacity: 90%;
 }
 
 

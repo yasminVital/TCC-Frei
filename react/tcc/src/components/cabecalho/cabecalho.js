@@ -23,18 +23,27 @@ async function a() {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 61daba99404dbed4010c0f5829f0e29ab6ac9acb
                     <div className = "sobre"> <Link to = "/sobre"> SOBRE NÓS </Link> </div>
                     <div className = "menu"><Link to = "/Produto"> MENU </Link> </div>
 
+=======
+>>>>>>> 9bf2cad3aba7f3f52949b3b6dd19de369af0ed7d
 
+                    <div className = "sobre"> <Link to = "/sobre"> SOBRE NÓS </Link> </div>
                     <div className = "menu"><Link to = "/Produtos"> MENU </Link> </div>
 
 <<<<<<< HEAD
                 </div>
 =======
 
+<<<<<<< HEAD
 >>>>>>> 61daba99404dbed4010c0f5829f0e29ab6ac9acb
+=======
+                </div>
+
+>>>>>>> 9bf2cad3aba7f3f52949b3b6dd19de369af0ed7d
                  
                  <div className = "entrada">
                     <div className= "borda" > <Pesquisa /> </div>                
@@ -46,7 +55,7 @@ async function a() {
                  </div>
   
                 </div> 
-            </div>     
+        
         </ConteinerCabecalho>
     )
     
