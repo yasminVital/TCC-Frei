@@ -76,12 +76,14 @@ const ConteinerProduto = styled.div`
         border-radius: 10px;
         background-color: #3E006F;
     }
+    
     .ListaProdutos::-webkit-scrollbar
     {
         width: 15px;
         background-color: #3E006F;
         border-radius: 10px;
     }
+
     .ListaProdutos::-webkit-scrollbar-thumb
     {
         border-radius: 10px;
@@ -90,6 +92,8 @@ const ConteinerProduto = styled.div`
     }
 
 
+
+ 
 /// caxinhas de cada produto
 
 .caixa1 {
@@ -98,7 +102,6 @@ const ConteinerProduto = styled.div`
     margin-left: 1em;
     margin-top: 1em;
     margin-right: 0.3em;
-    width: 8em;
 
     padding: 10px 1em 10px 1em; 
 

@@ -26,14 +26,14 @@ const ConteinerProdutos = styled.div`
 
 
 .Detalhes{ 
- display: flex;
- flex-direction: row ;
+display: flex; 
+flex-direction: row;
 
 
  margin-left: 0.5em;
 
 
- padding-top: 13em;
+ padding-top: 8em;
  padding-left: 5em; 
 }
 
@@ -41,20 +41,108 @@ const ConteinerProdutos = styled.div`
 
 .DetalhesProdutos{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
+    height: 33em ;
+    width: 70em;
+
+
     
-    margin-right: 3em;
+    margin-right: 5em;
 
     align-items: center;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     padding-left: 1em ; 
     border-radius: 5px;
    
 
     
-    background-color: white;
+    background-color: #E8E1DD;
       
+}
+
+
+.Imagem-produto img {
+    height: 20em;
+    width: 25em;
+}
+
+.informações-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.Produto {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+   
+
+    padding-top: 1em;
+  
+
+
+
+}
+
+
+.informaçõesproduto {
+    padding-left: 10em;
+
+}
+
+.informações {
+    display: flex;
+    flex-direction: row; 
+    padding-top: 2em;
+}
+
+.valor-Produto{
+    padding-top: 10px;
+    padding-right: 5em;
+
+   font-weight: 10px;
+
+}
+
+ .adicionarCarrinho {
+    padding: 10px;
+
+
+    margin-left: 1em;
+
+
+
+    border-radius: 20px;
+    border:none;
+    background-color: #CCA577;
+    
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #2872FF;
+}
+
+
+
+
+
+
+
+.conteinerDescricao {
+    margin-top: 5em;
+}
+
+.Descrição-produto {
+    margin-top: 1em;
+    margin-right: 5em;
 }
 
 

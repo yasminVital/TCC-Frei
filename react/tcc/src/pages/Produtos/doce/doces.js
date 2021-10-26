@@ -7,7 +7,7 @@ import Avalicao from '../../../components/avaliação/avaliacao'
 import Rodape from '../../../components/rodape/rodape'
 
 
-export default function Doces (){
+export default function doces (){
     return (
         <ConteinerProduto>
             <Cabecalho/>
