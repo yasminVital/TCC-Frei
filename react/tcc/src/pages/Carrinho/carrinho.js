@@ -79,7 +79,7 @@ export default function Carrinho() {
             </div>
         </div>
         <div className="botoes"> 
-            <Link to="./produto"> <button> Continuar Comprando </button> </Link> 
+            <Link to="./Produtos"> <button> Continuar Comprando </button> </Link> 
             <Link to="./revisao"> <button>  Realizar pedido   </button> </Link> 
         </div>
         <Rodape />

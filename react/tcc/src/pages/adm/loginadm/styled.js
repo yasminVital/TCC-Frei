@@ -1,71 +1,114 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-const conteinerADMlogin = styled.div` 
+const Conteineradml = styled.div` 
 
-.Faixastatus {
-    background: #D2F6FF;
-    height: 200vh;
-    padding-bottom: 2em
-}
-.cabecalhO {
-    background-color: black;
-    opacity: 80%;
-    padding: 5Px;
-   
-    
-}
+.pagina-01 {
 
-.naveg {
-    align-items: flex-end;
-    justify-content: flex-end;
     display: flex;
     flex-direction: row;
-    padding-right: 2%;
-    padding-bottom: 5px;
-    padding-top: 5px;
     
+
 }
 
-.LOGO {
-    position: absolute;
-    top: 2%;
-    margin-left: 5%;
+.div01 {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:20%;
+    left:5%;
+
 }
 
-.cariinho-50 {
-    margin-left: 4%;
+.div02 {
+    width:500px;
+    height:100px;
+    position:absolute;
+    left:50%;
+    text-align: center;
+    background-color: #1867FF;
+    height: 100vh;
+    width: 70vh;
 }
 
-.login-50 {
-    margin-left: 4%;
+.titulo {
+    margin-top: 20%;
+    font-size: 40px;
 }
-.LUPA00 {
-    margin-left: 4%;
+
+.subtitulo {
+    margin-top: 1%;
+    font-size: 15px;
+    color: white;
+}
+
+.inupt-01 {
+
+    width:100px;
+    height:100px;
+    position:relative;
+    top:15%;
+    left:25%;
+ 
+  
 }
 
 input {
-    display: flex;
-    width: 600px;
-    border-radius: 12px;
-    border-color: black;
-    background: #C4C4C4;
-    margin-bottom: 2px;
-    margin-right: 50%;
-
     
+    width: 350px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background-color: FFFFFF;
 }
 
-.cabelhO2 {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+
+.inupt-02 {
+
+width:100px;
+height:100px;
+position:relative;
+top:10%;
+left:25%;
+
+
 }
 
-.C2 {
-    margin: 2% 10% 0% 10%;
+.buto{
+width:100px;
+height:100px;
+position:relative;
+top:15%;
+left:25%;
 }
+
+.custom-file-input {
+  content: 'Select some files';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 50px;
+  padding: 5px 8px;
+  
+  white-space: nowrap;
+  -webkit-user-select: none;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+button {
+    border: 1px solid #000;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    background-color: #222096;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
 
 `
 
-export {conteinerADMlogin}
+export {Conteineradml}

@@ -16,8 +16,8 @@ const ConteinerLogin = styled.div `
 .ConteinerLogin{
     
     margin-top: 5em;
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 23em;
+    margin-right: 22em;
 
     padding-bottom: 10em;
    

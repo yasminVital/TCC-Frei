@@ -22,7 +22,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-left: 20em;
+    margin-left: 15em;
 
 }
 
@@ -74,6 +74,9 @@ a:hover {
 }
 .imagem-login{
     margin-right: 10px;
+}
+
+.borda {
 }
 
 
