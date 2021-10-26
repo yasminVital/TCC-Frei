@@ -13,6 +13,7 @@ import Salgados from './pages/Produtos/salgado/salgados'
 import Doces from './pages/Produtos/doce/doces'
 import Bebidas from './pages/Produtos/bebida/bebidas'
 import Detalhes from './pages/Produtos/detalhepro/index'
+import LOGINadm from './pages/ADM/LOGINaDM/Admlo'
 
 
 
@@ -44,6 +45,7 @@ export default function Routes () {
               <Route path = '/Doces'  component = {Doces} />
               <Route path = '/Bebidas' component = {Bebidas}/>
               <Route path = '/Detalhe' component = {Detalhes}/>
+              <Route path = '/LOGINadm' component = {LOGINadm}/>
 
             
 

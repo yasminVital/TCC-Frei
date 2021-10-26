@@ -2,6 +2,10 @@ import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Avalicao from '../../../components/avaliação/avaliacao'
+<<<<<<< HEAD
+=======
+
+>>>>>>> c1e251a867a7c806ce4b4affaa0bd87d9814ee78
 
 
 
@@ -22,12 +26,12 @@ export default function Produtos() {
              <div className = "ListaProdutos">
                
   
-                 <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/bolinho.png" alt=""  /> </div>
-                 <div className = "Produto"> Bolinho </div>
+               <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/rocambole de chocolate.png" alt=""  /> </div>
+                 <div className = "Produto"> Rocambole de chocolate </div>
                  <Avalicao/>
-                 <div className = "Preco"> Valor: 3,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "Preco"> Valor: 5,00 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -37,7 +41,7 @@ export default function Produtos() {
                  <div className = "Produto"> Pão doce de creme c/ coco </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -47,7 +51,7 @@ export default function Produtos() {
                  <div className = "Produto"> Sonho de creme </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -57,7 +61,7 @@ export default function Produtos() {
                  <div className = "Produto"> Bolo de fubá (pedaço) </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 2,00 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                 
@@ -67,7 +71,7 @@ export default function Produtos() {
                  <div className = "Produto"> Bolo c/cobertura (pedaço) </div>
                  <Avalicao/>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
                 
 
@@ -77,7 +81,7 @@ export default function Produtos() {
                  <div className = "Produto"> Baguete </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 4,00 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                 
@@ -87,7 +91,7 @@ export default function Produtos() {
                  <div className = "Produto"> Baguete Folhada</div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 4,00 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                  
@@ -96,7 +100,7 @@ export default function Produtos() {
                  <div className = "Produto"> Pão de queijo </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 3,00 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                  
@@ -105,7 +109,7 @@ export default function Produtos() {
                  <div className = "Produto"> Suco de Limão </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 2,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                  
@@ -114,7 +118,7 @@ export default function Produtos() {
                  <div className = "Produto"> Café </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -123,7 +127,7 @@ export default function Produtos() {
                  <div className = "Produto"> Café </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -132,7 +136,7 @@ export default function Produtos() {
                  <div className = "Produto"> Café </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
                 <div className = "caixa1">
@@ -140,16 +144,7 @@ export default function Produtos() {
                  <div className = "Produto"> Café </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
-                </div>
-
-
-                <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
-                 <div className = "Produto"> Café </div>
-                 <Avalicao/>
-                 <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
 
 
@@ -158,7 +153,16 @@ export default function Produtos() {
                  <div className = "Produto"> Café </div>
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
-                 <div className = "botão-compra"> <button> Compra </button> </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
+                </div>
+
+
+                <div className = "caixa1">
+                 <div className = "imagem"> <img src="./assets/imagens/Café 2.png" alt=""  /> </div>
+                 <div className = "Produto"> Café </div>
+                 <Avalicao/>
+                 <div className = "Preco">Valor: 1,50 R$ </div>
+                 <div className = "botão-compra"> <button> Comprar </button> </div>
                 </div>
                 </div>
 

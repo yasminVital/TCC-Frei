@@ -26,6 +26,15 @@ background-color: #4D5B76;
     cursor: pointer ;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #2872FF;
+}
+
 
 
 `
