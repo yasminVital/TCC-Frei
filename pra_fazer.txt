@@ -8,3 +8,7 @@ Raul - Baixar Imagens, Fontes, fazer cabecalho e Rodapé
 
 
 ** Cada um Mapear a rota das suas Paginas **
+
+
+
+models: colocar o nome da tabela para fazer innner joi
