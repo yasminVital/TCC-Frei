@@ -65,6 +65,9 @@ flex-direction: row;
 .Imagem-produto img {
     height: 20em;
     width: 25em;
+
+    border-radius: 20px;
+    
 }
 
 .informações-produto {
@@ -87,7 +90,7 @@ flex-direction: row;
 
 
 .informaçõesproduto {
-    padding-left: 10em;
+    padding-left: 5em;
 
 }
 
@@ -100,6 +103,7 @@ flex-direction: row;
 .valor-Produto{
     padding-top: 10px;
     padding-right: 5em;
+    
 
    font-weight: 10px;
 
@@ -143,6 +147,7 @@ a:hover {
 .Descrição-produto {
     margin-top: 1em;
     margin-right: 5em;
+  
 }
 
 

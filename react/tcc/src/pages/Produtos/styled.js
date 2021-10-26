@@ -99,6 +99,7 @@ const ConteinerProduto = styled.div`
 .caixa1 {
     display: flex;
     flex-direction: column;
+    width: 10em;
     margin-left: 1em;
     margin-top: 1em;
     margin-right: 0.3em;

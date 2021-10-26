@@ -11,8 +11,6 @@ export default function Login() {
 
     return (
         <ConteinerLogin>
-            <div className = "conteinerimg"> 
-            <Cabecalho/>
             <div className = "ConteinerLogin">
                 <div className  = "Login">
                 <div className = "logo"><img src = "./assets/imagens/img FREI.svg " alt = "" /> </div>
@@ -37,7 +35,6 @@ export default function Login() {
        
              </div>
 
-            </div>
             </div>
 
 
