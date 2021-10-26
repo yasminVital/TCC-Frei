@@ -9,7 +9,7 @@ export default function Cabecalho() {
     const [Pes, setPes] = useState(false);
 
 
-async function fudeu() {
+async function a() {
     if(Pes === true) {
         setPes(false)
     }
@@ -21,11 +21,13 @@ async function fudeu() {
                 <div className = "conteudo">
                     <div className = "inicial"> <Link to = "/"> HOME </Link> </div>
 
+
                     <div className = "sobre"> <Link to = "/sobre"> SOBRE NÓS </Link> </div>
                     <div className = "menu"><Link to = "/Produtos"> MENU </Link> </div>
 
 
                 </div>
+
                  
                  <div className = "entrada">
                     <div className= "borda" > <Pesquisa /> </div>                
@@ -35,13 +37,8 @@ async function fudeu() {
                     <div class="barra1"> </div>
                     <div className = "imagem-carrinho"> <Link to = "/Carrinho"> <img src= "./assets/imagens/mbricartadd_99553.svg" alt ="" /> </Link> </div>
                  </div>
-
-
-
-            
-        
   
-            </div>
+                </div> 
         
         </ConteinerCabecalho>
     )

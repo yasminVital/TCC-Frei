@@ -21,21 +21,43 @@ const Container = styled.div `
     margin-top: -100px;
     background-color: #fff;
     padding: 1em;
+    border-radius:27px;
   }
 
 
   .box1, .box2 {
       display: flex;
       flex-direction: row;
+      width:100%;
+      justify-content: center;
+      
+       
+      
+  }
+ 
+  .box2{
+     margin-left:.7em;
+     margin-top: .7em;
+ }
+
+  .numero > input , .numero>div{
+    
+    border-radius: 27px;
+    width: 8em;
+    height:1.7em
   }
 
-  .numero > input , .comple > input, .cida > input {
-    width: 4em;
-    margin-right: 7em;
+  
+
+   .comple > input , .comple> div  {
+    width: 8em;
+    border-radius: 27px;
+    height:1.7em;
+    
   }
 
   input {
-    margin-top: .5em;
+    margin-top: 0em;
     outline: none;
   }
 
@@ -48,7 +70,36 @@ const Container = styled.div `
 
   button {
       margin-left: 2em;
+      border: solid #1f628d 1px;
+      border-radius:27px;
+      background-color: #1c85c7;
+      width: 7em;
+      height:2.5em;
   }
+
+  .cep> input{
+      margin-right: 1em;
+      border-radius:27px;
+      height:1.7em;
+  }
+  
+  .comple{
+      margin-right: 2.6em ;
+      
+  }
+
+  .descricao> input{
+      border-radius:27px;
+      margin-right: 1em;
+      height:1.7em;
+  }
+  
+  .cida > input {
+    border-radius:27px;
+    height:1.7em;
+  
+  }
+
 `
 
 export default function Model(props) {
@@ -68,6 +119,10 @@ export default function Model(props) {
                         <div>Endereço:</div>
                         <input type="" />
                     </div>
+                    <div className="cida"> 
+                        <div>Cidade:</div>
+                        <input type="" />
+                    </div>
                 </div>
                 <div className="box2">
                     <div className="numero"> 
@@ -77,10 +132,7 @@ export default function Model(props) {
                         <div>Complemento:</div>
                         <input type="" />
                     </div>
-                    <div className="cida"> 
-                        <div>Cidade:</div>
-                        <input type="" />
-                    </div>
+                   
                 </div>
                 <div className="butt">
                     <button>Fechar</button>
