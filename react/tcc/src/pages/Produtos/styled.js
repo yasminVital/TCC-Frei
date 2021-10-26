@@ -19,7 +19,6 @@ const ConteinerProduto = styled.div`
 
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
-    background-attachment: fixed;
     background-repeat: no-repeat; 
 }
 
@@ -74,7 +73,7 @@ const ConteinerProduto = styled.div`
     {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
-        background-color: #3E006F;
+        background-color: #4D5B76;
     }
     
     .ListaProdutos::-webkit-scrollbar
