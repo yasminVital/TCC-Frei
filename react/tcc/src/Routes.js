@@ -27,7 +27,13 @@ import Perfil from './pages/Peerfil/Perfil'
 import PerfilEnd from './pages/Peerfil/endereco'
 import PerfilSen from './pages/Peerfil/senha'
 
+
+
+
 import Loginadm from './pages/ADM/LOGINaDM/Admlo'
+import CadastraPro from './pages/ADM/CadastroPro/index'
+
+
 
 import status from './pages/status/status';
 
@@ -43,7 +49,9 @@ export default function Routes () {
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
               <Route path = '/Doces' component = {Doces} />
+
               <Route path = '/Loginadm' component = {Loginadm} />
+              <Route path = '/CadastraProduto' component = {CadastraPro}/>
               
               <Route path="/Salgados" component={Salgados} />
               <Route path = '/Doces'  component = {Doces} />
