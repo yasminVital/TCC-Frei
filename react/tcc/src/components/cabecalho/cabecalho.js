@@ -13,6 +13,9 @@ async function a() {
     if(Pes === true) {
         setPes(false)
     }
+    else {
+        setPes(true)
+    }
 }
 
     return(
@@ -31,7 +34,7 @@ async function a() {
                  
                  <div className = "entrada">
                     <div className= "borda" > <Pesquisa /> </div>                
-                    <div className = "imagem-lupa"> <Link to="/perfil"> <img src= "./assets/imagens/lupa1.svg" alt ="" width="100%" /> </Link></div>
+                    <div className = "imagem-lupa" onClick={a}>  <img src= "./assets/imagens/lupa1.svg" alt ="" width="100%" /> </div>
                     <div class="barra"></div>
                     <div className = "imagem-login"> <Link to= "/Login"> <img src= "./assets/imagens/login.svg" alt ="" /> </Link> </div>
                     <div class="barra1"> </div>

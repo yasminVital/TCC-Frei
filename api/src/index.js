@@ -65,13 +65,19 @@ app.post('/cadastrar', async (req, resp) => {
 }
 })
 
-// cadastrar
+// cadastrar Produto
 
 
 app.post('/produto', async (req, resp) => {
-    const { imagem, produto, codigo, descricao, valor, estoqueMin, estoqueMax, estoqueAtual} = req.body;
-  
+    const { imagem, produto, codigo, descricao, valor, estoqueMin, estoqueMax, estoqueAtual, sabor} = req.body;
+    
+    const Sabor = await db.infoa_sti_categoria.create({
+        nm_sabor: sabor
+    })
+
+
     const Produtos = await db.infoa_sti_produto.create({
+        id_categoria: Sabor.id_categoria,
         img_produto: imagem,
         nm_produto: produto,
         ds_codigo_interno: codigo,
@@ -83,9 +89,89 @@ app.post('/produto', async (req, resp) => {
 
     })
 
+    
+ 
+
     resp.send(200);
 
 })
+
+
+// Alterar Produto 
+
+app.put('/produto/:idProduto', async (req, resp) => {
+
+    const { imagem, produto, codigo, descricao, valor, estoqueMin, estoqueMax, estoqueAtual, sabor} = req.body;
+
+
+     
+    const Sabor = await db.infoa_sti_categoria.update({
+        nm_sabor: sabor
+    },
+    { 
+        where: { id_produto: req.params.idProduto }
+    })
+
+
+    const Produtos = await db.infoa_sti_produto.update({
+        id_categoria: Sabor.id_categoria,
+        img_produto: imagem,
+        nm_produto: produto,
+        ds_codigo_interno: codigo,
+        ds_descricao: descricao,
+        vl_valor: valor,
+        nr_estoque_minimo: estoqueMin,
+        nr_estoque_maximo: estoqueMax,
+        nr_estoque_atual: estoqueAtual
+
+    },
+    { 
+        where: { id_produto: req.params.idProduto }
+    })
+})
+
+
+
+// alterar informações do cliente
+
+app.put('/cliente/:id', async (req, resp) => {
+    const {nome, sexo, cpf, nascimento, email, senha, cep, endereco, numero, complemento, cidade} =  req.body;
+    let { id } = req.params;
+
+    const End = await db.infoa_sti_endereco.update(
+        {
+        ds_cep: cep,
+        ds_endereco: endereco,
+        nr_endereco: numero,
+        ds_complemento:  complemento,
+        ds_cidade:  cidade
+    }, 
+    { 
+        where: { id_endereco: id }
+    });
+
+    const Clientes = await db.infoa_sti_cliente.update({
+        id_endereco: End.id_endereco,
+        nm_nome: nome,
+        ds_sexo: sexo,
+        ds_cpf: cpf,
+        dt_nascimento: nascimento,
+        ds_email: email,
+        ds_senha: senha
+    },
+    { 
+        where: { id_cliente: id }
+    
+    })
+
+    resp.sendStatus(200)
+
+
+})
+
+
+
+
 // Deletar Produto
 app.delete('/produto', async (req, resp) => {
     let r = await db.infoa_sti_produto.destroy({
