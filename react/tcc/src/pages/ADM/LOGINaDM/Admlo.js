@@ -25,7 +25,7 @@ export default function logadm () {
                     <input type="text" class="custom-file-input" name="search" placeholder="Senha de acesso" />
                     </div>
                     <div className= " buto">
-                        <button> Entrar</button>
+                        <Link to="./Navegação"> <button className="NGNDJ"> Entrar</button> </Link>
                     </div>
                     </div>
                     
