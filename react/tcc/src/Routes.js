@@ -32,6 +32,8 @@ import PerfilSen from './pages/Peerfil/senha'
 
 import Loginadm from './pages/ADM/LOGINaDM/Admlo'
 import CadastraPro from './pages/ADM/CadastroPro/index'
+import Navega from './pages/ADM/NAVEGAOP/NAV'
+
 
 
 
@@ -52,6 +54,10 @@ export default function Routes () {
 
               <Route path = '/Loginadm' component = {Loginadm} />
               <Route path = '/CadastraProduto' component = {CadastraPro}/>
+              <Route path = '/Navegação' component = {Navega}/>
+
+              
+
               
               <Route path="/Salgados" component={Salgados} />
               <Route path = '/Doces'  component = {Doces} />
