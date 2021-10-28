@@ -8,6 +8,7 @@ import Login from './pages/Login/login'
 import Nos from './pages/SobreNos/sobre'
 import Cadastra from './pages/Login/cadastrar/cadastrar'
 import Carrinho from './pages/Carrinho/carrinho'
+import CarrinhoVazio from './pages/Carrinho/CarrinhoVazio';
 import Produtos from './pages/Produtos/favorito/favorito'
 import Salgados from './pages/Produtos/salgado/salgados'
 import Doces from './pages/Produtos/doce/doces'
@@ -34,7 +35,7 @@ import Loginadm from './pages/ADM/LOGINaDM/Admlo'
 import CadastraPro from './pages/ADM/CadastroPro/index'
 
 
-
+import Pix from './pages/pix';
 import status from './pages/status/status';
 
 
@@ -46,6 +47,8 @@ export default function Routes () {
               <Route path = '/Login'  component = {Login} />
               <Route path = '/sobre' component = {Nos} />
               <Route path = '/Cadastra' component = {Cadastra}/>
+
+              <Route path = '/CarrinhoVazio'  component = {CarrinhoVazio} />
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
               <Route path = '/Doces' component = {Doces} />
@@ -61,6 +64,7 @@ export default function Routes () {
             
 
               <Route path="/revisao" component={Revisao} />
+              <Route path="/Pagamento" component={Pix} />
               <Route path="/status" component={status} />
               <Route path="MinhasCompras" component={MinhasCompras}/>
                     

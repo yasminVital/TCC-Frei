@@ -10,6 +10,13 @@ const app = new express()
 app.use(cors())
 app.use(express.json())
 
+
+app.get('/clientes/:id', async (req, resp) => {
+    let r = await db.infoa_sti_cliente.findOne({ where: { id_cliente: req.params.id}});
+    resp.send(r);
+})
+
+
 // tela de login
 
 app.post('/login', async (req, resp) => {
