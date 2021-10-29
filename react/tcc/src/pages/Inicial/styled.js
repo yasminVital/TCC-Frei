@@ -26,6 +26,7 @@ body {
     
 }
 
+
 .cabe {
     margin-left: 100px;
     padding-right: 30px;
@@ -92,9 +93,14 @@ body {
 .subtitulosimg{
     display: flex;
     flex-direction: row;
-    padding-top: 25px;
+    padding-top:25px;
     
 
+}
+
+
+.imgsub{
+    margin-right:5em;
 }
 
 .pães{
@@ -106,6 +112,8 @@ body {
 .imgpaes {
     margin-right: 70px;
     margin-left: 70px;
+
+   
 }
 
 .doces {
@@ -118,6 +126,9 @@ body {
     margin-right: 70px;
 }
 
+.subtitulosimg{
+    margin-left: 8em;
+}
 .bebidas {
     font-size: 22px;
 }
@@ -209,6 +220,7 @@ body {
 
       .img {
       padding: 10px 0px;
+      border: 20px;
     }
 
 
