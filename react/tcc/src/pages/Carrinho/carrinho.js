@@ -5,8 +5,11 @@ import Rodape  from '../../components/rodape/rodape'
 import Contador from './contador/styled'
 
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
-export default function Carrinho() {
+export default function Carrinho(props) {
+    const [produto, setProduto] = useState(props.info);
+
 
     return (
     <ContainerCarrinho>
@@ -24,15 +27,15 @@ export default function Carrinho() {
               <tbody>
                   <tr>
                       <td style={{width: '3%'}}><img src="./assets/imagens/bolinho.png" alt="" width="90%"/></td>
-                      <td>baguete de Queijo</td>
-                      <td>R$ 3,50</td>
+                      <td> {produto.nome} </td>
+                      <td> {produto.valor} </td>
                       <td> 
                            <div className="est-box">
                                 <Contador />
                            </div> 
                            <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                       </td>  
-                      <td>R$ 3,50</td>
+                      <td>{produto.valor} </td>
                      
                   </tr>
             

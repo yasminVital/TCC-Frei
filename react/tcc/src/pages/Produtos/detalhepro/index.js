@@ -6,13 +6,14 @@ import Cabecalho from '../../../components/cabecalho/cabecalho'
 import { Link } from 'react-router-dom'
 
 
-
 import Rodape from '../../../components/rodape/rodape'
+import { useState } from 'react'
 
 
 
-export default function DetalhesProdutos() {
-  
+export default function DetalhesProdutos(props) {
+  const [produto, setProduto] = useState(props.location.state);  
+
 
     return(
 
@@ -25,14 +26,14 @@ export default function DetalhesProdutos() {
               
 
                <div className = "DetalhesProdutos">
-              <h2>  Rocambole de chocolate </h2>
+              <h2>  {produto.nome} </h2>
 
                 <div className = "Produto" >
-                <div className = "Imagem-produto"><img src="./assets/imagens/rocambole de chocolate.png" alt=""  /> </div>
+                <div className = "Imagem-produto"><img src= {produto.imagem}  alt=""  /> </div>  
 
                   <div className = "informaçõesproduto">
                         <div className = "informações">
-                         <div className = "valor-Produto"> R$ 5,00   </div>
+                         <div className = "valor-Produto"> {produto.valor}   </div>
                           <ContadorProduto/>
                          <button className = "adicionarCarrinho"><Link to = "/Carrinho">Adicionar ao Carrinho </Link></button>
                        </div>

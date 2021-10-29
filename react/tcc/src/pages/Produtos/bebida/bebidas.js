@@ -1,17 +1,48 @@
 import {ConteinerProduto} from '../styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
-import Avalicao from '../../../components/avaliação/avaliacao'
-import BotaoCompra from '../../../components/buttoncompra/index'
-
+import Produto from '../boxItem/index'
 
 import Rodape from '../../../components/rodape/rodape'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 
 
 export default function Produtos() {
-  
 
+  const [produtos, SetProduto] = useState([])
+
+
+ 
+  function Listar() {
+    const r = [
+      {
+        id: 101,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 90,00"
+      },
+      {
+        id: 102,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 5,00"
+      }, {
+        id: 103,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 5,00"      
+      }
+    ]
+
+    SetProduto(r);
+  }
+  
+ 
+  useEffect(() => {
+    Listar();
+},   [])
     return(
 
         <ConteinerProduto>
@@ -21,17 +52,15 @@ export default function Produtos() {
              <Categorias/>
              <div className = "ListaProdutos">
                
-  
-               <div className = "caixa1">
-                 <div className = "imagem"> <img src="./assets/imagens/rocambole de chocolate.png" alt=""  /> </div>
-                 <div className = "Produto"> Rocambole de chocolate </div>
-                 <Avalicao/>
-                 <div className = "Preco"> Valor: 5,00 R$ </div>
-                 <BotaoCompra/>
-                </div>
+                    {produtos.map(item => 
+                      <Produto 
+                      key={item.id}
+                      info={item}
+                        />
+                  )}
 
 
-
+                {/*
                 <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/Pao-doce-coco-creme-Baixa-5 3.png" alt=""  /> </div>
                  <div className = "Produto"> Pão doce de creme c/ coco </div>
@@ -42,13 +71,15 @@ export default function Produtos() {
 
 
 
-                <div className = "caixa1">
+                 
+                  <div className = "caixa1">
                  <div className = "imagem"> <img src="./assets/imagens/sonho de creme.png" alt=""  /> </div>
                  <div className = "Produto"> Sonho de creme </div>
-                 <Avalicao/>
+                 <Avalicao/> 
+                 -–>
                  <div className = "Preco"> Valor: 3,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
-                </div>
+                </div> 
 
 
                 
@@ -159,7 +190,7 @@ export default function Produtos() {
                  <Avalicao/>
                  <div className = "Preco">Valor: 1,50 R$ </div>
                  <div className = "botão-compra"> <button> Comprar </button> </div>
-                </div>
+                </div> */}
                 </div>
 
             
