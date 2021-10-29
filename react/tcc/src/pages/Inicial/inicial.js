@@ -39,7 +39,7 @@ export default function Inicial () {
                 <div className='imgsub'>
                 <div className = 'imgpaes'>
                     <Link to = "/Salgados">
-                    <img src="./assets/imagens/croissant-de-Queijo 1 (1).png" width="330" alt=""/>
+                    <img src="./assets/imagens/paes.png" width="330" alt=""/>
                     </Link>
                 </div>  
                 <div className = 'imgdoces'>
