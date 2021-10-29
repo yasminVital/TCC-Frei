@@ -33,7 +33,23 @@ export default function Produtos() {
         imagem: "./assets/imagens/rocambole de chocolate.png",
         nome: "Rocambole de chocolate ",
         valor: "R$ 5,00"      
-      }
+      }, {
+        id: 103,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 5,00"      
+      }, {
+        id: 103,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 5,00"      
+      }, {
+        id: 103,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        nome: "Rocambole de chocolate ",
+        valor: "R$ 5,00"      
+      },
+    
     ]
 
     SetProduto(r);
