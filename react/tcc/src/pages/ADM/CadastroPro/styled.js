@@ -142,6 +142,7 @@ textarea {
    border-radius: 25px;
 
    border:none; 
+   cursor: pointer;
 
    color: white;
    background-color: green;
@@ -164,6 +165,7 @@ textarea {
    border-radius: 25px;
 
    border:none; 
+   cursor: pointer;
 
    color: white;
    background-color: #BE1900;
