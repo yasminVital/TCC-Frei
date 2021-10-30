@@ -87,6 +87,29 @@ select{
     height: 30px;
 }
 
+.input-text-valor {
+    padding-right: 5em;
+}
+
+.valorProduto {
+   
+    height: 25px;
+    width: 80px;
+}
+
+.valorEstoque {
+    padding-right: 2em;
+    height: 25px;
+    width: 10em ;
+}
+
+.input-text-estoque {
+    padding-right: 6.7em;
+}
+
+
+
+
 
 
 
