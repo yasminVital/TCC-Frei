@@ -98,7 +98,8 @@ const ConteinerProduto = styled.div`
     display: flex;
     flex-direction: column;
     width: 8em;
-    margin-left: 1em;
+    height: 15em;
+    margin-left: 2.4em;
     margin-top: 1em;
     margin-right: 0.3em;
 
