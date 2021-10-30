@@ -23,7 +23,7 @@ export default function DetalhesProdutos(props) {
     // Se o Cookie não estiver vazio, converte o Cookie em Array pelo JSON.parse()
     let carrinho = Cookie.get('carrinho');
     carrinho = carrinho !== undefined 
-                ? JSON.parse(carrinho) 
+               ? JSON.parse(carrinho) 
                 : [];
 
                 
