@@ -2,14 +2,32 @@ import { ContainerCarrinho } from './styled'
 import Tiras from '../../components/listras/index'
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape  from '../../components/rodape/rodape'
-import Contador from './contador/styled'
-
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import CarrinhoItem from './/boxItem/index'
+import Cookie from 'js-cookie'
+import { useState, useEffect } from "react"
+import { Link ,useHistory } from "react-router-dom"
 
 export default function Carrinho(props) {
-    const [produto, setProduto] = useState(props.info);
+    const [produtos, setProdutos] = useState([]);
+  
 
+    // Chama a funcção 'carregarCarrinho' assim que a página abre 
+    useEffect(carregarCarrinho, []);
+  
+  
+  
+    function carregarCarrinho() {
+      // Lê o Array de Produtos do Carrinho do Cookie.
+      // Se o Cookie estiver vazio, volta um Array vazio []
+      // Se o Cookie não estiver vazio, converte o Cookie em Array pelo JSON.parse()
+      let carrinho = Cookie.get('carrinho');
+      carrinho = carrinho !== undefined 
+                    ? JSON.parse(carrinho) 
+                    : [];
+  
+      // Atualiza a variável de Estado com o Conteúdo do Cookie
+      setProdutos(carrinho);
+    }
 
     return (
     <ContainerCarrinho>
@@ -17,48 +35,13 @@ export default function Carrinho(props) {
         <div className="titulo" style={{fontSize: '64px', marginLeft: '65px'}}> Meu Carrinho</div>
         <Tiras/>
         <div className="box-tabela"> 
-             <thead>
-                  <th> </th>
-                  <th> Produto </th>
-                  <th> Preço </th>
-                  <th> Quantidade</th>
-                  <th> Total </th>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td style={{width: '3%'}}><img src="./assets/imagens/bolinho.png" alt="" width="90%"/></td>
-                      <td> {produto.nome} </td>
-                      <td> {produto.valor} </td>
-                      <td> 
-                           <div className="est-box">
-                                <Contador />
-                           </div> 
-                           <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
-                      </td>  
-                      <td>{produto.valor} </td>
-                     
-                  </tr>
             
-                    
 
-              </tbody>
-
-              <tbody>
-                  <tr>
-                      <td style={{borderRadius: '50px'}}><img src="./assets/imagens/agua.png" alt=""/></td>
-                      <td>baguete de Queijo</td>
-                      <td>R$ 3,50</td>
-                      <td> 
-                           <div className="est-box">
-                                <Contador />
-                           </div> 
-                           <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
-                      </td>  
-                      <td>R$ 3,50</td>
-                     
-                  </tr>
-        
-              </tbody>
+                {produtos.map(item => 
+                    <CarrinhoItem key={item.id} 
+                        info={item} 
+                        />
+                )}
 
 
         </div>

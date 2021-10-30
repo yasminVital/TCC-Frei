@@ -33,7 +33,7 @@ async function a() {
 
                  
                  <div className = "entrada">
-                    <div className= "borda" > <Pesquisa /> </div>                
+                                  
                     <div className = "imagem-lupa" onClick={a}>  <img src= "./assets/imagens/lupa1.svg" alt ="" width="100%" /> </div>
                     <div class="barra"></div>
                     <div className = "imagem-login"> <Link to= "/Login"> <img src= "./assets/imagens/login.svg" alt ="" /> </Link> </div>
