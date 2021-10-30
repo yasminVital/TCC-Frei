@@ -40,24 +40,24 @@ export default function Cadastro() {
                 <div className = "infovalor">
                 <div className = "conteinerinput">
                     <div className = "label">VALOR</div>
-                     <div className = "input-text-valor"><input type = "text"/></div>
+                     <div className = "input-text-valor"><input className = "valorProduto" type = "text"/></div>
                 </div>
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MÍNIMO</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MAXIMO</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE ATUAL</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
                 </div>
 
