@@ -24,6 +24,7 @@ text-align: center;
 .label {
     display: flex;
     flex-direction: row;
+    padding-bottom: 0.5em;
 }
 
 
@@ -106,6 +107,102 @@ select{
 .input-text-estoque {
     padding-right: 6.7em;
 }
+
+textarea {
+   resize: none;
+    width: 881px;
+    height: 78px;
+}
+
+.informações {
+    padding-right: 14em;
+}
+
+.Informação {
+    padding-bottom: 1em;
+}
+
+.botões {
+    padding-top: 2em;
+    padding-left: 20em;
+}
+
+.cadastra {
+    padding-right: 2em;
+}
+
+.confirmar {
+   
+   display: flex;
+   flex-direction: row;
+   padding-top: 17px;
+   padding-bottom: 15px;
+   padding-right: 10px;
+   padding-left: 10px;
+   border-radius: 25px;
+
+   border:none; 
+
+   color: white;
+   background-color: green;
+}
+
+.confirmar img {
+    padding-right: 0.2em;
+}
+
+
+
+.Cancelar {
+   
+   display: flex;
+   flex-direction: row;
+   padding-top: 15px;
+   padding-bottom: 14px;
+   padding-right:12px;
+   padding-left: 10px;
+   border-radius: 25px;
+
+   border:none; 
+
+   color: white;
+   background-color: #BE1900;
+}
+
+.Cancelar img {
+    width: 1.5em;
+    height: 1.4em;
+    
+    padding-right: 0.2em;
+}
+
+.arquivoUp{
+padding-left: 19.5em;
+}
+
+
+.Updimg {
+   display: flex;
+   flex-direction: row;
+   padding-top: 15px;
+   padding-bottom: 14px;
+   padding-right:12px;
+   padding-left: 15px;
+
+
+
+   border-radius: 25px;
+   border:none;
+
+   color:white;
+   background-color: #85144B;
+
+}
+
+.Updimg img {
+    padding-right: 1em;
+}
+
 
 
 

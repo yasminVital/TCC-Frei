@@ -72,14 +72,14 @@ export default function Cadastro() {
 
             <div className = "informações">
             <div className = "Informação ">SOLTE O ARQUIVO AQUI PARA FAZER UPLOAD </div>
-            <div className = "arquivoUp">  <button> <img src = "./assets/imagens/pasta1.png" alt = ""/> SELECIONE O ARQUIVO DA IMAGEM </button> </div>
+            <div className = "arquivoUp">  <button className = "Updimg"> <img src = "./assets/imagens/pasta1.png" alt = ""/> SELECIONE O ARQUIVO DA IMAGEM </button> </div>
 
 
 
            
             <div className = "botões">
-                <div className = "cadastra"><button>CADASTRA</button></div>
-                <div className = "cancela"><button> CANCELAR </button></div>
+                <div className = "cadastra"><button className = "confirmar"><img src = "./assets/imagens/confirme.png" alt = ""/> CADASTRA</button></div>
+                <div className = "cancela"><button  className = "Cancelar"><img src = "./assets/imagens/Cancelar.png" alt = ""/> CANCELAR </button></div>
              
             </div>
         </div>
