@@ -1,11 +1,14 @@
 
 import { ConteinerCadastro } from "./styled"
+import OptLista from "../../../components/BarOption/index"
 
 
 
 export default function Cadastro() {
     return(
+        
         <ConteinerCadastro>
+            <OptLista/>
             <div className = "conteinercadastro">
             <div className = "titulo">ADICIONAR PRODUTO</div>
 
