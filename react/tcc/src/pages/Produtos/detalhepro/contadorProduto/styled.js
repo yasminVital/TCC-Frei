@@ -1,6 +1,6 @@
+import { useEffect } from 'react';
 import { useState } from 'react'
 import styled from "styled-components";
-
 
 const Container = styled.div`
   display: flex;
@@ -37,6 +37,7 @@ export default function ContadorProduto(props) {
   const [qtd, setQtd] = useState(1);
 
 
+
   function incrementar() {
     if (qtd >= 10)
       return;
@@ -48,7 +49,6 @@ export default function ContadorProduto(props) {
       return;
     setQtd(qtd-1)
   }
-
 
 
 

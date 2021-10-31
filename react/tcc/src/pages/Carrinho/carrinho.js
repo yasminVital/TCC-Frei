@@ -29,6 +29,9 @@ export default function Carrinho(props) {
       setProdutos(carrinho);
     }
 
+    
+    
+
     return (
     <ContainerCarrinho>
         <Cabecalho />
@@ -36,13 +39,12 @@ export default function Carrinho(props) {
         <Tiras/>
         <div className="box-tabela"> 
             
-
+      
                 {produtos.map(item => 
                     <CarrinhoItem key={item.id} 
                         info={item} 
                         />
                 )}
-
 
         </div>
         <div className="cupom"> 

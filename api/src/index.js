@@ -43,17 +43,8 @@ app.post('/cadastrar', async (req, resp) => {
     let x = req.body;
      
     try {
-        
-        const EnderecoCriado = await db.infoa_sti_endereco.create({
-            ds_cep: x.cep,
-            ds_endereco: x.endereco,
-            nr_endereco: x.numero,
-            ds_complemento: x.complemento,
-            ds_cidade: x.cidade
-        })
-
+       
         const UsuarioCriado = await db.infoa_sti_cliente.create({
-            id_endereco: EnderecoCriado.id_endereco,
             nm_nome: x.nome,
             nm_sobrenome: x.sobrenome,
             ds_sexo: x.sexo,
@@ -63,6 +54,15 @@ app.post('/cadastrar', async (req, resp) => {
             ds_senha: x.senha
         })
         
+ 
+        const EnderecoCriado = await db.infoa_sti_endereco.create({
+            id_cliente: UsuarioCriado.id_cliente,
+            ds_cep: x.cep,
+            ds_endereco: x.endereco,
+            nr_numero: x.numero,
+            ds_complemento: x.complemento,
+            ds_cidade: x.cidade
+        })
 
 
     resp.send(200);
@@ -100,6 +100,19 @@ app.post('/produto', async (req, resp) => {
  
 
     resp.send(200);
+
+})
+
+
+
+app.get('/produto', async (req, resp) => {
+
+
+    const data = await db.infoa_sti_produto.findAll();
+
+    
+
+    resp.send(data);
 
 })
 
@@ -188,6 +201,9 @@ app.delete('/produto', async (req, resp) => {
      })
      resp.sendStatus(200);
 }) 
+
+
+
 
 app.listen(process.env.PORT,
             console.log(`Servidor na Porta ${process.env.PORT}`));

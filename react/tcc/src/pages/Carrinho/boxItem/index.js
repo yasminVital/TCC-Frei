@@ -1,12 +1,30 @@
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import ContadorProduto from "../../Produtos/detalhepro/contadorProduto/styled"
 import Contador from "../contador/styled"
+
+
 
 export default function Item(props) {
     const [ produto, setProduto ]  = useState(props.info)
+    const [preco, setPreco] = useState(produto.valor)
+    const [subPedidos, setSubPedidos] = useState(10)
+    const [cupom, setCupom] = useState(20)
+    
 
+    async function vaiCarai() {
+        setPreco(Math.round(produto.valor + 20)); 
+    }
 
+    
+  
+    
+    useEffect(() => {
+       vaiCarai();
+      })
+    
 
+   
     return(
         <comtainersla>
             <thead>
@@ -23,11 +41,11 @@ export default function Item(props) {
                 <td> {produto.valor} </td>
                 <td> 
                     <div className="est-box">
-                        <Contador />
+                        <Contador/>
                     </div> 
                     <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" /> </div>
                 </td>  
-                <td>{produto.valor} </td>
+                <td>{preco} </td>
             
             </tr>
     
