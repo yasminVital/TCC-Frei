@@ -11,6 +11,7 @@ import { useState } from 'react'
 
 
 export default function DetalhesProdutos(props) {
+  const [produto, setProduto] = useState(props.location.state);  
 
 
   const navigation = useHistory();
@@ -34,7 +35,8 @@ export default function DetalhesProdutos(props) {
         navigation.push('/carrinho');
 
   }
-  const [produto, setProduto] = useState(props.location.state);  
+ 
+  
 
 
     return(
@@ -56,7 +58,7 @@ export default function DetalhesProdutos(props) {
                   <div className = "informaçõesproduto">
                         <div className = "informações">
                          <div className = "valor-Produto"> {produto.valor}   </div>
-                          <ContadorProduto/>
+                          <ContadorProduto />
                          <button className = "adicionarCarrinho"  onClick={comprar}>Adicionar ao Carrinho </button>
                        </div>
 

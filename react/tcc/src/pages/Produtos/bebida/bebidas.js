@@ -18,36 +18,10 @@ export default function Produtos() {
   function Listar() {
     const r = [
       {
-        id: 101,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        nome: "Rocambole de chocolate ",
-        valor: "R$ 90,00"
-      },
-      {
-        id: 102,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        nome: "Rocambole de chocolate ",
-        valor: "R$ 5,00"
-      }, {
         id: 103,
         imagem: "./assets/imagens/rocambole de chocolate.png",
+        valor: 5.00,
         nome: "Rocambole de chocolate ",
-        valor: "R$ 5,00"      
-      }, {
-        id: 103,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        nome: "Rocambole de chocolate ",
-        valor: "R$ 5,00"      
-      }, {
-        id: 103,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        nome: "Rocambole de chocolate ",
-        valor: "R$ 5,00"      
-      }, {
-        id: 103,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        nome: "Rocambole de chocolate ",
-        valor: "R$ 5,00"      
       },
     
     ]
