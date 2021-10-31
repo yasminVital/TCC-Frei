@@ -5,7 +5,6 @@ const ConteinerCadastro = styled.div`
 
 
 
-
 height: 41em;
 background-color: #D2F6FF;
 text-align: center;
@@ -13,14 +12,21 @@ text-align: center;
 
 .conteinercadastro {
     display: flex;
+    flex-direction: row;
+    
+}
+
+.conteiner-cadastro {
+    display: flex;
     flex-direction: column;
    
    
 
     padding-top: 5em;
-    padding-left: 15em;
+    padding-left: 8em;
     
 }
+
 .label {
     display: flex;
     flex-direction: row;
@@ -119,6 +125,7 @@ textarea {
 }
 
 .Informação {
+    padding-left: 9em;
     padding-bottom: 1em;
 }
 
@@ -191,7 +198,7 @@ padding-left: 19.5em;
    padding-right:12px;
    padding-left: 15px;
 
-
+   cursor: pointer;
 
    border-radius: 25px;
    border:none;
