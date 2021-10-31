@@ -5,7 +5,6 @@ const ConteinerCadastro = styled.div`
 
 
 
-
 height: 41em;
 background-color: #D2F6FF;
 text-align: center;
@@ -13,14 +12,21 @@ text-align: center;
 
 .conteinercadastro {
     display: flex;
+    flex-direction: row;
+    
+}
+
+.conteiner-cadastro {
+    display: flex;
     flex-direction: column;
    
    
 
     padding-top: 5em;
-    padding-left: 15em;
+    padding-left: 8em;
     
 }
+
 .label {
     display: flex;
     flex-direction: row;

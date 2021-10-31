@@ -1,46 +1,13 @@
 import { Contenenag } from './styled'
+import OptLista from "../../../components/BarOption/index"
 
 export default function nav () {
 
     return ( 
         <Contenenag>
             <div className= "PAGINA">
-                <div className= "parte1">
-                    <div className= "logo">
-                    <img src= "./assets/imagens/logo 13 (1).png " height= "150"/>
-                
-                </div>
-                <div className= "borda">
-
-                </div>
-                <div className="opcao01">
-                    <div className= "ll">
-                        <img src= "./assets/imagens/Rectangle 1318.svg" height="55"/>
-                    </div>
-                    <div className= "texto-01">
-                    Listar Produtos
-                    </div>
-                </div>
-
-                <div className="opcao01">
-                    <div className= "ll">
-                        <img src= "./assets/imagens/Rectangle 1318.svg" height="55"/>
-                    </div>
-                    <div className= "texto-01">
-                    Adicionar  Produtos
-                    </div>
-                </div>
-
-                <div className="opcao01">
-                    <div className= "ll">
-                        <img src= "./assets/imagens/Rectangle 1318.svg" height="55"/>
-                    </div>
-                    <div className= "texto-01">
-                    Geren. de Pedidos                    
-                    </div>
-                </div>
-                </div>
-
+                <OptLista/>
+               
                 <div className= "parte-02">
                     <div className= "titulo">
                     GERENCIADOR DE PEDIDOS

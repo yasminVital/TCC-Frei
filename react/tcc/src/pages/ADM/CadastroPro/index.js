@@ -6,10 +6,12 @@ import OptLista from "../../../components/BarOption/index"
 
 export default function Cadastro() {
     return(
-        
+  
         <ConteinerCadastro>
-            <OptLista/>
+       
             <div className = "conteinercadastro">
+            <OptLista/>
+           <div className = "conteiner-cadastro">
             <div className = "titulo">ADICIONAR PRODUTO</div>
 
 
@@ -85,6 +87,7 @@ export default function Cadastro() {
                 <div className = "cancela"><button  className = "Cancelar"><img src = "./assets/imagens/Cancelar.png" alt = ""/> CANCELAR </button></div>
              
             </div>
+        </div>
         </div>
 
         </div>
