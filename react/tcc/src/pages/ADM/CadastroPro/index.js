@@ -1,11 +1,14 @@
 
 import { ConteinerCadastro } from "./styled"
+import OptLista from "../../../components/BarOption/index"
 
 
 
 export default function Cadastro() {
     return(
+        
         <ConteinerCadastro>
+            <OptLista/>
             <div className = "conteinercadastro">
             <div className = "titulo">ADICIONAR PRODUTO</div>
 
@@ -40,24 +43,24 @@ export default function Cadastro() {
                 <div className = "infovalor">
                 <div className = "conteinerinput">
                     <div className = "label">VALOR</div>
-                     <div className = "input-text-valor"><input type = "text"/></div>
+                     <div className = "input-text-valor"><input className = "valorProduto" type = "text"/></div>
                 </div>
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MÍNIMO</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MAXIMO</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE ATUAL</div>
-                     <div className = "input-text-estoque"><input type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
                 </div>
                 </div>
 
@@ -72,14 +75,14 @@ export default function Cadastro() {
 
             <div className = "informações">
             <div className = "Informação ">SOLTE O ARQUIVO AQUI PARA FAZER UPLOAD </div>
-            <div className = "arquivoUp">  <button> <img src = "./assets/imagens/pasta1.png" alt = ""/> SELECIONE O ARQUIVO DA IMAGEM </button> </div>
+            <div className = "arquivoUp">  <button className = "Updimg"> <img src = "./assets/imagens/pasta1.png" alt = ""/> SELECIONE O ARQUIVO DA IMAGEM </button> </div>
 
 
 
            
             <div className = "botões">
-                <div className = "cadastra"><button>CADASTRA</button></div>
-                <div className = "cancela"><button> CANCELAR </button></div>
+                <div className = "cadastra"><button className = "confirmar"><img src = "./assets/imagens/confirme.png" alt = ""/> CADASTRA</button></div>
+                <div className = "cancela"><button  className = "Cancelar"><img src = "./assets/imagens/Cancelar.png" alt = ""/> CANCELAR </button></div>
              
             </div>
         </div>

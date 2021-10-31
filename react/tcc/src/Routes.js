@@ -30,11 +30,11 @@ import PerfilSen from './pages/Peerfil/senha'
 
 
 
-/*/
+
 import Loginadm from './pages/ADM/LOGINaDM/Admlo'
 import CadastraPro from './pages/ADM/CadastroPro/index'
 import Navega from './pages/ADM/NAVEGAOP/NAV'
-/*/
+
 
 
 import Pix from './pages/pix';
@@ -54,11 +54,11 @@ export default function Routes () {
               <Route path = '/Carrinho'  component = {Carrinho} />
               <Route path = '/Produtos'  component = {Produtos} />
               <Route path = '/Doces' component = {Doces} />
-            {/* 
+           
              <Route path = '/Loginadm' component = {Loginadm} />
               <Route path = '/CadastraProduto' component = {CadastraPro}/>
               <Route path = '/Navegação' component = {Navega}/>
-            */}
+           
               
 
               

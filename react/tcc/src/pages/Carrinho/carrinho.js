@@ -23,10 +23,10 @@ export default function Carrinho(props) {
       let carrinho = Cookie.get('carrinho');
       carrinho = carrinho !== undefined 
                     ? JSON.parse(carrinho) 
-                    : [];
+                     : [];
   
       // Atualiza a variável de Estado com o Conteúdo do Cookie
-      setProdutos(carrinho);
+      //setProdutos(carrinho);
     }
 
     
