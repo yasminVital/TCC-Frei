@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const ConteinerInicial = styled.div`
 
+
 body {
   margin: 0px;
   box-sizing: border-box;
