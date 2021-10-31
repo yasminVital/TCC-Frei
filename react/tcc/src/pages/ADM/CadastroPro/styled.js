@@ -125,6 +125,7 @@ textarea {
 }
 
 .Informação {
+    padding-left: 9em;
     padding-bottom: 1em;
 }
 
@@ -197,7 +198,7 @@ padding-left: 19.5em;
    padding-right:12px;
    padding-left: 15px;
 
-
+   cursor: pointer;
 
    border-radius: 25px;
    border:none;

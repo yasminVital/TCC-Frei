@@ -6,12 +6,12 @@ height: 41.1em;
 width: 12em;
 background-color:black;
 
-img {
+.logo2 img {
     height: 8em;
     width: 7em;
 }
 
-.logo {
+.logo2 {
     padding-top: 9px;
 }
 

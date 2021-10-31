@@ -6,7 +6,7 @@ export default function ListaOpt() {
     return (
         <ConteinerAdmBar>
             <div className = "conteinerBar">
-            <div className = "logo"><img src = "./assets/imagens/logo1.png" alt = ""/> </div>
+            <div className = "logo2"><img src = "./assets/imagens/logo1.png" alt = ""/> </div>
 
             <div className = "espaço"> </div>
 
