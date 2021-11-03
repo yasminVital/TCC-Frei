@@ -20,9 +20,21 @@ export default function Produtos() {
       {
         id: 103,
         imagem: "./assets/imagens/rocambole de chocolate.png",
-        valor: 5.00,
+        valor: 5.10,
         nome: "Rocambole de chocolate ",
       },
+      {
+        id: 104,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        valor: 7.20,
+        nome: "Rocambole de chocolate ",
+      },
+      {
+        id: 105,
+        imagem: "./assets/imagens/rocambole de chocolate.png",
+        valor: 9.90,
+        nome: "Rocambole de chocolate ",
+      }
     
     ]
 

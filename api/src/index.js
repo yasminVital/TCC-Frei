@@ -11,8 +11,22 @@ app.use(cors())
 app.use(express.json())
 
 
-app.get('/clientes/:id', async (req, resp) => {
-    let r = await db.infoa_sti_cliente.findOne({ where: { id_cliente: req.params.id}});
+app.get('/clientes', async (req, resp) => {
+    try {
+        let users = await db.infoa_enl_login.findAll()
+
+        resp.send(users)
+        
+    } catch (e) {
+        resp.send({erro: e.toString()})
+    }
+})
+
+
+
+
+app.get('/clientes', async (req, resp) => {
+    let r = await db.infoa_sti_cliente.findAll();
     resp.send(r);
 })
 
@@ -111,7 +125,6 @@ app.get('/produto', async (req, resp) => {
     const data = await db.infoa_sti_produto.findAll();
 
     
-
     resp.send(data);
 
 })

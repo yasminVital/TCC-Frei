@@ -9,6 +9,8 @@ import { Link ,useHistory } from "react-router-dom"
 
 export default function Carrinho(props) {
     const [produtos, setProdutos] = useState([]);
+    const [VlFinal, setVlFinal] = useState(0)
+    const navegation = useHistory()
   
 
     // Chama a funcção 'carregarCarrinho' assim que a página abre 
@@ -24,25 +26,58 @@ export default function Carrinho(props) {
       carrinho = carrinho !== undefined 
                     ? JSON.parse(carrinho) 
                      : [];
+
+
+                     if (carrinho.length === 0)
+                     navegation.push('/carrinhoVazio')
+
   
       // Atualiza a variável de Estado com o Conteúdo do Cookie
-      //setProdutos(carrinho);
+      setProdutos(carrinho);
     }
 
     
     
+    function removerProduto(id) {
+        // Buscar todos os Itens do Carrinho DIFERENTES do produto que está sendo removido 
+        let carrinho = produtos.filter(item => item.id !== id);
+        
+        // Atualiza o Cookie
+        Cookie.set('carrinho', JSON.stringify(carrinho));
+    
+        // Atualiza a variável de estado
+        setProdutos([...carrinho]);
+      }
+    
+      function alterarProduto(id, qtd) {
+        // Busca o Produto em questão no Carrinho e atualiza o campo de 'qtd'
+        let produtoAlterado = produtos.filter(item => item.id === id)[0];
+        produtoAlterado.qtd = qtd;
+    
+        // Atualiza o Cookie
+        Cookie.set('carrinho', JSON.stringify(produtos));
+     }
 
+     
     return (
     <ContainerCarrinho>
         <Cabecalho />
         <div className="titulo" style={{fontSize: '64px', marginLeft: '65px'}}> Meu Carrinho</div>
         <Tiras/>
         <div className="box-tabela"> 
-            
+            <thead>
+                <th> </th>
+                <th> Produto </th>
+                <th> Preço </th>
+                <th> Quantidade</th>
+                <th> Total </th>
+            </thead>
       
                 {produtos.map(item => 
                     <CarrinhoItem key={item.id} 
                         info={item} 
+                        onUpdate={alterarProduto}
+                        onRemove={removerProduto}
                         />
                 )}
 
@@ -55,7 +90,7 @@ export default function Carrinho(props) {
         <div className="precos"> 
             <div className="box-preco"> 
                 <div className="sb">Subtotal dos Pedidos: </div>
-                <div className="pc"> 40,00</div>
+                <div className="pc"> {} </div>
             </div>
             <div className="box-preco"> 
                 <div className="sb">Cupom de Desconto:</div>
