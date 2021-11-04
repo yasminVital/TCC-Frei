@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styled from "styled-components";
 
 import ContadorProduto from '../../Produtos/detalhepro/contadorProduto/styled';
@@ -44,7 +44,7 @@ const Container = styled.div`
 
 
 export default function Contador(props) {
-  const [qtd, setQtd] = useState(1);
+  const [qtd, setQtd] = useState(props.value);
 
 
   function incrementar() {
@@ -54,12 +54,17 @@ export default function Contador(props) {
   }
 
   function decrementar() {
-    if (qtd === 0) 
+    if (qtd === 1) 
       return;
     setQtd(qtd-1)
   }
 
   
+  useEffect(() => {
+    // Chama componente PAI para alterar a Quantidade
+    props.onChange(qtd);
+    //
+  }, [qtd])
 
 
   return (

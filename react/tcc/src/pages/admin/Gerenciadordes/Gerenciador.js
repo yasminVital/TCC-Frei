@@ -60,21 +60,7 @@ export default function gerecniador () {
                 <div className = "tirinnhas">
                     <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
                 </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
+                
                 </div>
 
                 <div className = "pesquisa">

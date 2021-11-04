@@ -4,11 +4,11 @@ const ContainerCarrinho = styled.div`
 
 
 .box-tabela {
-  margin: 2em 2em 0em 2em;
+  margin: 2em 9em 0em 2em;
 }
 
-thead {
-    background-color: #DFDFDF;
+ thead {
+    background-color: black;
     font-family: Belleza; 
     width: 100vw;
 
@@ -17,7 +17,7 @@ thead {
 th {
     height: 61.93px;
     text-align: center;
-    padding: .1em 4.2em;
+    padding: .1em 6.8em;
     color: #ffff;
     font-weight: 800;
 } 
@@ -61,7 +61,7 @@ outline: none;
 
 .est-box {
     position: relative;
-    left: 5em;
+    left: 9em;
     top: .45em;
     display: flex;
     flex-direction: row;
@@ -77,6 +77,13 @@ outline: none;
     top: 20px;
     left: 6.4em;
     height: 1.4em;
+
+    cursor: pointer;
+}
+
+.h {
+position: relative;
+right: -24px;
 }
 input {
     outline: none;

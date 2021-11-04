@@ -10,6 +10,17 @@ export default class infoc_tcc_produto extends Model {
       allowNull: false,
       primaryKey: true
     },
+<<<<<<< HEAD
+=======
+    tp_peca: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
+    vl_preco_fb: {
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
+>>>>>>> 0b69e9009e6de1f4d82964f4d2583c9f2ff0b863
     ds_genero: {
       type: DataTypes.STRING(255),
       allowNull: true
@@ -41,6 +52,7 @@ export default class infoc_tcc_produto extends Model {
     qtd_pedidos: {
       type: DataTypes.INTEGER,
       allowNull: true
+<<<<<<< HEAD
     },
     nm_produto: {
       type: DataTypes.STRING(100),
@@ -81,6 +93,8 @@ export default class infoc_tcc_produto extends Model {
     img_produto_quarta: {
       type: DataTypes.STRING(200),
       allowNull: true
+=======
+>>>>>>> 0b69e9009e6de1f4d82964f4d2583c9f2ff0b863
     }
   }, {
     sequelize,

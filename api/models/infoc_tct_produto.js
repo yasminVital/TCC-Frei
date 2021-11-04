@@ -49,10 +49,13 @@ export default class infoc_tct_produto extends Model {
     bt_promocao: {
       type: DataTypes.BOOLEAN,
       allowNull: true
+<<<<<<< HEAD
     },
     img_imagem: {
       type: DataTypes.STRING(255),
       allowNull: true
+=======
+>>>>>>> 0b69e9009e6de1f4d82964f4d2583c9f2ff0b863
     }
   }, {
     sequelize,

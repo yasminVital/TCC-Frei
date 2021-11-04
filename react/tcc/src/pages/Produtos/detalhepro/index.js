@@ -24,16 +24,23 @@ export default function DetalhesProdutos(props) {
     // Se o Cookie não estiver vazio, converte o Cookie em Array pelo JSON.parse()
     let carrinho = Cookie.get('carrinho');
     carrinho = carrinho !== undefined 
-               ? JSON.parse(carrinho) 
+                ? JSON.parse(carrinho) 
                 : [];
 
-                
+    
+    // Verifica se o produto em questão já está no carrinho pelo Id e pela função some()
+    // Se o produto não existir, adiciona o produto no carrinho copiando todos os campos do produto
+    // e adicionando o campo novo qtd com valor 1
     if (carrinho.some(item => item.id === produto.id) === false)
-        carrinho.push({...produto });
-        
-        Cookie.set('carrinho', JSON.stringify(carrinho));
-        navigation.push('/carrinho');
-
+        carrinho.push({...produto, qtd: 1 });
+ 
+    
+    // Atualiza o Cookie com o novo produto Comprado
+    Cookie.set('carrinho', JSON.stringify(carrinho));
+    
+    
+    // Abre a página /carrinho
+    navigation.push('/carrinho');
   }
  
   
@@ -57,7 +64,7 @@ export default function DetalhesProdutos(props) {
 
                   <div className = "informaçõesproduto">
                         <div className = "informações">
-                         <div className = "valor-Produto"> {produto.valor}   </div>
+                         <div className = "valor-Produto"> R$: {produto.valor}   </div>
                           <ContadorProduto />
                          <button className = "adicionarCarrinho"  onClick={comprar}>Adicionar ao Carrinho </button>
                        </div>

@@ -22,7 +22,15 @@ export default class infoa_gab_entrega extends Model {
       type: DataTypes.STRING(255),
       allowNull: true
     },
+<<<<<<< HEAD
     dt_situacao: {
+=======
+    dt_saida: {
+      type: DataTypes.DATE,
+      allowNull: true
+    },
+    dt_entrega: {
+>>>>>>> 0b69e9009e6de1f4d82964f4d2583c9f2ff0b863
       type: DataTypes.DATE,
       allowNull: true
     },
@@ -33,6 +41,7 @@ export default class infoa_gab_entrega extends Model {
         model: 'infoa_gab_venda',
         key: 'id_venda'
       }
+<<<<<<< HEAD
     },
     dt_saida: {
       type: DataTypes.DATE,
@@ -41,6 +50,8 @@ export default class infoa_gab_entrega extends Model {
     dt_entrega: {
       type: DataTypes.DATE,
       allowNull: false
+=======
+>>>>>>> 0b69e9009e6de1f4d82964f4d2583c9f2ff0b863
     }
   }, {
     sequelize,
