@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom"
 import {ConteinerAdmBar} from "./styled"
 
 
@@ -14,17 +15,17 @@ export default function ListaOpt() {
             <div className = "botõesBar">
              <div className = "botão1"> 
                 <div className = "barra"> </div>
-                <div className = "gerenciamento"> Gerenciador de Produto </div>
+               <Link  to="/Navegação">  <div className = "gerenciamento"> Gerenciador de Produto </div> </Link>
             </div>
          
             <div className = "botão1"> 
                 <div className = "barra"> </div>
-                <div className = "gerenciamento">Gerenciador de Pedidos  </div>
+                <Link  to="./Gerenciadorpt">   <div className = "gerenciamento">Gerenciador de Pedidos  </div> </Link>
             </div>
 
             <div className = "botão1"> 
                 <div className = "barra"> </div>
-                <div className = "gerenciamento">Adicionar  Produtos  </div>
+                <Link  to="./CadastraProduto">   <div className = "gerenciamento">Adicionar  Produtos  </div> </Link>
             </div>
             </div>  
          </div>     

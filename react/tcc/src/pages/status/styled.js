@@ -1,82 +1,29 @@
 import styled from "styled-components"
 
 const Conteinerstatus = styled.div`
+background-color: #D2F6FF;
+
 
 .Faixastatus {
     background: #D2F6FF;
 }
-.cabecalhO {
-    background-color: black;
-    opacity: 80%;
-    padding: 5Px;
-   
-    
-}
 
-.naveg {
-    align-items: flex-end;
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: row;
-    padding-right: 2%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    
-}
 
-.LOGO {
-    position: absolute;
-    top: 2%;
-    margin-left: 5%;
-}
 
-.cariinho-50 {
-    margin-left: 4%;
-}
 
-.login-50 {
-    margin-left: 4%;
-}
-.LUPA00 {
-    margin-left: 4%;
-}
 
-input {
-    display: flex;
-    width: 600px;
-    border-radius: 12px;
-    border-color: black;
-    background: #C4C4C4;
-    margin-bottom: 2px;
-    margin-right: 50%;
 
-    
-}
 
-.cabelhO2 {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
 
-.C2 {
-    margin: 2% 10% 0% 10%;
-}
 
-.pooooo {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
 
-.tirinnhas {
-    margin-left: 3%;
-    margin-top: 3%
-    
-    
-}
+
+
+
+
+
+
+
 
 .volta {
     margin: 0% 1% 1% 5%;
@@ -115,6 +62,7 @@ input {
     border-color: white;
     background-color: white;
     border-radius: 20px;
+    
     
 }
 .en {
@@ -209,68 +157,7 @@ input {
     color: red;
 }
 
-.rodape{
-      background: #FFFFFF;
-      display: flex;
-      flex-direction: row;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      padding: 3em 0px 0px 0px;
-}
-      .part-roda1 {
-      text-align: center;
-      margin-left: 24px;
-      margin-right: 80px;
-}
-      .part-roda2 {
-      text-align: center;
-      margin-right: 80px;
-      padding-bottom: 4em;
-      }
 
-
-      .info-01 {
-      margin-bottom: 19px;
-      font-size: 25px;
-      }
-
-      .info-02 {
-      margin-bottom: 15px;
-      font-size: 18px;
-      }
-      .info-03 {
-      margin-bottom: 15px;
-      font-size: 18px;
-      }
-      .info-04 {
-      margin-bottom: 15px;
-      font-size: 18px;
-      }
-      .info-05 {
-      margin-bottom: 1px;
-      font-size: 25px;
-      }
-      .info-06 {
-      margin-top: 20px;
-      font-size: 18px;
-      }
-      .final3 {
-      background: #4D5B76;
-      padding-top: 10px;
-      align-items: center;
-      padding-bottom: 10px;
-}
-      .exp {
-      text-align: center;
-      color: #FFFFFF;
-      font-size: 13px;
-}
-
-.img {
- padding: 10px 0px;
-}
 
 .tet1 {
     font-size: 20px;

@@ -1,5 +1,6 @@
 import {ConteinerOP} from './styled'
 import OptLista from "../../../components/BarOption/index"
+import { Link } from 'react-router-dom'
 
 export default function op () {
 
@@ -14,9 +15,9 @@ export default function op () {
                 <img src= "./assets/imagens/5c48b961e2b44d01e38a26a2_NEX_produtos 1.png" height= "200"alt=""/>
                 </div>
 
-                <div className = "subtitulo">
+                 <div className = "subtitulo">
                     Cadastrar Produtos
-                </div>    
+                </div>      
             </div>
             </div>
 

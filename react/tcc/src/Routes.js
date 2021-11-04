@@ -31,14 +31,13 @@ import PerfilSen from './pages/Peerfil/senha'
 
 
 
+
+
 import Loginadm from './pages/admin/LOGINaDM/Admlo'
 import CadastraPro from './pages/admin/CadastroPro/index'
 import Navega from './pages/admin/NAVEGAOP/NAV'
-import Loginadm from './pages/ADM/LOGINaDM/Admlo'
-import CadastraPro from './pages/ADM/CadastroPro/index'
-import Navega from './pages/ADM/NAVEGAOP/NAV'
-import Gerenciadordes from './pages/ADM/Gerenciadordes/Gerenciador'
-import Opcçoes from './pages/ADM/opções/op'
+import Gerenciadordes from './pages/admin/Gerenciadordes/Gerenciador'
+import Opcçoes from './pages/admin/opções/op'
 
 
 
