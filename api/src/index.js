@@ -11,6 +11,14 @@ app.use(cors())
 app.use(express.json())
 
 
+
+
+/// consultar produtos 
+
+
+
+
+
 app.get('/clientes/:id', async (req, resp) => {
     let r = await db.infoa_sti_cliente.findOne({ where: { id_cliente: req.params.id}});
     resp.send(r);
@@ -37,6 +45,8 @@ app.post('/login', async (req, resp) => {
 
     resp.sendStatus(200);
 });
+
+
 
 // tela de cadastro
 app.post('/cadastrar', async (req, resp) => {
@@ -96,12 +106,10 @@ app.post('/produto', async (req, resp) => {
 
     })
 
-    
- 
-
     resp.send(200);
 
 })
+
 
 
 
