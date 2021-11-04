@@ -2,9 +2,18 @@
 import { ConteinerCadastro } from "./styled"
 import OptLista from "../../../components/BarOption/index"
 
+import { useState, useEffect } from "react";
+
+import Api from "../../../services/api"
+const api = new Api(); 
+
 
 
 export default function Cadastro() {
+
+
+
+    
     return(
   
         <ConteinerCadastro>

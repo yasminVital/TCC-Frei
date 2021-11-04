@@ -114,12 +114,7 @@ app.post('/produto', async (req, resp) => {
 
 
 app.get('/produto', async (req, resp) => {
-
-
     const data = await db.infoa_sti_produto.findAll();
-
-    
-
     resp.send(data);
 
 })
