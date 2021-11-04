@@ -21,6 +21,11 @@ export default function ListaOpt() {
                 <div className = "barra"> </div>
                 <div className = "gerenciamento">Gerenciador de Pedidos  </div>
             </div>
+
+            <div className = "botão1"> 
+                <div className = "barra"> </div>
+                <div className = "gerenciamento">Adicionar  Produtos  </div>
+            </div>
             </div>  
          </div>     
 
