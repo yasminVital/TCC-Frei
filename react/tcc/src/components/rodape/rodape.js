@@ -38,7 +38,7 @@ export default function Rodape() {
                         </div>
                     </div>
                 </div>
-                <div className='final'>
+                <div className='final1'>
                     <div className='exp'>
                         Todos os direitos reservados | STI ©
                     </div>

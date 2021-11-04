@@ -7,14 +7,14 @@ const Contenenag = styled.div`
     flex-direction: row;
     align-items: center;
     background-color: white;
-    width: 228px;
+    width: 100vh;
     margin-top: 20px;
     }
 
 .parte1 {
     background-color: #17191A;
     height: 100vh ;
-    width: 25vh;
+    width: 100vh;
     
 }
 .ll {
@@ -86,13 +86,30 @@ th {
 
 .table-user {
     border-collapse: collapse;
+    width: 160vh;
+    margin-left: 5%;
+   
     
 }
 
 .parte-02 {
     background-color:  #D8D8D8;
+    width: 1800px;
 
 }
+
+.titulo {
+    font-size: 22px;
+    margin: 5%;
+}
+
+table {
+    border: 0px solid #000;
+    border-radius: 50px;
+}
+
+
+
 
 `
 
