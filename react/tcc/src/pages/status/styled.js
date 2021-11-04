@@ -50,7 +50,7 @@ background-color: #D2F6FF;
 
 .ok {
 
-    margin: 0% 0% 1% 8%;
+    margin: 1% 0% 1% 8%;
 
 }
 
@@ -146,6 +146,7 @@ background-color: #D2F6FF;
     align-content: flex-end;
     justify-content: flex-end;
     margin-right: 5%;
+    margin-bottom: 2%;
 }
 
 .valor{
