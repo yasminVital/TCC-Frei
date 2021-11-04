@@ -13,8 +13,8 @@ export default class Api{
 
 
 
- async CadastraProduto(ds_codigo_interno, nm_produto, id_categoria, nr_estoque_minimo, nr_estoque_maximo, vl_valor ,nr_estoque_atual, ds_descricao){
-    let r = await api.post('/produto', {ds_codigo_interno, nm_produto, id_categoria, nr_estoque_minimo, nr_estoque_maximo, nr_estoque_atual, ds_descricao})
+ async CadastraProduto(imagem, codigo , produto, Sabor, estoqueMin, estoqueMax, valor , estoqueAtual, descricao){
+    let r = await api.post('/produto', {imagem, codigo, produto, Sabor, estoqueMin, estoqueMax, valor, estoqueAtual, descricao})
     return r.data; 
     }
 }

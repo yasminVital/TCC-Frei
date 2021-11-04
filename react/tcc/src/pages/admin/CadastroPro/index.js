@@ -5,13 +5,35 @@ import OptLista from "../../../components/BarOption/index"
 import { useState, useEffect } from "react";
 
 import Api from "../../../services/api"
-const api = new Api(); 
+const api = new Api();
+
+
+
+
+
 
 
 
 export default function Cadastro() {
 
 
+
+    
+const [codigo, setCodigo] = useState(''); 
+const [Produto, setProduto] = useState(''); 
+const [Sabor, setSabor] = useState(''); 
+const [valor, setvalor] = useState(''); 
+const [estoqueMax, setestoqueMax] = useState(''); 
+const [estoqueMin, setestoqueMin] = useState(''); 
+const [estoqueAtual, setestoqueAtual] = useState(''); 
+const [descricao, setdescricao] = useState(''); 
+
+
+
+async function CadastraProduto() {
+    let r = await api.CadastraProduto(codigo, Produto, Sabor, valor ,estoqueMax, estoqueMin, estoqueAtual, descricao);
+    alert("Produto Cadastrado !")
+}
 
     
     return(
@@ -28,13 +50,13 @@ export default function Cadastro() {
                  <div className = "InfoProduto">
                 <div className = "conteinerinput">
                     <div className = "label">CÓDIGO INTERNO</div>
-                     <div className = "input-text"><input className = "dsProduto" type = "text"/></div>
+                     <div className = "input-text"><input className = "dsProduto" type = "text" value = {codigo} onChange = {e => setCodigo(e.target.value)}/></div>
                 </div>
 
 
                 <div className = "conteinerinput">
                     <div className = "label">NOME DO PRODUTO</div>
-                     <div className = "input-text"><input className = "dsProduto" type = "text"/></div>
+                     <div className = "input-text"><input className = "dsProduto" type = "text" value = {Produto} onChange = {e => setProduto (e.target.value)}/></div>
                 </div>
 
               
@@ -54,31 +76,31 @@ export default function Cadastro() {
                 <div className = "infovalor">
                 <div className = "conteinerinput">
                     <div className = "label">VALOR</div>
-                     <div className = "input-text-valor"><input className = "valorProduto" type = "text"/></div>
+                     <div className = "input-text-valor"><input className = "valorProduto" type = "text" value = {valor} onChange = {e => setvalor (e.target.value)}/></div>
                 </div>
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MÍNIMO</div>
-                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text" value = {estoqueMin} onChange = {e => setestoqueMin (e.target.value)}/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE MAXIMO</div>
-                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text" value = {estoqueMax} onChange = {e => setestoqueMax (e.target.value)}/></div>
                 </div>
               
 
                 <div className = "conteinerinput">
                     <div className = "label">ESTOQUE ATUAL</div>
-                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text"/></div>
+                     <div className = "input-text-estoque"><input className = "valorEstoque" type = "text" value = {estoqueAtual} onChange = {e => setestoqueAtual (e.target.value)}/></div>
                 </div>
                 </div>
 
                 <div className = "descriçãoPro">
                 <div className = "conteinerarea">
                     <div className = "label"> DESCRIÇÃO DO PRODUTO </div>
-                    <textarea className = "Descrição"></textarea>
+                    <textarea className = "Descrição" value = {descricao} onChange = {e => setdescricao(e.target.value)}></textarea>
                 </div>
                 </div>
             </div>
@@ -92,7 +114,7 @@ export default function Cadastro() {
 
            
             <div className = "botões">
-                <div className = "cadastra"><button className = "confirmar"><img src = "./assets/imagens/confirme.png" alt = ""/> CADASTRA</button></div>
+                <div className = "cadastra"><button className = "confirmar" onClick = {CadastraProduto}><img src = "./assets/imagens/confirme.png" alt = ""/> CADASTRA</button></div>
                 <div className = "cancela"><button  className = "Cancelar"><img src = "./assets/imagens/Cancelar.png" alt = ""/> CANCELAR </button></div>
              
             </div>
