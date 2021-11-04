@@ -1,6 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const Contenenag = styled.div` 
+
+const Conteinergeren  = styled.div `
 
 .opcao01 {
     display: flex;
@@ -100,7 +101,9 @@ th {
 
 .titulo {
     font-size: 22px;
-    margin: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+
 }
 
 table {
@@ -108,9 +111,67 @@ table {
     border-radius: 50px;
 }
 
+.pooooo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
 
+
+.tirinnhas {
+    margin-left: 2%;
+    margin-top: 2%
+    
+    
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+button {
+border: 1px solid #000;
+border-radius: 50px;
+outline: none;
+cursor: pointer;
+background-color:#2BA600;
+color: #fff;
+width: 200px;
+height: 50px;
+font-size: 20px;
+}
+
+.custom-file-input {
+content: 'Select some files';
+display: inline-block;
+background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+border: 1px solid #999;
+border-radius: 50px;
+padding: 5px 8px;
+
+white-space: nowrap;
+-webkit-user-select: none;
+text-shadow: 1px 1px #fff;
+font-weight: 700;
+font-size: 10pt;
+}
+
+input {
+
+width: 350px;
+height: 30px;
+border-radius: 2px;
+border-color: #000;
+border: 1px solid #000;
+border-radius: 50px;
+background-color: FFFFFF;
+margin-left: 10%;
+}
 
 
 `
-
-export { Contenenag}
+export {Conteinergeren}

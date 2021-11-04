@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const ConteinerAdmBar = styled.div`
-height: 41.1em;
+height: 100vh;
 width: 12em;
 background-color:black;
 
