@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react"
-import ContadorProduto from "../../Produtos/detalhepro/contadorProduto/styled"
+
 import Contador from "../contador/styled"
 
 
@@ -8,8 +8,7 @@ import Contador from "../contador/styled"
 export default function Item(props) {
     const [ produto, setProduto ]  = useState(props.info)
     const [preco, setPreco] = useState(0)
-    const [subPedidos, setSubPedidos] = useState(10)
-    const [cupom, setCupom] = useState(20)
+
     
     
   function remover(qtd) {

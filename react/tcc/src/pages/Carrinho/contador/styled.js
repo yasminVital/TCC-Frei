@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import styled from "styled-components";
 
-import ContadorProduto from '../../Produtos/detalhepro/contadorProduto/styled';
+
 
 const Container = styled.div`
   display: flex;

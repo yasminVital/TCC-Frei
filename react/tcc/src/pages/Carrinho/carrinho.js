@@ -9,7 +9,7 @@ import { Link ,useHistory } from "react-router-dom"
 
 export default function Carrinho(props) {
     const [produtos, setProdutos] = useState([]);
-    const [VlFinal, setVlFinal] = useState(0)
+   
     const navegation = useHistory()
   
 
