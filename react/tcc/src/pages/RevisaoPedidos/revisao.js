@@ -7,19 +7,22 @@ import Rodape from '../../components/rodape/rodape'
 import Pagamento from '../../components/pagamento'
 import { useState } from 'react'
 
-export default function Carrinho() {
 
-    const [produtos, setProdutos] = useState(false);
+
+export default function Revisao(props) {
+
+    const [Mostrar, setMostrar] = useState(false);
+
 
 
 
     function listar() {
-        setProdutos(true)  
+        setMostrar(true)  
         onclick="select"
     }
 
     function remover(){
-        setProdutos(false)
+        setMostrar(false)
     }
 
 
@@ -51,15 +54,7 @@ export default function Carrinho() {
                   <th> Quantidade </th>
                   <th> Subtotal de itens</th>
               </thead>
-              <tbody>
-                  <tr>
-                      <td style={{width: '15%'}}> <img src="./assets/imagens/bolinho.png" alt="" width="90%" /> </td>
-                      <td>baguete de Queijo</td>
-                      <td>R$ 3,50</td>
-                      <td>3</td>  
-                      <td>R$ 3,50</td>
-                  </tr>
-              </tbody>
+              
             </div>
             <h1 style={{marginLeft: '3em'}}>Método de Pagamento</h1>    
             <div className="meto-paga">
@@ -69,7 +64,7 @@ export default function Carrinho() {
             </div> 
             <div className="bandeiras">
                      
-                        {produtos &&
+                        {Mostrar &&
                             <Pagamento onClick={listar} />
                         }
                         

@@ -11,6 +11,18 @@ app.use(cors())
 app.use(express.json())
 
 
+app.get('/clientes', async (req, resp) => {
+    try {
+        let users = await db.infoa_sti_cliente.findAll()
+
+        resp.send(users)
+        
+    } catch (e) {
+        resp.send({erro: e.toString()})
+    }
+});
+
+
 
 
 /// consultar produtos 
@@ -22,7 +34,7 @@ app.use(express.json())
 app.get('/clientes/:id', async (req, resp) => {
     let r = await db.infoa_sti_cliente.findOne({ where: { id_cliente: req.params.id}});
     resp.send(r);
-})
+});
 
 
 // tela de login
@@ -80,7 +92,7 @@ app.post('/cadastrar', async (req, resp) => {
 } catch (error) {
     resp.send( error.toString() )
 }
-})
+});
 
 // cadastrar Produto
 
@@ -108,16 +120,20 @@ app.post('/produto', async (req, resp) => {
 
     resp.send(200);
 
-})
+});
 
 
 
 
 app.get('/produto', async (req, resp) => {
+
+
     const data = await db.infoa_sti_produto.findAll();
+
+    
     resp.send(data);
 
-})
+});
 
 
 // Alterar Produto 
@@ -151,7 +167,7 @@ app.put('/produto/:idProduto', async (req, resp) => {
     { 
         where: { id_produto: req.params.idProduto }
     })
-})
+});
 
 
 
@@ -190,7 +206,7 @@ app.put('/cliente/:id', async (req, resp) => {
     resp.sendStatus(200)
 
 
-})
+});
 
 
 
@@ -203,7 +219,7 @@ app.delete('/produto', async (req, resp) => {
         } 
      })
      resp.sendStatus(200);
-}) 
+});
 
 
 

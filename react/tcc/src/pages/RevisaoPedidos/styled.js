@@ -80,7 +80,7 @@ h3 {
 }
 
 .en-input {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .en-input > input {

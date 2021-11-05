@@ -87,8 +87,3 @@ export default function Cadastrar() {
     )
     
 }
-
-
-
-
-

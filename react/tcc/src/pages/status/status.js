@@ -49,7 +49,7 @@ export default function status () {
                             </div> 
                             
                             <div className ="numero">
-                            Nº do Pedido: 2527
+                            Nº do Pedido: 202111051841
             
                             </div> 
                         </div>

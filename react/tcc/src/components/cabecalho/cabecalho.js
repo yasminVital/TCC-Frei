@@ -22,9 +22,9 @@ async function a() {
         <ConteinerCabecalho>
             <div className = "ConteinerCabecalho">
                 <div className = "conteudo">
-                    <div className = "inicial"> <Link to = "/"> HOME </Link> </div>
-
                     <div className = "sobre"> <Link to = "/sobre"> SOBRE NÓS </Link> </div>
+
+                    <div className = "inicial"> <Link to = "/home"> HOME </Link> </div>
 
                     <div className = "menu"> <Link to = "/produtos">  MENU </Link></div> 
 
@@ -37,11 +37,11 @@ async function a() {
                     <div className = "imagem-lupa" >  <img src= "./assets/imagens/lupa1.svg" alt ="" width="100%" onClick={a}/> </div>
                     <div class="barra"></div>
                     <Tristeza>  
-                        <img src= "./assets/imagens/login.svg" alt ="" />  
+                       <Link to = '/Login'> <img src= "./assets/imagens/login.svg" alt ="" />  </Link>
                         <div className="ff"> 
                             <Link to = "/perfil"> <div className="names"> Minha Conta </div> </Link>
                             <div className="bord"> </div>
-                            <Link to = "/sobre"> <div className="names"> Meus Pedidos</div> </Link>
+                            <Link to = "./MinhasCompras"> <div className="names"> Meus Pedidos</div> </Link>
                             <div className="bord"> </div>
                             <Link to = "/"> <div className="names"> Sair </div> </Link>
                             <div className="bord"> </div>
