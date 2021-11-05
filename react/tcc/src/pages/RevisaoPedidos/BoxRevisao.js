@@ -1,10 +1,8 @@
 
-import { useState, useEffect } from "react"
 
-
+ {/*
 
 export default function Box(props) {
-    const [ produto, setProduto ]  = useState(props.info)
 
     return(
         <comtainersla>
@@ -19,4 +17,4 @@ export default function Box(props) {
               </tbody>
         </comtainersla>
     )
-}
+} */}

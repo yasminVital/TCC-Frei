@@ -1,6 +1,5 @@
 import {ConteinerOP} from './styled'
 import OptLista from "../../../components/BarOption/index"
-import { Link } from 'react-router-dom'
 
 export default function op () {
 

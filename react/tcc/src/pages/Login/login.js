@@ -2,7 +2,6 @@
 
 import { ConteinerLogin } from "./styled"
 import { Link } from "react-router-dom"
-import Cabecalho from '../../components/cabecalho/cabecalho'
 
 
 

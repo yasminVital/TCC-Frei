@@ -6,14 +6,11 @@ import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
 import Pagamento from '../../components/pagamento'
 import { useState } from 'react'
-import Item from './BoxRevisao'
-import Cookies from "js-cookie"
 
 
 
 export default function Revisao(props) {
 
-    const [produtos, setProdutos] = useState([]);
     const [Mostrar, setMostrar] = useState(false);
 
 
@@ -57,11 +54,7 @@ export default function Revisao(props) {
                   <th> Quantidade </th>
                   <th> Subtotal de itens</th>
               </thead>
-              {produtos.map(item => 
-                    <Item key={item.id} 
-                        info={item} 
-                        />
-                )}
+              
             </div>
             <h1 style={{marginLeft: '3em'}}>Método de Pagamento</h1>    
             <div className="meto-paga">

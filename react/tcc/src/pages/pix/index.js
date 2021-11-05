@@ -1,7 +1,5 @@
 import { ContainerCarrinho } from './styled'
 
-import { Link } from 'react-router-dom'
-
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
 import Listras from '../../components/listras'
@@ -21,6 +19,7 @@ export default function Pix() {
                     <input disabled value="41734628067368373913979174548727"/>
                 </div> 
             </div>
+            <Rodape />
         </ ContainerCarrinho>
 
         )

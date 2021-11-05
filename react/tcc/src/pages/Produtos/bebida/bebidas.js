@@ -5,7 +5,6 @@ import Produto from '../boxItem/index'
 
 import Rodape from '../../../components/rodape/rodape'
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 
 

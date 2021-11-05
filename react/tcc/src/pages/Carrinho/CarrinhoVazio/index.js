@@ -1,6 +1,5 @@
 import { ContainerCarrinho } from './styled'
 
-import { Link } from 'react-router-dom'
 import Listras from '../../../components/listras'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
 import Rodape from '../../../components/rodape/rodape'

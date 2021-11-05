@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 
 
@@ -104,7 +103,6 @@ const Container = styled.div `
 
 export default function Model(props) {
 
-    const [Exibir, setExibir] = useState(false)
 
 
     return(

@@ -9,13 +9,10 @@ import { Link ,useHistory } from "react-router-dom"
 
 export default function Carrinho(props) {
     const [produtos, setProdutos] = useState([]);
-    const [VlFinal, setVlFinal] = useState(0)
     const navegation = useHistory()
   
 
     // Chama a funcção 'carregarCarrinho' assim que a página abre 
-    useEffect(carregarCarrinho, []);
-  
   
   
     function carregarCarrinho() {
@@ -58,6 +55,11 @@ export default function Carrinho(props) {
         Cookie.set('carrinho', JSON.stringify(produtos));
      }
 
+    
+     useEffect(() => {
+        carregarCarrinho();
+      })
+    
      
     return (
     <ContainerCarrinho>
