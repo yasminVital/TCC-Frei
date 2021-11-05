@@ -4,8 +4,6 @@ import { ConteinerLogin } from "./styled"
 import { Link } from "react-router-dom"
 
 
-
-
 export default function Login() {
 
     return (
@@ -29,7 +27,7 @@ export default function Login() {
              <div className = "func-para-cadastro">
                  <div className = "Esqueceu"> Esqueceu a senha? <span> clique aqui </span></div>
                  <div className = "cria"> <Link  to = "/Cadastra"> Criar conta um conta  </Link> </div> 
-
+                   <Link to="./Loginadm"> <div>Acessar o Adm</div> </Link>
                 </div>
        
              </div>
