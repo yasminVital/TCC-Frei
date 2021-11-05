@@ -37,7 +37,7 @@ async function a() {
                     <div className = "imagem-lupa" >  <img src= "./assets/imagens/lupa1.svg" alt ="" width="100%" onClick={a}/> </div>
                     <div class="barra"></div>
                     <Tristeza>  
-                        <img src= "./assets/imagens/login.svg" alt ="" />  
+                       <Link to = '/Login'> <img src= "./assets/imagens/login.svg" alt ="" />  </Link>
                         <div className="ff"> 
                             <Link to = "/perfil"> <div className="names"> Minha Conta </div> </Link>
                             <div className="bord"> </div>

@@ -81,9 +81,9 @@ export default function Routes () {
               <Route path="/revisao" component={Revisao} />
               <Route path="/Pagamento" component={Pix} />
               <Route path="/status" component={status} />
+<
               <Route path="/Compras" component={MinhasCompras}/>
-                    
-             
+        
 
               <Route path="/entrega" component={Entrega} />
               <Route path="/revisao" component={Entrega} />
