@@ -51,8 +51,9 @@ export default function Routes () {
     return(
         <BrowserRouter>
           <Switch>
-              <Route path = '/' exact = {true} component = {Home} />
-              <Route path = '/Login'  component = {Login} />
+              <Route path = '/' exact = {true} component = {Login} />
+              <Route path = '/home'  component = {Home} />
+
               <Route path = '/sobre' component = {Nos} />
               <Route path = '/Cadastra' component = {Cadastra}/>
 
@@ -80,9 +81,9 @@ export default function Routes () {
               <Route path="/revisao" component={Revisao} />
               <Route path="/Pagamento" component={Pix} />
               <Route path="/status" component={status} />
-              <Route path="/MinhasCompras" component={MinhasCompras}/>
-                    
-             
+<
+              <Route path="/Compras" component={MinhasCompras}/>
+        
 
               <Route path="/entrega" component={Entrega} />
               <Route path="/revisao" component={Entrega} />

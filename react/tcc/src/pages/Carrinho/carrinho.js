@@ -69,7 +69,7 @@ export default function Carrinho(props) {
                 <th> </th>
                 <th> Produto </th>
                 <th> Preço </th>
-                <th> Quantidade</th>
+                <th className="f"> Quantidade</th>
                 <th> Total </th>
             </thead>
       

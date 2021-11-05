@@ -4,7 +4,7 @@ const ContainerCarrinho = styled.div`
 
 
 .box-tabela {
-  margin: 2em 9em 0em 2em;
+  margin: 2em 4em 0em 4em;
 }
 
  thead {
@@ -13,13 +13,15 @@ const ContainerCarrinho = styled.div`
     width: 100vw;
 
 }
-
+tbody {
+    margin-left: 90em;
+}
 th {
     height: 61.93px;
     text-align: center;
-    padding: .1em 6.8em;
+    padding: .1em 6.5em;
     color: #ffff;
-    font-weight: 800;
+    font-weight: 600;
 } 
 
 
@@ -27,9 +29,8 @@ td {
     text-align: center;
     height:  61.93px;
     font-family: 'Noto Sans SC', sans-serif;
-        padding: 1em;
+    padding: 1em 2em;
     color: #6D6868;
-    font-weight: 600;
 }
 
 .cupom {
@@ -60,30 +61,28 @@ outline: none;
 }
 
 .est-box {
-    position: relative;
-    left: 9em;
+    position: static;
+    left: 3em;
     top: .45em;
     display: flex;
     flex-direction: row;
 }
-
+.f {
+    margin-right: -590em;
+}
 .est-box > input {
     margin: 0px 8px;
     text-align: center;
 }
 
 .lixeira img {
-    position: relative;
-    top: 20px;
-    left: 6.4em;
+    margin-top: 10px;
     height: 1.4em;
 
     cursor: pointer;
 }
 
 .h {
-position: relative;
-right: -24px;
 }
 input {
     outline: none;
@@ -123,4 +122,9 @@ button {
 }
 
 `
-export { ContainerCarrinho }
+const Comtainersla = styled.div`
+    background-color: azure;
+    width: 80em;
+`
+
+export { ContainerCarrinho, Comtainersla }

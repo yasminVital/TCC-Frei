@@ -1,4 +1,5 @@
 
+import {comtainersla} from "../styled"
 import { useState, useEffect } from "react"
 
 import Contador from "../contador/styled"
@@ -39,16 +40,16 @@ export default function Item(props) {
             
         <tbody>
             <tr>
-                <td style={{width: '12%', borderRadius: '85px'}}><img src={produto.imagem} alt="" width="90%"/></td>
+                <td style={{width: '18%'}}><img src={produto.imagem} alt="" width="90%"/></td>
                 <td> {produto.nome} </td>
-                <td> R$: {produto.valor} </td>
+                <td> R$: {produto.valor},00 </td>
                 <td> 
                     <div className="est-box">
                         <Contador onChange={alterarQtd} value={produto.qtd}/>
                     </div> 
                     <div className="lixeira"> <img src="./assets/imagens/lixeira.png" alt="" onClick={remover}/> </div>
                 </td>  
-                <td className="h"> R$: {preco}</td>
+                <td > R$: {preco},00</td>
             
             </tr>
         </tbody>
