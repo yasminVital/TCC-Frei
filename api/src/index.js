@@ -23,6 +23,18 @@ app.get('/clientes', async (req, resp) => {
 });
 
 
+app.get('/endereco', async (req, resp) => {
+    try {
+        let users = await db.infoa_sti_endereco.findAll()
+
+        resp.send(users)
+        
+    } catch (e) {
+        resp.send({erro: e.toString()})
+    }
+});
+
+
 
 
 /// consultar produtos 
@@ -94,19 +106,37 @@ app.post('/cadastrar', async (req, resp) => {
 }
 });
 
+
+app.post('/cupom', async (req, resp) => {
+    let x = req.body;
+     
+    try {
+       
+        const cupons = await db.infoa_sti_cupom.create({
+            ds_nome_desconto: x.nome,
+            vl_cupom: x.valor,
+            bt_ativo: true,
+        })
+
+    resp.sendStatus(200);
+} catch (error) {
+    resp.send( error.toString() )
+}
+});
+
 // cadastrar Produto
 
 
 app.post('/produto', async (req, resp) => {
     const { imagem, produto, codigo, descricao, valor, estoqueMin, estoqueMax, estoqueAtual, sabor} = req.body;
     
-    const Sabor = await db.infoa_sti_categoria.create({
+    const Sabores = await db.infoa_sti_categoria.create({
         nm_sabor: sabor
     })
 
 
     const Produtos = await db.infoa_sti_produto.create({
-        id_categoria: Sabor.id_categoria,
+        id_categoria: Sabores.id_categoria,
         img_produto: imagem,
         nm_produto: produto,
         ds_codigo_interno: codigo,
@@ -118,7 +148,7 @@ app.post('/produto', async (req, resp) => {
 
     })
 
-    resp.send(200);
+    resp.sendStatus(200);
 
 });
 
