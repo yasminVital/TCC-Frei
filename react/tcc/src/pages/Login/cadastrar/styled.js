@@ -105,7 +105,7 @@ button {
     opacity: 0.75;
     border-radius: 30px;
     text-align: center;
-  
+
 }
 .botão > button {
     background-color:#1AF38B;
