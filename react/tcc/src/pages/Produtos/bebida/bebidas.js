@@ -19,21 +19,33 @@ export default function Produtos() {
     const r = [
       {
         id: 103,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        valor: 5.10,
-        nome: "Rocambole de chocolate ",
+        imagem: "./assets/imagens/achocolatado.png",
+        valor: 5,
+        nome: "Achocolatado",
       },
       {
         id: 104,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        valor: 7.20,
-        nome: "Rocambole de chocolate ",
+        imagem: "./assets/imagens/suco-de-uva 1.png",
+        valor: 7,
+        nome: "Suco de Uva",
       },
       {
-        id: 105,
-        imagem: "./assets/imagens/rocambole de chocolate.png",
-        valor: 9.90,
-        nome: "Rocambole de chocolate ",
+        id: 106,
+        imagem: "./assets/imagens/agua.png",
+        valor: 9,
+        nome: "achocolatado",
+      },
+      {
+        id: 107,
+        imagem: "./assets/imagens/cafe.png",
+        valor: 3,
+        nome: "Café",
+      },
+      {
+        id: 108,
+        imagem: "./assets/imagens/cafe-com-leite 1.png",
+        valor: 9,
+        nome: "Cafe com Leite ",
       }
     
     ]

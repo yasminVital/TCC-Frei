@@ -25,7 +25,7 @@ export default function Login() {
                  <div className  = "senha"> <input type = "password" placeholder = "Digite sua senha"/></div>
                 </div>
 
-                 <div className = "botão"> <button> Entra </button> </div>
+                 <div className = "botão"> <Link  to = "/home"> <button> Entra </button>  </Link> </div>
 
              <div className = "func-para-cadastro">
                  <div className = "Esqueceu"> Esqueceu a senha? <span> clique aqui </span></div>
