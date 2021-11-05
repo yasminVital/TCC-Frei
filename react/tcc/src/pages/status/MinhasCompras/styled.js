@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Conteinercompras = styled.div`
+background: #D2F6FF;
 
 .Faixastatus {
     background: #D2F6FF;
@@ -80,7 +81,7 @@ input {
 }
 
 .Minhas {
-    font-size: 28px;
+    font-size: 20px;
     padding: 5% 0% 2% 8%;
 }
 
@@ -179,13 +180,13 @@ input {
 
 .Pre {
     color: #006BA1;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 
 .itenms {
     color: #006BA1;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 
@@ -193,7 +194,7 @@ input {
     display: flex;
     flex-direction: row;
     margin-left: 50%;
-    font-size: 22px;
+    font-size: 16px;
 }
 
                     
@@ -204,7 +205,7 @@ input {
 
 .vaLor{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .imgstatus {
@@ -220,13 +221,13 @@ input {
     padding: 1%;
 }
 .nprod {
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 1%;
     color: #000000;
 }
 
 .numeropedido {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .butons{
@@ -253,7 +254,7 @@ button{
 .p {
     color: red;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .rodape{
       background: #FFFFFF;

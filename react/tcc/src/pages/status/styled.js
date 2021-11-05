@@ -45,8 +45,20 @@ background-color: #D2F6FF;
 }
 
 .previsao1 {
-    margin-right: 1%;
+    background-color: #00ff00;
+    width: 25vh;
+    height: 1.5vh;
+    border-radius: 50px;
 }
+
+.previsao2 {
+    background-color: #00ff00;
+    width: 100vh;
+    height: 1.5vh;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+
 
 .ok {
 
