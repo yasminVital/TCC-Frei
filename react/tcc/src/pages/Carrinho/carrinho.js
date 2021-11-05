@@ -22,7 +22,7 @@ export default function Carrinho(props) {
             : [];
 
         if (carrinho.length === 0)
-            navegation.push('/carrinho')
+            navegation.push('/CarrinhoVazio')
 
 
         setProdutos(carrinho)
