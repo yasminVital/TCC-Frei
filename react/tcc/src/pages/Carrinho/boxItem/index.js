@@ -11,7 +11,7 @@ export default function Item(props) {
 
     
     
-  function remover(qtd) {
+  function remover() {
     props.onRemove(produto.id);
   
 }

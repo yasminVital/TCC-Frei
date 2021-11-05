@@ -13,8 +13,22 @@ export default function Carrinho(props) {
     const navegation = useHistory()
   
 
-    // Chama a funcção 'carregarCarrinho' assim que a página abre 
-  
+ 
+
+    useEffect(  function carregarCarrinho() {
+        let carrinho = Cookie.get('carrinho');
+        carrinho = carrinho !== undefined
+            ? JSON.parse(carrinho)
+            : [];
+
+        if (carrinho.length === 0)
+            navegation.push('/carrinho')
+
+
+        setProdutos(carrinho)
+        
+    }
+, [ navegation ])  
   
     function carregarCarrinho() {
       // Lê o Array de Produtos do Carrinho do Cookie.
@@ -44,8 +58,8 @@ export default function Carrinho(props) {
         Cookie.set('carrinho', JSON.stringify(carrinho));
     
         // Atualiza a variável de estado
-        setProdutos([...carrinho]);
-      }
+        carregarCarrinho()
+        }
     
       function alterarProduto(id, qtd) {
         // Busca o Produto em questão no Carrinho e atualiza o campo de 'qtd'
@@ -56,10 +70,7 @@ export default function Carrinho(props) {
         Cookie.set('carrinho', JSON.stringify(produtos));
      }
 
-    
-     useEffect(() => {
-        carregarCarrinho();
-      })
+
     
      
     return (
