@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 
-const ConteinerLogin = styled.div `
+const Conteinernovasenha = styled.div `
     display: flex;
     flex-direction: column;
     height: 120vh;
@@ -13,7 +13,7 @@ const ConteinerLogin = styled.div `
     background-repeat: no-repeat; 
 
 
-.ConteinerLogin{
+.Conteinernovasenha{
     
     margin-top: 5em;
     margin-left: 23em;
@@ -34,7 +34,7 @@ const ConteinerLogin = styled.div `
 
 .Login {
     padding-top: 2em;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .logo {
@@ -62,12 +62,16 @@ const ConteinerLogin = styled.div `
     text-align: center;  
 }
 
-.email {
+.confsenha {
+    padding-bottom: 2em;
+}
+
+.senhanova {
     
     padding-bottom: 2em;
 }
 
-.senha{
+.email {
     padding-bottom: 2em;
 }
 
@@ -84,7 +88,7 @@ input {
     padding-top: 1em;
     
     text-align: center;
-
+    border-radius: 20px;
 }
 
 button {
@@ -129,4 +133,4 @@ span {
 
 `
 
-export {ConteinerLogin}
+export {Conteinernovasenha}
