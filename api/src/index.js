@@ -13,7 +13,7 @@ app.use(express.json())
 
 app.get('/clientes', async (req, resp) => {
     try {
-        let users = await db.infoa_enl_login.findAll()
+        let users = await db.infoa_sti_cliente.findAll()
 
         resp.send(users)
         
@@ -126,6 +126,8 @@ app.post('/produto', async (req, resp) => {
 
 
 app.get('/produto', async (req, resp) => {
+
+
     const data = await db.infoa_sti_produto.findAll();
 
     
