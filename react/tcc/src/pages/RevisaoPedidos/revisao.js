@@ -6,24 +6,38 @@ import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
 import Pagamento from '../../components/pagamento'
 import { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 
 
 export default function Revisao(props) {
 
     const [Mostrar, setMostrar] = useState(false);
+    const [pix, setPix] = useState(false)
+    let nav = useHistory()
 
+    function fazer() {
+        if (setPix() === true) {
+            nav.push('/Pagamento')
+        }
+        else {
+            nav.push('/Pagamento')
+        }
 
+    }
 
+ 
 
-    function listar() {
+    async function listar() {
         setMostrar(true)  
         onclick="select"
     }
 
-    function remover(){
+    async function remover(){
         setMostrar(false)
     }
+
+
 
 
     
@@ -62,11 +76,7 @@ export default function Revisao(props) {
             </div>
             <h1 style={{marginLeft: '3em'}}>Método de Pagamento</h1>    
             <div className="meto-paga">
-                <div className="pix" style={{marginLeft: '1em', alignItems: 'center'}}> <img src="./assets/imagens/logo-pix-icone-512 10.png" alt="" width="30%"/> <div style={{marginLeft: '.8em'}}> PIX </div> </div>
-                <div className="din" style={{marginLeft: '3em', alignItems: 'center'}}> <img src="./assets/imagens/dinheiro.png" alt="" width="58%"/> <div> Dinheiro </div> </div>
-                <div className="car" style={{marginLeft: '3em'}} > <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
-                
-                <div className="pix" onClick={remover} type="radio" style={{marginLeft: '1em', alignItems: 'center'}}> <img src="./assets/imagens/logo-pix-icone-512 10.png" alt="" width="30%"/> <div style={{marginLeft: '.8em'}}> PIX </div> </div>
+                <div className="pix" onClick={ () => setPix(true) } type="radio" style={{marginLeft: '1em', alignItems: 'center'}}> <img src="./assets/imagens/logo-pix-icone-512 10.png" alt="" width="30%"/> <div style={{marginLeft: '.8em'}}> PIX </div> </div>
                 <div className="din"  onClick={remover} style={{marginLeft: '3em', alignItems: 'center'}}> <img src="./assets/imagens/dinheiro.png" alt="" width="58%"/> <div> Dinheiro </div> </div>
                 <div className="car" style={{marginLeft: '3em'}} onClick={listar}> <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
             </div> 
@@ -94,8 +104,8 @@ export default function Revisao(props) {
                 </div>
             </div>
                 
-            <div className="but">
-            <Link to="./status"> <button className="ff"> Fazer Pedidos</button> </Link>
+            <div className="but" onClick={fazer}>
+             <button className="ff"> Fazer Pedidos</button> 
             </div>
         <Rodape />
         </ContainerRevisao>
