@@ -87,7 +87,7 @@ input {
 
 .etapas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0% 0% 0% 8%;
 }
 
@@ -95,15 +95,12 @@ input {
     margin-right: 2%;
 
 }
-
-.etapa2 {
-    margin-right: 2%;
-
-}
-
-.etapa3 {
-    margin-right: 2%;
-
+.b {
+    border: 1px solid #1AABF3E5;
+    width: 3.3em;
+    height: 00.1em;
+    background-color: #1AABF3E5;
+    color: #1AABF3E5;
 }
 
 .etapa4 {

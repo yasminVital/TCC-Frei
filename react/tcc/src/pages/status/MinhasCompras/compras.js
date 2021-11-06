@@ -21,18 +21,9 @@ export default function MinhasCompras (){
                     <div className= "etapa1">
                         Todos
                     </div>
-                    <div className= "etapa2">
-                        A Receber
-                    </div>
-                    <div className= "etapa3">
-                        Concluído
-                    </div>
-                    <div className="etapa4">
-                        Cancelado
-                    </div>
-                </div>
+                    <div className="b"></div>
 
-                
+                </div>
                 <div className="borda222">
                     <div className="stausdacompra">
                         <div className="status-retirada">
@@ -102,7 +93,7 @@ export default function MinhasCompras (){
                         </div>
                         </div>
                         <div className="butons">
-                            <button> Comprar Novamente</button>
+                            <button> Vizualizar </button>
                     </div>
                 </div>
 
@@ -175,11 +166,8 @@ export default function MinhasCompras (){
                         </div>
                         </div>
                         <div className="butons">
-                            <div className="hvhds">
-                            <button> Comprar Novamente</button>
-                            </div>
                             <div className= "buto1">
-                            <button> Pagar </button>
+                            <button> Vizualizar </button>
                             </div>
                         
                         </div>
