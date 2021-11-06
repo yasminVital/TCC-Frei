@@ -24,7 +24,7 @@ export default function Rodape() {
 
                     <div className='part-roda2'>
                         <div className='info-05'>
-                            Horário De  Funcionamento
+                            Horário de  Funcionamento
                         </div>
                         <div className='info-06'>
                             De Segunda à Sexta-Feira <br/> <br/>
@@ -38,16 +38,11 @@ export default function Rodape() {
                         </div>
                     </div>
                 </div>
-                <div className='final'>
+                <div className='final1'>
                     <div className='exp'>
                         Todos os direitos reservados | STI ©
                     </div>
                 </div>
-
-
-
-
-
             </footer>
 
         </Containersroda>)

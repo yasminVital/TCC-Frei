@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Conteinercompras = styled.div`
+background: #D2F6FF;
 
 .Faixastatus {
     background: #D2F6FF;
@@ -80,7 +81,7 @@ input {
 }
 
 .Minhas {
-    font-size: 28px;
+    font-size: 20px;
     padding: 5% 0% 2% 8%;
 }
 
@@ -172,9 +173,150 @@ input {
 }
 
 .SuBT {
-        
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
 }
 
+.Pre {
+    color: #006BA1;
+    font-size: 16px;
+
+}
+
+.itenms {
+    color: #006BA1;
+    font-size: 16px;
+
+}
+
+.ccc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    font-size: 16px;
+}
+
+                    
+.total {
+    color: #878282;
+    font-size: 20px;
+}
+
+.vaLor{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.imgstatus {
+    margin-right: 1%;
+
+}
+
+.Statussim{
+    font-size: 15px;
+}
+
+.pronto0sium{
+    padding: 1%;
+}
+.nprod {
+    font-size: 15px;
+    margin-right: 1%;
+    color: #000000;
+}
+
+.numeropedido {
+    font-size: 15px;
+}
+
+.butons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+button{
+    background: #1AABF3E5;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.buto1 {
+    margin-left: 2%;
+}
+.p {
+    color: red;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.rodape{
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: row;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3em 0px 0px 0px;
+}
+      .part-roda1 {
+      text-align: center;
+      margin-left: 24px;
+      margin-right: 80px;
+}
+      .part-roda2 {
+      text-align: center;
+      margin-right: 80px;
+      padding-bottom: 4em;
+      }
+
+
+      .info-01 {
+      margin-bottom: 19px;
+      font-size: 25px;
+      }
+
+      .info-02 {
+      margin-bottom: 15px;
+      font-size: 18px;
+      }
+      .info-03 {
+      margin-bottom: 15px;
+      font-size: 18px;
+      }
+      .info-04 {
+      margin-bottom: 15px;
+      font-size: 18px;
+      }
+      .info-05 {
+      margin-bottom: 1px;
+      font-size: 25px;
+      }
+      .info-06 {
+      margin-top: 20px;
+      font-size: 18px;
+      }
+      .final {
+      background: #4D5B76;
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+      .exp {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 13px;
+}
+
+.img {
+ padding: 10px 0px;
+}
 `
 
 export {Conteinercompras}

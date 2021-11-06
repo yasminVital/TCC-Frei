@@ -12,6 +12,7 @@ background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
   padding-top: 5%;
+  background-attachment: fixed;
 }
 
 .fundo-fsn{

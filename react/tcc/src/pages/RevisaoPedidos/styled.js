@@ -7,6 +7,7 @@ flex-direction: column;
 margin: 0px;
 box-sizing: border-box;
 
+
 a:link {
     text-decoration: none;
 }
@@ -79,7 +80,7 @@ h3 {
 }
 
 .en-input {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .en-input > input {
@@ -87,14 +88,6 @@ h3 {
     margin-top: 5px;
 }
 
-
- input[type=radio] {
-    background-color: red;
-    color: red;
-    border: 2px solid red;
-  border-radius: 4px;
-
-}
 
 
 .entrega > div {
@@ -174,9 +167,10 @@ margin-top: 20px;
 
 .pix:hover img{
 background-color: white;
+
 }
 
-.pix:hover   {
+.pix   {
     padding: 0px 20px 0px 20px ;
 }
 
@@ -208,7 +202,7 @@ padding: 0px 20px 0px 0px ;
     padding-right: 7.5em;
 }
 
-.but > button {
+.ff {
    
     border: 2px solid #1AABF3;
     background-color: #1AABF3;
@@ -221,11 +215,15 @@ padding: 0px 20px 0px 0px ;
 }
 
 
+
+
 button:hover {
+    border: solid #1f628d 2px;
     background-color:#006BA1E5;
-    border: 2px solid #006BA1E5;
+    border: 1px solid #006BA1E5;
     color: white;
     cursor: pointer;
+    
 
 }
 `

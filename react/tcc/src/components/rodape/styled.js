@@ -51,9 +51,10 @@ const Containersroda = styled.div`
       margin-top: 20px;
       font-size: 18px;
       }
-      .final {
+      .final1 {
       background: #4D5B76;
       padding-top: 10px;
+      align-items: center;
       padding-bottom: 10px;
 }
       .exp {

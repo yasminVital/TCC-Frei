@@ -4,9 +4,27 @@ import Tiras from '../../components/listras/index'
 import { Link } from 'react-router-dom'
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
+import Pagamento from '../../components/pagamento'
+import { useState } from 'react'
 
 
-export default function Carrinho() {
+
+export default function Revisao(props) {
+
+    const [Mostrar, setMostrar] = useState(false);
+
+
+
+
+    function listar() {
+        setMostrar(true)  
+        onclick="select"
+    }
+
+    function remover(){
+        setMostrar(false)
+    }
+
 
     
     return ( 
@@ -27,7 +45,7 @@ export default function Carrinho() {
                     <div style={{textAlign: 'left'}}> 463 Av. Coronel Octaviano de Freitas Costa,   Veleiros <br></br>Socorro, São Paulo - SP, 04773-000 </div>
                 </div>
                 <div className="horario" style={{textAlign: 'center'}}> 
-                    <h2> Horário de Retirada </h2>
+                    <h2>  Horário de Retirada </h2>
                     <div> De Segunda à Sexta-Feira <br></br> 08:00 às 16:30</div>
                 </div>
             </div>
@@ -40,15 +58,7 @@ export default function Carrinho() {
                   <th> Quantidade </th>
                   <th> Subtotal de itens</th>
               </thead>
-              <tbody>
-                  <tr>
-                      <td style={{width: '15%'}}> <img src="./assets/imagens/bolinho.png" alt="" width="90%" /> </td>
-                      <td>baguete de Queijo</td>
-                      <td>R$ 3,50</td>
-                      <td>3</td>  
-                      <td>R$ 3,50</td>
-                  </tr>
-              </tbody>
+              
             </div>
             <h1 style={{marginLeft: '3em'}}>Método de Pagamento</h1>    
             <div className="meto-paga">
@@ -56,7 +66,19 @@ export default function Carrinho() {
                 <div className="din" style={{marginLeft: '3em', alignItems: 'center'}}> <img src="./assets/imagens/dinheiro.png" alt="" width="58%"/> <div> Dinheiro </div> </div>
                 <div className="car" style={{marginLeft: '3em'}} > <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
                 
+                <div className="pix" onClick={remover} type="radio" style={{marginLeft: '1em', alignItems: 'center'}}> <img src="./assets/imagens/logo-pix-icone-512 10.png" alt="" width="30%"/> <div style={{marginLeft: '.8em'}}> PIX </div> </div>
+                <div className="din"  onClick={remover} style={{marginLeft: '3em', alignItems: 'center'}}> <img src="./assets/imagens/dinheiro.png" alt="" width="58%"/> <div> Dinheiro </div> </div>
+                <div className="car" style={{marginLeft: '3em'}} onClick={listar}> <img src="./assets/imagens/kisspng-e-commerce-payment-system-credit-card-debit-card-5bf9cb52d627b6 2.svg" alt=""  /> <div>   Cartão de Crédito</div> </div>
             </div> 
+            <div className="bandeiras">
+                     
+                        {Mostrar &&
+                            <Pagamento onClick={listar} />
+                        }
+                        
+                   
+
+            </div>
             <div className="precos"> 
                 <div className="box-preco"> 
                      <div className="sb">Subtotal dos Pedidos: </div>
@@ -73,7 +95,7 @@ export default function Carrinho() {
             </div>
                 
             <div className="but">
-            <button > Fazer Pedidos</button>
+            <Link to="./status"> <button className="ff"> Fazer Pedidos</button> </Link>
             </div>
         <Rodape />
         </ContainerRevisao>

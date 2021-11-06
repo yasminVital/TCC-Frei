@@ -1,85 +1,15 @@
 import { Conteinercompras } from './styled'
+import Chvecalho from '../../../components/cabecalho/cabecalho'
+import Rodape from '../../../components/rodape/rodape'
+
+
 
 
 export default function MinhasCompras (){
    
     return (
         <Conteinercompras>
-            <div className= "Faixastatus">
-               <div className= "cabecalhO">
-                   <div className= "LOGO">
-                   <img src="./assets/imagens/logo 13 (1).png" height="125" alt= ""/>
-                   </div>
-                   <div className = "naveg">
-                   <div className= "navega">
-                       <label for=""></label>
-                       <input type="url" id="hhh" name="hhh"></input>
-                    </div>
-                    <div className= "LUPA00">
-                        <img src="./assets/imagens/lupa1.svg" height="25" alt=""/>
-                    </div>
-                    <div className = "login-50">
-                        <img src = "./assets/imagens/logo de user.png" height="25" alt=""/>
-                    </div>
-                    <div className = "cariinho-50">
-                        <img src= "./assets/imagens/mbricartadd_99553.svg" height="25" alt=""/>
-                    </div>
-                    </div>
-               </div>
-               
-               <div className= "cabelhO2">
-                   <div className = "C2">
-                       HOME
-                    </div>
-                    <div className = "C2">
-                        SOBRE NÓS
-                    </div>
-                    <div className = "C2">
-                        MENU
-                    </div>
-               </div>
-               <div className = "pooooo">
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                <div className = "tirinnhas">
-                    <img src= "./assets/imagens/Rectangle 224.png" alt= "" />
-                </div>
-                </div>
-
+            <Chvecalho/>
 
 
 
@@ -151,13 +81,15 @@ export default function MinhasCompras (){
                             <img src = './assets/imagens/Ellipse 45.svg' alt=""/>
                         </div>
                         <div className= "Statussim">
-                            Aguardadndo a Confirmação !
+                        Aguardando a Confirmação !
                         </div>
+                        <div className="ccc">
                         <div className="total">
-                            Total de Pagamento
+                            Total de Pagamento:
                         </div>
                         <div className= "vaLor">
                             R$ 3,50
+                        </div>
                         </div>
                     </div>
 
@@ -168,9 +100,9 @@ export default function MinhasCompras (){
                         <div className= "numeropedido">
                             2527
                         </div>
+                        </div>
                         <div className="butons">
                             <button> Comprar Novamente</button>
-                        </div>
                     </div>
                 </div>
 
@@ -222,12 +154,14 @@ export default function MinhasCompras (){
                             <img src = './assets/imagens/Ellipse 45.svg' alt=""/>
                         </div>
                         <div className= "Statussim">
-                            Aguardadndo a Confirmação !
+                            Aguardando a Confirmação !
                         </div>
+                        <div className="ccc">
                         <div className="total">
                             Total de Pagamento
                         </div>
-                        <div className= "vaLor">
+                        </div>
+                        <div className= "p">
                             R$ 3,50
                         </div>
                     </div>
@@ -239,12 +173,21 @@ export default function MinhasCompras (){
                         <div className= "numeropedido">
                             2527
                         </div>
-                        <div className="butons">
-                            <button> Comprar Novamente</button>
                         </div>
+                        <div className="butons">
+                            <div className="hvhds">
+                            <button> Comprar Novamente</button>
+                            </div>
+                            <div className= "buto1">
+                            <button> Pagar </button>
+                            </div>
+                        
+                        </div>
+                        
                     </div>
-                </div>
-              </div>
+                   
+             
+                    <Rodape/>
         </Conteinercompras>
     )
 }

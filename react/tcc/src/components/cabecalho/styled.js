@@ -1,6 +1,52 @@
 import styled from "styled-components";
 
 
+const Tristeza = styled.div`
+margin-right: 0.5em;
+
+
+img {
+    cursor: pointer;
+}
+:hover {
+    .ff {
+        visibility: visible;
+    }
+}
+
+.ff {
+
+    visibility: hidden;
+    position: absolute;
+    right: 2em;
+    opacity: 90%;
+
+    background-color: #FFD9D9;
+    border: 2px #FFD9D9 solid;
+
+    width: 7em;
+
+    text-align: center;
+}
+
+ a > .names {
+
+    color: black;
+    margin: 5px 0px;
+    cursor: pointer;
+    :hover {
+         color: cadetblue;
+    }
+}
+
+.bord {
+    border: 2px solid black;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    width: 101%;
+}
+`
+
 const ConteinerCabecalho = styled.div`
 
 a {
@@ -10,6 +56,7 @@ a {
 
 a:hover {
     color: #2872FF;
+    
 }
 
 .ConteinerCabecalho{
@@ -17,12 +64,13 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+  
 }
 .conteudo {
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-left: 20em;
+    margin-left: 15em;
 
 }
 
@@ -74,8 +122,10 @@ a:hover {
 }
 .imagem-login{
     margin-right: 10px;
+  
 }
+ 
 
 
 `
-export {ConteinerCabecalho}
+export {ConteinerCabecalho, Tristeza}

@@ -3,33 +3,38 @@ import styled from "styled-components";
 
 
 const ConteinerLogin = styled.div `
-
-.conteinerimg{
-    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
     width: auto; 
 
     background-image: url("./assets/imagens/Background.svg");
     background-size: cover; 
     background-repeat: no-repeat; 
-}
+
 
 .ConteinerLogin{
     
     margin-top: 5em;
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 23em;
+    margin-right: 22em;
+    border-radius: 30px;
+    height: 30em;
+    
 
     padding-bottom: 10em;
    
-    color: white;
+    font-family: Lobster;
+    color: #568EAE;
+
     background-color: black;
-    opacity: 96%;
+    opacity: 70%;
 }
 
 
 .Login {
     padding-top: 2em;
-   
+    margin-top: 5em;
 }
 
 .logo {
@@ -44,7 +49,6 @@ const ConteinerLogin = styled.div `
     padding-bottom: 0.5em;
 
     font-size: 2em;
-
 }
 
 .logar{
@@ -60,16 +64,19 @@ const ConteinerLogin = styled.div `
 
 .email {
     
-    padding-bottom: 1em;
-  
+    padding-bottom: 2em;
+}
+
+.senha{
+    padding-bottom: 2em;
 }
 
 input {
     
     width: 400px ;
-    height: 50px;
+    height: 70px;
 
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 
@@ -77,23 +84,24 @@ input {
     padding-top: 1em;
     
     text-align: center;
+
 }
 
 button {
     
-    width: 400px ;
+    width: 200px ;
     height: 50px;
 
     font-size: 30px;
     background-color:  #568EAE;
-    color: white;  
+    color: white; 
+    border-radius: 10px;
 }
 
 .func-para-cadastro{
     text-align: center;
     padding-top: 20px;
 }
-
 
 
 .cria {
@@ -110,21 +118,11 @@ button {
 
 
 
-
-
-
-
 span {
     color: #568EAE; 
     cursor: pointer;
     
 }
-
-
-
-
-
-
 
 
 

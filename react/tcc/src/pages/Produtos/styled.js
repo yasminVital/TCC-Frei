@@ -30,18 +30,16 @@ const ConteinerProduto = styled.div`
  display: flex;
  flex-direction: row ;
 
-
- margin-left: 2em;
-
-
- padding-top: 6em;
- padding-left: 6em;
-
  
 
 
+ margin-left: 0.5em;
 
- 
+
+
+ padding-top: 8em;
+ padding-left: 5em;
+
 }
 
 
@@ -50,43 +48,71 @@ const ConteinerProduto = styled.div`
 
 
 .ListaProdutos{
+    
     display: flex;
     flex-wrap: wrap;
-
+    overflow-y: auto;
+    height: 33em;
+    
     margin-right: 8em;
+  
 
-    align-items: center;
     padding-top: 1em;
     padding-bottom: 3em;
+    padding-left: 1em ; 
     border-radius: 5px;
-   
 
+   
     
-    background-color: white;
-      
+    background-color: white;    
 }
 
 
+.ListaProdutos::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #4D5B76;
+    }
+    
+    .ListaProdutos::-webkit-scrollbar
+    {
+        width: 15px;
+        background-color: #3E006F;
+        border-radius: 10px;
+    }
 
+    .ListaProdutos::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,.3);
+        background-color: #CBCBCB;
+    }
+
+
+
+ 
 /// caxinhas de cada produto
 
 .caixa1 {
-    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+    height: 15em;
+    margin-left: 2.4em;
     margin-top: 1em;
     margin-right: 0.3em;
 
-
-    
-
     padding: 10px 1em 10px 1em; 
-
 
     color: #706E6E;
 
     background-color: #D0CCCC;
     box-shadow: 3px 3px 10px grey;  
-
 }
+
+
+
 
 
 
@@ -97,8 +123,10 @@ const ConteinerProduto = styled.div`
     padding-bottom: 10px;
 }
 
+
 .botão-compra{
     padding-top: 15px;
+    margin: auto; 
     text-align: center;
 }
 
@@ -122,18 +150,7 @@ const ConteinerProduto = styled.div`
     
 }
 
-  
-
-/// Estrelas
-
-.avaliacao img {
-    width: 10px ;
-    right: 10px ;
-    left: 10px;
-    height: 10px;
-}
-
-
+ 
 
 
 //// Estilização de outras coisa
@@ -143,8 +160,8 @@ const ConteinerProduto = styled.div`
 
 
 .botão-compra button {
-
     padding: 10px ;
+
 
 
     border-radius: 3em;
@@ -154,7 +171,6 @@ const ConteinerProduto = styled.div`
 
     color: white;
     background-color: #4D5B76;
-
 }
 
 

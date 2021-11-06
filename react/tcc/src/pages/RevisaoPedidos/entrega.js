@@ -4,11 +4,16 @@ import { Link } from 'react-router-dom'
 
 import Cabecalho from '../../components/cabecalho/cabecalho'
 import Rodape from '../../components/rodape/rodape'
+import { useState } from 'react'
+import Model from '../../components/modal'
 
 export default function Carrinho() {
 
+    const [Exibir, setExibir] = useState(false)
+
     return ( 
         <ContainerRevisao>
+            <Model show={Exibir} />
             <Cabecalho />
             <h1 style={{marginLeft: '70px'}}>  Finalização da Compra </h1>
             <Tiras/>
@@ -19,7 +24,7 @@ export default function Carrinho() {
             <div className="info"> 
             <div className="en-cabe">   
                 <h2> Endereço de Entrega </h2>
-                <button> <img src="./assets/imagens/plus_icon-icons.com_70890.svg" alt="" /> <h3>Novo Endereço</h3></button> 
+                <button onClick={() => setExibir(true)}> <img src="./assets/imagens/plus_icon-icons.com_70890.svg" alt="" /> <h3>Novo Endereço</h3></button> 
             </div>
                <div className="en-entrega">
                <form>
@@ -78,7 +83,7 @@ export default function Carrinho() {
                 </div>
             </div>
             <div className="but">
-            <button > Fazer Pedidos</button>
+               <Link to="./status"> <button className="ff"> Fazer Pedidos</button> </Link>
             </div>
         <Rodape />
         </ContainerRevisao>

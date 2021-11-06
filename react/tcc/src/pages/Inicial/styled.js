@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const ConteinerInicial = styled.div`
 
+
 body {
   margin: 0px;
   box-sizing: border-box;
@@ -10,10 +11,10 @@ body {
 
   background: url("./assets/imagens/capa.png") no-repeat center center;
   background-size: cover;
-  height: 100vh;
   background-attachment: fixed;
+  height: 100vh;
 
-
+   
 }
 .cabecalho {
  display: flex;
@@ -25,6 +26,7 @@ body {
  
     
 }
+
 
 .cabe {
     margin-left: 100px;
@@ -92,9 +94,14 @@ body {
 .subtitulosimg{
     display: flex;
     flex-direction: row;
-    padding-top: 25px;
+    padding-top:25px;
     
 
+}
+
+
+.imgsub{
+    margin-right:5em;
 }
 
 .pães{
@@ -106,6 +113,8 @@ body {
 .imgpaes {
     margin-right: 70px;
     margin-left: 70px;
+
+   
 }
 
 .doces {
@@ -118,6 +127,9 @@ body {
     margin-right: 70px;
 }
 
+.subtitulosimg{
+    margin-left: 8em;
+}
 .bebidas {
     font-size: 22px;
 }
@@ -209,6 +221,7 @@ body {
 
       .img {
       padding: 10px 0px;
+      border: 20px;
     }
 
 
