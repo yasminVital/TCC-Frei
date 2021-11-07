@@ -9,6 +9,7 @@ export default function novasenha() {
             <div className = "Conteinernovasenha">
                 <div className  = "Login">
                  <div className  = "logar"> <p>Enviamos um código de verificação para seu email. Digite o código abaixo:</p> </div>
+                 <div> mateus feio </div>
 
                  <div className = "inputs">
                    <div className  = "email"> <input type = "email"  placeholder= "Digite o código"/></div>
