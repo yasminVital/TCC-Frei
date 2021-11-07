@@ -53,8 +53,9 @@ const ConteinerLogin = styled.div `
 
 .logar{
     padding-bottom: 1em;
-
-    font-size: 2em;
+    font-family: Lobster;
+    font-size: 4em;
+    color: #568EAE;
 }
 
 .inputs{
