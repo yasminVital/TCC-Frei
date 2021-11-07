@@ -1,5 +1,4 @@
 
-import {comtainersla} from "../styled"
 import { useState, useEffect } from "react"
 
 import Contador from "../contador/styled"
@@ -12,7 +11,7 @@ export default function Item(props) {
 
     
     
-  function remover(qtd) {
+  function remover() {
     props.onRemove(produto.id);
   
 }

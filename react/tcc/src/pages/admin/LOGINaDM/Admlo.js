@@ -13,10 +13,10 @@ export default function logadm () {
                 
                 <div className= "div02">
                    <div className= "titulo">
-                   Seja Bem-vindo
+                   Seja bem-vindo!
                     </div> 
                     <div className= " subtitulo">
-                    Acesso ao Setor Adminstrativo
+                    Acesso ao setor adminstrativo
                     </div>
                     <div className= "inupt-01">
                     <input type="text" class="custom-file-input" name="search" placeholder="Email de acesso" />

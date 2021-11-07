@@ -12,7 +12,7 @@ export default function Cadastrar() {
         <Cabecalho/>
         <div className = "conteinercadastro">
             
-            <div className = "Titulo">Cadastra-se:</div>
+            <div className = "Titulo">Cadastrar-se:</div>
 
 
             <div className = "caixa1-inputs">
@@ -49,17 +49,17 @@ export default function Cadastrar() {
 
 
             <div className = "caixa2-inputs">
-            <div className = "input - email"> Email: <input className = "Email" try = "text" /> </div>
+            <div className = "input - email"> E-mail: <input className = "Email" try = "text" /> </div>
         </div>
 
          <div className="senha"> 
             <div className = "input - Senha"> Senha: <input className = "Senha" try = "text" /> </div>  
-            <div className = "input - Repetir Senha"> Repetir Senha: <input className = "Repetir"/> </div>
+            <div className = "input - Repetir Senha"> Repetir senha: <input className = "Repetir"/> </div>
             </div> 
 
             <div className = "caixa3-inputs">
             <div className = "input - endereço"> Endereço: <input className = "Endereço" try = "text" /> </div>
-            <div className = "input - cep"> Cep: <input className = "Cep"/> </div>
+            <div className = "input - cep"> CEP: <input className = "Cep"/> </div>
 </div> 
 
     <div className="cidade"> 
@@ -87,3 +87,8 @@ export default function Cadastrar() {
     )
     
 }
+
+
+
+
+

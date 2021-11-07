@@ -21,10 +21,10 @@ export default function status () {
                 </div>
                 <div className= "previsaó">
                     <div className= "previsao1">
-                        <img src= "./assets/imagens/Rectangle 309.svg" alt=""/>
+                       
                     </div>
                     <div className= "previsao2">
-                    <img src= "./assets/imagens/Rectangle 292.svg" alt=""/>
+                   
                     </div>
                 </div>    
                 <div className=  "ok">

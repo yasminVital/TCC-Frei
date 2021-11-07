@@ -33,8 +33,12 @@ const [descricao, setdescricao] = useState('');
 async function CadastraProduto() {
     let r = await api.CadastraProduto(codigo, Produto, Sabor, valor ,estoqueMax, estoqueMin, estoqueAtual, descricao);
     alert("Produto Cadastrado !")
+    setSabor(r)
 }
 
+useEffect(() => {
+   CadastraProduto();
+  }, )
     
     return(
   
@@ -65,7 +69,7 @@ async function CadastraProduto() {
                     <div className = "label">CATEGORIA</div>
                      <select name = "input-Categorias">
                          <option value = ""> </option>
-                         <option value = "Favoritos">Favoritos da Casa</option>
+                         <option value = "Favoritos">Favoritos da casa</option>
                          <option value = "Salgado">Salgados</option>
                          <option value = "Doce">Doces</option>
                          <option value = "Bebida">Bebidas</option>
@@ -86,7 +90,7 @@ async function CadastraProduto() {
               
 
                 <div className = "conteinerinput">
-                    <div className = "label">ESTOQUE MAXIMO</div>
+                    <div className = "label">ESTOQUE MÁXIMO</div>
                      <div className = "input-text-estoque"><input className = "valorEstoque" type = "text" value = {estoqueMax} onChange = {e => setestoqueMax (e.target.value)}/></div>
                 </div>
               
@@ -99,7 +103,7 @@ async function CadastraProduto() {
 
                 <div className = "descriçãoPro">
                 <div className = "conteinerarea">
-                    <div className = "label"> DESCRIÇÃO DO PRODUTO </div>
+                    <div className = "label"> DESCRIÇÃO DO PRODUTO  </div>
                     <textarea className = "Descrição" value = {descricao} onChange = {e => setdescricao(e.target.value)}></textarea>
                 </div>
                 </div>

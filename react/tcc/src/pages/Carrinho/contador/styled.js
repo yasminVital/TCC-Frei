@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 
 
+
 const Container = styled.div`
   display: flex;
   flex-direction: row;
@@ -64,7 +65,7 @@ export default function Contador(props) {
     // Chama componente PAI para alterar a Quantidade
     props.onChange(qtd);
     //
-  }, [qtd])
+  })
 
 
   return (

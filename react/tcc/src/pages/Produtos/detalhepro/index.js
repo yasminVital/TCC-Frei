@@ -3,7 +3,7 @@ import { ConteinerProdutos } from './styled'
 import ContadorProduto from './contadorProduto/styled'
 import Categorias  from '../../../components/Categorias/categoria'
 import Cabecalho from '../../../components/cabecalho/cabecalho'
-import { Link, useHistory } from 'react-router-dom'
+import {  useHistory } from 'react-router-dom'
 import Cookie from 'js-cookie'
 import Rodape from '../../../components/rodape/rodape'
 import { useState } from 'react'
@@ -41,9 +41,11 @@ export default function DetalhesProdutos(props) {
     
     // Abre a página /carrinho
     navigation.push('/carrinho');
+    setProduto();
   }
  
   
+
 
 
     return(

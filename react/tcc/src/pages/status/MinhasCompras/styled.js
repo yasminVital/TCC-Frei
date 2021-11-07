@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Conteinercompras = styled.div`
+background: #D2F6FF;
 
 .Faixastatus {
     background: #D2F6FF;
@@ -80,13 +81,13 @@ input {
 }
 
 .Minhas {
-    font-size: 28px;
+    font-size: 20px;
     padding: 5% 0% 2% 8%;
 }
 
 .etapas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0% 0% 0% 8%;
 }
 
@@ -94,15 +95,12 @@ input {
     margin-right: 2%;
 
 }
-
-.etapa2 {
-    margin-right: 2%;
-
-}
-
-.etapa3 {
-    margin-right: 2%;
-
+.b {
+    border: 1px solid #1AABF3E5;
+    width: 3.3em;
+    height: 00.1em;
+    background-color: #1AABF3E5;
+    color: #1AABF3E5;
 }
 
 .etapa4 {
@@ -179,13 +177,13 @@ input {
 
 .Pre {
     color: #006BA1;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 
 .itenms {
     color: #006BA1;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 
@@ -193,7 +191,7 @@ input {
     display: flex;
     flex-direction: row;
     margin-left: 50%;
-    font-size: 22px;
+    font-size: 16px;
 }
 
                     
@@ -204,7 +202,7 @@ input {
 
 .vaLor{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .imgstatus {
@@ -220,13 +218,13 @@ input {
     padding: 1%;
 }
 .nprod {
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 1%;
     color: #000000;
 }
 
 .numeropedido {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .butons{
@@ -253,7 +251,7 @@ button{
 .p {
     color: red;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .rodape{
       background: #FFFFFF;

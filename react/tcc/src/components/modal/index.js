@@ -103,7 +103,6 @@ const Container = styled.div `
 `
 
 export default function Model(props) {
-
     return(
         <Container show={props.show}>
             <div className="content">

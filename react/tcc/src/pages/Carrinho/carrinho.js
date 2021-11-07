@@ -9,14 +9,26 @@ import { Link ,useHistory } from "react-router-dom"
 
 export default function Carrinho(props) {
     const [produtos, setProdutos] = useState([]);
-   
+
     const navegation = useHistory()
   
 
-    // Chama a funcção 'carregarCarrinho' assim que a página abre 
-    useEffect(carregarCarrinho, []);
-  
-  
+ 
+
+    useEffect(  function carregarCarrinho() {
+        let carrinho = Cookie.get('carrinho');
+        carrinho = carrinho !== undefined
+            ? JSON.parse(carrinho)
+            : [];
+
+        if (carrinho.length === 0)
+            navegation.push('/CarrinhoVazio')
+
+
+        setProdutos(carrinho)
+        
+    }
+, [ navegation ])  
   
     function carregarCarrinho() {
       // Lê o Array de Produtos do Carrinho do Cookie.
@@ -46,8 +58,8 @@ export default function Carrinho(props) {
         Cookie.set('carrinho', JSON.stringify(carrinho));
     
         // Atualiza a variável de estado
-        setProdutos([...carrinho]);
-      }
+        carregarCarrinho()
+        }
     
       function alterarProduto(id, qtd) {
         // Busca o Produto em questão no Carrinho e atualiza o campo de 'qtd'
@@ -58,6 +70,8 @@ export default function Carrinho(props) {
         Cookie.set('carrinho', JSON.stringify(produtos));
      }
 
+
+    
      
     return (
     <ContainerCarrinho>
@@ -69,7 +83,7 @@ export default function Carrinho(props) {
                 <th> </th>
                 <th> Produto </th>
                 <th> Preço </th>
-                <th className="f"> Quantidade</th>
+                <th className="f"> Quantidade </th>
                 <th> Total </th>
             </thead>
       
@@ -89,20 +103,20 @@ export default function Carrinho(props) {
         </div>
         <div className="precos"> 
             <div className="box-preco"> 
-                <div className="sb">Subtotal dos Pedidos: </div>
+                <div className="sb">Subtotal dos pedidos: </div>
                 <div className="pc"> {} </div>
             </div>
             <div className="box-preco"> 
-                <div className="sb">Cupom de Desconto:</div>
+                <div className="sb">Cupom de desconto:</div>
                 <div className="pc"> 20,00</div>
             </div>
             <div className="box-preco"> 
-                <div className="sb"> Pagamento Total: </div>
+                <div className="sb"> Pagamento total: </div>
                 <div className="pc"> 20,00</div>
             </div>
         </div>
         <div className="botoes"> 
-            <Link to="./Produtos"> <button> Continuar Comprando </button> </Link> 
+            <Link to="./Produtos"> <button> Continuar comprando </button> </Link> 
             <Link to="./revisao"> <button>  Realizar pedido   </button> </Link> 
         </div>
         <Rodape />
