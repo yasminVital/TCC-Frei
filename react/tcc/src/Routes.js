@@ -87,17 +87,9 @@ export default function Routes () {
               <Route path="/Pagamento" component={Pix} />
               <Route path="/status" component={status} />
 
-<<<<<<< HEAD
+
               <Route path="/Compras" component={MinhasCompras}/>
-        
-=======
 
-              
-
-              <Route path="/MinhasCompras" component={MinhasCompras}/>
-                    
-             
->>>>>>> 5d496ab2500e109097325b44239439072dccb7fc
 
               <Route path="/entrega" component={Entrega} />
               <Route path="/revisao" component={Entrega} />
